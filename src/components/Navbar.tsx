@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Search, Command } from "lucide-react";
+import { Search, Command, ChevronDown } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import SearchModal from "./SearchModal";
 
 export default function Navbar() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isAboutOpen, setIsAboutOpen] = useState(false);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -19,6 +21,14 @@ export default function Navbar() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
+  const aboutLinks = [
+    { name: "About Us", href: "/about" },
+    { name: "Contact Us", href: "/contact" },
+    { name: "Privacy Policy", href: "/privacy" },
+    { name: "Terms & Conditions", href: "/terms" },
+    { name: "Disclaimer", href: "/disclaimer" },
+  ];
+
   return (
     <>
       <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-[150] w-[95%] max-w-5xl">
@@ -27,13 +37,46 @@ export default function Navbar() {
             <div className="w-10 h-10 bg-primary rounded-2xl flex items-center justify-center shadow-lg shadow-primary/20 rotate-3 group-hover:rotate-0 transition-all">
               <img src="/logo.svg" alt="Logo" className="w-7 h-7" />
             </div>
-            <span className="font-black text-xl text-primary tracking-tighter">SummerInterns<span className="opacity-30">.in</span></span>
           </Link>
           
           <div className="hidden lg:flex items-center gap-10 text-xs font-black uppercase tracking-widest text-primary/40">
             <a href="/#explorer" className="hover:text-primary transition-all hover:scale-105">Explorer</a>
             <a href="/#institutes" className="hover:text-primary transition-all hover:scale-105">Institutes</a>
-            <a href="/about" className="hover:text-primary transition-all hover:scale-105">Our Story</a>
+            
+            <div 
+              className="relative py-2"
+              onMouseEnter={() => setIsAboutOpen(true)}
+              onMouseLeave={() => setIsAboutOpen(false)}
+            >
+              <button className="flex items-center gap-1.5 hover:text-primary transition-all cursor-pointer outline-none">
+                About
+                <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${isAboutOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              <AnimatePresence>
+                {isAboutOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
+                    className="absolute top-full left-1/2 -translate-x-1/2 pt-4 w-56"
+                  >
+                    <div className="bg-white/90 backdrop-blur-2xl border border-primary/10 rounded-2xl shadow-2xl p-2 overflow-hidden ring-1 ring-primary/5">
+                      {aboutLinks.map((link) => (
+                        <Link 
+                          key={link.href}
+                          href={link.href}
+                          className="block px-4 py-3 rounded-xl hover:bg-primary hover:text-white transition-all text-[10px] font-bold"
+                        >
+                          {link.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           <div className="flex items-center gap-4">
