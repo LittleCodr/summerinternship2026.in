@@ -15,8 +15,8 @@ export default function Privacy() {
             <span className="text-sm font-bold text-primary">Legal</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-bold text-primary mb-2">Privacy Policy</h1>
-          <p className="text-primary/40 mb-12">Last Updated: {lastUpdated}</p>
+          <h1 className="text-6xl md:text-7xl font-black text-primary mb-2 tracking-tighter"><span className="text-gradient">Privacy Policy</span></h1>
+          <p className="text-[10px] font-black uppercase tracking-[0.3em] text-primary/30 mb-16">Intelligence Custody Protocol • Updated {lastUpdated}</p>
 
           <div className="space-y-12 text-primary/70 leading-relaxed">
             <section>

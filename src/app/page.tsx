@@ -71,34 +71,6 @@ export default function Home() {
           </motion.div>
         )}
       </section>
-
-      <footer className="max-w-7xl mx-auto px-6 py-20 border-t border-primary/5">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-12">
-          <div className="flex items-center gap-2">
-            <img src="/logo.svg" alt="SummerInterns.in Logo" className="w-8 h-8 rounded-lg" />
-            <span className="font-bold text-primary tracking-tight">SummerInterns<span className="text-primary/40">.in</span></span>
-          </div>
-          <p className="text-primary/40 text-sm max-w-sm text-center md:text-left">
-            Bridging the gap between India's top talent and elite opportunities. Curated, verified, and signal-first.
-          </p>
-          <div className="flex gap-6 text-sm font-semibold text-primary/60">
-            <a href="/about" className="hover:text-primary transition-colors">About</a>
-            <a href="/contact" className="hover:text-primary transition-colors">Contact</a>
-            <a href="mailto:support@summerinternship2026.in" className="hover:text-primary transition-colors">Email</a>
-          </div>
-        </div>
-        
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-8 border-t border-primary/5">
-          <p className="text-primary/30 text-xs">
-            © 2026 SummerInternships.in. All rights reserved.
-          </p>
-          <div className="flex gap-6 text-xs text-primary/30">
-            <a href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="/terms" className="hover:text-primary transition-colors">Terms of Service</a>
-            <a href="/disclaimer" className="hover:text-primary transition-colors">Disclaimer</a>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }

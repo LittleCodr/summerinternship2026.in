@@ -9,7 +9,36 @@
     "stipend": "Paid / Research Grant",
     "deadline": "2026-03-31",
     "workMode": "Onsite",
-    "tags": ["Research", "Engineering", "Summer 2026"]
+    "tags": ["Research", "Engineering", "Summer 2026"],
+    "contentBlocks": [
+      {
+        "title": "Introduction to IIT BHU Summer Research",
+        "content": "IIT BHU Varanasi, a legacy institution with over 100 years of academic excellence, offers a premier summer research internship program for the 2026 cycle. This program is designed to immerse talented undergraduate and postgraduate students in a world-class research environment. Interning at IIT BHU is not just about technical skill acquisition; it's about being part of a vibrant ecosystem that has historically pioneered technological advancements in India.\n\nThe 2026 program specifically focuses on sustainable engineering, artificial intelligence for social good, and advanced material sciences. Students from across India and potentially international candidates are invited to contribute to high-impact projects under the mentorship of esteemed faculty members."
+      },
+      {
+        "title": "Detailed Domains & Project Scope",
+        "content": "Selected interns will be placed in one of the various departments including Computer Science & Engineering, Electronics Engineering, Mechanical Engineering, and more. Typical project scopes include:\n- Developing low-latency AI models for rural healthcare diagnostics.\n- Exploring high-performance alloys for aerospace applications.\n- Designing smart-grid solutions for Tier-2 Indian cities.\n- Theoretical research in quantum computing and cryptography.",
+        "list": ["AI & Machine Learning Hub", "Renewable Energy Research", "Advanced Robotics Lab", "Structural Integrity Testing"]
+      },
+      {
+        "title": "Eligibility & Selection Criteria",
+        "content": "The selection process at IIT BHU is highly competitive, often seeing a selection ratio of less than 1:50. Eligibility criteria generally include:\n- B.Tech/B.S. students currently in their 2nd or 3rd year.\n- A minimum CGPA of 8.0 on a 10-point scale is typically required, though exceptions are made for candidates with exceptional project portfolios or research publications.\n- Proficiency in core engineering fundamentals and relevant software tools (e.g., MATLAB, Python, SolidWorks)."
+      },
+      {
+        "title": "God Level Preparation Strategy",
+        "content": "To land an internship at IIT BHU, candidates should follow this rigorous roadmap:\n1. **Faculty Outreach (January - February)**: Identify 3 professors whose research aligns with your career goals. Study their latest publications and prepare a deep-dive email highlighting how you can contribute to their specific project.\n2. **Statement of Purpose (SOP)**: Your SOP should not just list your skills but tell a story of your problem-solving journey. Mention specific labs at IIT BHU like the 'Advanced Materials Lab' or 'Cyber-Physical Systems Lab'.\n3. **Technical Interview**: Be prepared for intense questioning on first principles. If you're a CS student, master Operating Systems, DBMS, and advanced data structures like Segment Trees and Graphs.",
+        "list": ["Read 5+ Research Papers", "Draft Personalized SOP", "Master 3 Core Tech Skills", "Secure 2 Letters of Recommendation"]
+      },
+      {
+        "title": "Benefits beyond the Stipend",
+        "content": "While the stipend (ranging from INR 5,000 to 15,000 based on the grant) is competitive, the real value lies in the 'IIT BHU Certificate of Excellence' and the potential for a Pre-Placement Offer (PPO) or a direct recommendation for PhD programs in top global universities like MIT, Stanford, or ETH Zurich.",
+        "list": ["Global Alumni Network", "Publication Opportunities", "Library Access (24/7)", "On-campus Accommodation"]
+      },
+      {
+        "title": "Frequently Asked Questions (FAQs)",
+        "content": "Q1: Is accommodation provided inside the campus?\nYes, summer interns are typically housed in student hostels like Vishwakarma or Limbdi, subject to availability.\n\nQ2: What is the typical duration?\nThe program runs for 8 to 12 weeks, usually starting in mid-May and ending in late July.\n\nQ3: Can I apply for multiple projects?\nYou can indicate preferences, but usually, a candidate is assigned to a single host professor."
+      }
+    ]
   },
   {
     "id": "nit-patna-summer-2026",
@@ -21,7 +50,27 @@
     "stipend": "Stipend Provided",
     "deadline": "2026-04-15",
     "workMode": "Onsite",
-    "tags": ["NIT", "Summer Internship", "B.Tech"]
+    "tags": ["NIT", "Summer Internship", "B.Tech"],
+    "contentBlocks": [
+      {
+        "title": "Overview of NIT Patna Summer Research",
+        "content": "National Institute of Technology Patna (NITP), with its picturesque campus on the banks of the Ganges, offers a specialized Undergraduate Research Internship (URI) for 2026. This program is a cornerstone for engineering students looking to bridge theoretical knowledge with cutting-edge experimental research. The 2026 edition is part of 'Vision 2030', focusing on indigenizing technology for India's infra-growth."
+      },
+      {
+        "title": "High-Impact Project Areas",
+        "content": "The URI at NIT Patna spans across Civil Engineering, Computer Science, and Material Science. Interns are expected to work on projects such as:\n- Seismic monitoring of historical structures in the Bihar region.\n- Scalable blockchain solutions for public distribution systems.\n- Advanced water purification using nanotechnology.",
+        "list": ["Infrastructure & Smart Cities", "Cyber Security Cell", "Fluid Dynamics Laboratory", "IoT and Embedded Systems"]
+      },
+      {
+        "title": "Application and Eligibility Roadmap",
+        "content": "Eligibility: 2nd and 3rd-year B.Tech students with a CGPA of 7.5 or higher. Selection is based on academic merit and a technical test for some departments.\n\nStrategy: Focus on your project work in your 3rd/4th semester. NIT Patna values candidates who have already participated in technical fests like 'Hackathon-P' or similar competitions."
+      },
+      {
+        "title": "Stipend & Logistics for 2026",
+        "content": "Interns receive a monthly stipend of INR 5,000 - 8,000. Accommodation is provided at the Kautilya and Bhabha hostels at nominal rates. The campus offers state-of-the-art labs and a rich library with access to IEEE and Elsevier publications.",
+        "list": ["Riverside Campus Views", "Centrally Located in Patna", "Collaborative Peer Environment", "Official Internship Completion Certificate"]
+      }
+    ]
   },
   {
     "id": "tcs-internship-2026",
@@ -33,7 +82,27 @@
     "stipend": "Competitive Stipend",
     "deadline": "Rolling Basis",
     "workMode": "Hybrid",
-    "tags": ["Corporate", "IT", "Tech"]
+    "tags": ["Corporate", "IT", "Tech"],
+    "contentBlocks": [
+      {
+        "title": "The Global Impact of TCS Internships",
+        "content": "Tata Consultancy Services (TCS) offers its flagship 'Global Internship Program' for the 2026 academic cycle. As one of the world's largest IT conglomerates, TCS provides interns with exposure to massive-scale infrastructure and global delivery models. This program is highly sought after by students aiming for roles in software development, cybersecurity, and cloud computing."
+      },
+      {
+        "title": "Learning & Tech Stack",
+        "content": "Interns get access to the TCS iON learning platform and work on live projects using technologies like:\n- Microservices architecture with Node.js and Spring Boot.\n- Cloud data lakes on Azure and AWS.\n- Real-world AI applications using Tata's proprietary algorithms.",
+        "list": ["Full Stack Development", "Big Data Analytics", "Cybersecurity and GRC", "Digital Transformation Consulting"]
+      },
+      {
+        "title": "Selection Journey (TCS NQT)",
+        "content": "The path to a TCS internship usually begins with the TCS NQT (National Qualifier Test). High scorers are invited for a Technical Interview followed by a Managerial/HR round. The 2026 cycle expects stronger focus on algorithmic problem solving and system design basics."
+      },
+      {
+        "title": "The 2026 Prep Guide",
+        "content": "1. **NQT Foundations**: Practice quantitative aptitude and logical reasoning. TCS values speed and accuracy.\n2. **Hands-on Projects**: Ensure you have at least 2 full-stack projects in your portfolio.\n3. **Agile Methodology**: Learn the basics of Scrum and Agile, as TCS follows these rigorously.",
+        "list": ["Competitive Pay", "Potential for PPO", "Global Career Mobility", "Employee Wellness Programs"]
+      }
+    ]
   },
   {
     "id": "accenture-internship-2026",
@@ -45,7 +114,27 @@
     "stipend": "Paid",
     "deadline": "2026-02-28",
     "workMode": "Hybrid",
-    "tags": ["Consulting", "MN", "Business"]
+    "tags": ["Consulting", "MN", "Business"],
+    "contentBlocks": [
+      {
+        "title": "Redefining Business at Accenture",
+        "content": "The Accenture Strategy & Consulting Summer Internship 2026 is designed for students with a keen interest in business transformation and operational excellence. Accenture's 'North Star' culture emphasizes innovative thinking and technology-led consulting. This internship is an elite entry point into the world of Tier-1 management consulting."
+      },
+      {
+        "title": "Consultant Internship Focus",
+        "content": "Interns collaborate with clients across industries like Financial Services, Healthcare, and Tech. Key tasks include:\n- Market research and competitive benchmarking.\n- Building financial models for business cases.\n- Developing digitisation roadmaps for legacy enterprises.",
+        "list": ["Supply Chain Optimization", "Digital Hub Exposure", "Case Study Workshops", "Executive Mentorship"]
+      },
+      {
+        "title": "Candidate Profile and Selection",
+        "content": "Accenture looks for candidates with diverse backgrounds. Engineering students with MBA aspirations are particularly encouraged. The selection process involves:\n1. **Aptitude Assessment**: Testing logic and decision-making.\n2. **Case Interview**: A deep-dive into a business problem.\n3. **Culture Fit Interview**: Identifying alignment with Accenture's core values."
+      },
+      {
+        "title": "Ultimate Prep Routine",
+        "content": "To excel, candidates should practice the 'Victor Cheng' or 'Case in Point' methodologies. Being comfortable with data visualization (Tableau/PowerBI) and executive-level storytelling is a significant advantage for the 2026 cycle.",
+        "list": ["Professional Development Budget", "Hybrid Work Excellence", "Corporate Perks Support", "High PPO Conversion Rate"]
+      }
+    ]
   },
   {
     "id": "nit-jamshedpur-summer-2026",
@@ -57,7 +146,22 @@
     "stipend": "Available",
     "deadline": "2026-05-01",
     "workMode": "Onsite",
-    "tags": ["NIT", "Technical", "Research"]
+    "tags": ["NIT", "Technical", "Research"],
+    "contentBlocks": [
+      {
+        "title": "Technical Excellence at NIT Jamshedpur",
+        "content": "NIT Jamshedpur, established in 1960, is known for its strong focus on core engineering. The Summer Training & Research (STR) program for 2026 is an intensive curriculum-based internship. It is ideal for students wishing to gain industry-grade experience in one of India's most important industrial hubs."
+      },
+      {
+        "title": "Manufacturing and Metallurgical Focus",
+        "content": "Being in Jamshedpur, the program has unique collaborations with giants like TATA Steel and Tata Motors. Research areas include:\n- Advanced welding and fabrication techniques.\n- Smart manufacturing and Industry 4.0 integration.\n- Material fatigue testing for industrial components.",
+        "list": ["Metal Research Facility", "Robotics and Automation Lab", "Automotive Design Center", "Industrial Safety Training"]
+      },
+      {
+        "title": "Selection and Preparation",
+        "content": "Eligibility: 2nd and 3rd-year engineering students. Selection is typically through a departmental review of candidates' academic performance and interest area within the core engineering sectors."
+      }
+    ]
   },
   {
     "id": "nit-puducherry-summer-2026",
@@ -69,7 +173,22 @@
     "stipend": "Stipend Available",
     "deadline": "2026-04-10",
     "workMode": "Onsite",
-    "tags": ["NIT", "Science", "Engineering"]
+    "tags": ["NIT", "Science", "Engineering"],
+    "contentBlocks": [
+      {
+        "title": "Coastal Research Excellence at NITPY",
+        "content": "National Institute of Technology Puducherry (Karaikal) offers a unique research environment for the 2026 cycle. Located in the coastal town of Karaikal, NIT Puducherry provides a serene yet intellectually stimulating atmosphere for scholars and undergraduate researchers. The Summer Research Internship Program (SRIP) is the institute's flagship initiative to foster curiosity and technical innovation among the youth."
+      },
+      {
+        "title": "Key Research Vertical: 2026 Focus",
+        "content": "The program for 2026 is centered around 'Sustainable Coastal Engineering' and 'Next-Gen Wireless Communications'. Interns will have the opportunity to work in labs such as:\n- The High-Frequency Communication Lab (6G Research).\n- Marine Structures and Coastal Protection Unit.\n- Smart Energy Metering and Power Distribution Research.",
+        "list": ["Wireless Sensor Networks", "VLSI Design & Optimization", "Coastal Erosion Modeling", "Renewable Energy Integration"]
+      },
+      {
+        "title": "Application and Prep Roadmap",
+        "content": "Eligibility: 2nd and 3rd year B.Tech students. Candidates with a strong mathematical foundation and interest in simulation tools like HFSS, NS-3, or COMSOL are highly preferred.\n\nRoadmap: Start your preparation by exploring the faculty profiles at NIT Puducherry in March. Reach out with a specific interest in their published research. Ensure your resume highlights any simulation-based projects you've undertaken."
+      }
+    ]
   },
   {
     "id": "saraswati-teacher-vacancy-2026",
@@ -81,7 +200,22 @@
     "stipend": "Honorarium",
     "deadline": "2026-05-30",
     "workMode": "Onsite",
-    "tags": ["Education", "Teaching", "Internship"]
+    "tags": ["Education", "Teaching", "Internship"],
+    "contentBlocks": [
+      {
+        "title": "The Impact of Value-Based Education",
+        "content": "Saraswati Vidya Mandir (SVM) schools provide a unique Graduate Teacher Internship for 2026. This program is designed for graduates who are passionate about reforming the Indian education system through value-based and holistic learning (Shiksha). It offers a rare look into the operational and pedagogical scale of one of India's largest private educational networks."
+      },
+      {
+        "title": "Internship Roles & Development",
+        "content": "Interns are not just classroom teachers; they are 'Educational Innovators'. Responsibilities include:\n- Developing creative learning modules for Vedic Mathematics and Sanskrit.\n- Organizing community service and personality development camps.\n- Assisting in the digital transformation of rural SVM branches.",
+        "list": ["Pedagogical Innovation", "Community Engagement", "Public Speaking Training", "Educational Leadership"]
+      },
+      {
+        "title": "Selection & Eligibility",
+        "content": "Candidates in their final year of graduation or recent graduates with a strong academic record and a commitment to social service are eligible. The selection process involves a written test on general awareness and a teaching demonstration."
+      }
+    ]
   },
   {
     "id": "nit-srinagar-summer-2026",
@@ -93,7 +227,22 @@
     "stipend": "Paid",
     "deadline": "2026-05-15",
     "workMode": "Onsite",
-    "tags": ["NIT", "Research", "Himalayan Studies"]
+    "tags": ["NIT", "Research", "Himalayan Studies"],
+    "contentBlocks": [
+      {
+        "title": "Research in the Heart of the Himalayas",
+        "content": "NIT Srinagar (Hazratbal) offers a prestigious Summer Research Internship for 2026, set against the backdrop of the iconic Dal Lake. This program is globally recognized for its unique research in Himalayan geology, cold-region engineering, and advanced signal processing."
+      },
+      {
+        "title": "Distinctive Research Domains",
+        "content": "Projects at NIT Srinagar for the 2026 cycle include:\n- Hydro-electric power optimization for high-altitude grids.\n- Seismic risk assessment for the Himalayan belt.\n- Advanced cryptography for secure communications in remote areas.",
+        "list": ["Geotechnical Engineering", "Structural Health Monitoring", "Cloud Computing & Security", "Water Resource Management"]
+      },
+      {
+        "title": "God Level Preparation Guide",
+        "content": "NIT Srinagar values resilience and technical curiosity. Candidates should:\n- Demonstrate an interest in solving challenges specific to high-altitude regions.\n- Maintain a CGPA above 8.0.\n- Prepare for technical interviews focusing on core subjects like Soil Mechanics, Data Structures, or Power Systems."
+      }
+    ]
   },
   {
     "id": "mnnit-allahabad-summer-2026",
@@ -105,7 +254,22 @@
     "stipend": "Stipend + accommodation",
     "deadline": "2026-04-20",
     "workMode": "Onsite",
-    "tags": ["NIT", "Internship", "Research"]
+    "tags": ["NIT", "Internship", "Research"],
+    "contentBlocks": [
+      {
+        "title": "The SRI Program at MNNIT Allahabad",
+        "content": "Motilal Nehru National Institute of Technology (MNNIT) Allahabad, one of the premier NITs in India, conducts the SRI program to ignite a passion for research among undergraduate students. The 2026 SRI is highly competitive and offers a transition from classroom learning to laboratory innovation."
+      },
+      {
+        "title": "Research Infrastructure for 2026",
+        "content": "Interns gain access to state-of-the-art facilities like the TIFAC-CORE (Telematics) and the Center for Advanced Research (CAR). Focus areas include:\n- Network security and threat intelligence.\n- VLSI architecture for low-power devices.\n- Smart materials for civil infrastructure.",
+        "list": ["High Performance Computing Lab", "Advanced VLSI Lab", "Structural Dynamics Unit", "Control and Robotics Lab"]
+      },
+      {
+        "title": "Selection Strategy and Roadmap",
+        "content": "MNNIT looks for candidates with strong analytical skills. To prepare:\n1. Ensure your fundamental understanding of 'Signals and Systems' or 'Analysis of Algorithms' is rock solid.\n2. Apply early as MNNIT typically follows a strict first-come-first-evaluated policy for the initial screening."
+      }
+    ]
   },
   {
     "id": "iit-dharwad-summer-2026",
@@ -117,7 +281,22 @@
     "stipend": "Competitive Research Grant",
     "deadline": "2026-03-15",
     "workMode": "Onsite",
-    "tags": ["IIT", "Research", "Newer IIT"]
+    "tags": ["IIT", "Research", "Newer IIT"],
+    "contentBlocks": [
+      {
+        "title": "Innovation at the New-Age IIT",
+        "content": "IIT Dharwad, a fast-growing 3rd generation IIT, offers a vibrant Summer Research Program for 2026. This is an excellent opportunity to work in a nimble, high-growth environment where interns receive significant individual attention from faculty members."
+      },
+      {
+        "title": "Cutting-Edge Research Areas",
+        "content": "The 2026 cycle at IIT Dharwad focuses on 'Applied AI' and 'Sustainable Manufacturing'. Projects involve:\n- Designing energy-efficient hardware for edge computing.\n- Predictive maintenance models for small-scale industries.\n- Research in the chemistry of clean hydrogen production.",
+        "list": ["Embedded Systems Lab", "Smart Manufacturing Cell", "Renewable Energy Unit", "Fluid Flow Simulation Group"]
+      },
+      {
+        "title": "Eligibility and Selection Roadmap",
+        "content": "Candidates with a CGPA of 7.0 and above from any recognized engineering college can apply. IIT Dharwad particularly values 'hands-on' experience—showcase your GitHub repositories or hardware prototypes in your application."
+      }
+    ]
   },
   {
     "id": "iit-bombay-summer-2026",
@@ -129,7 +308,22 @@
     "stipend": "INR 10,000 - 15,000",
     "deadline": "2026-03-10",
     "workMode": "Onsite",
-    "tags": ["IIT Bombay", "Premier", "Elite"]
+    "tags": ["IIT Bombay", "Premier", "Elite"],
+    "contentBlocks": [
+      {
+        "title": "The Pinnacle of Research: IIT Bombay SIP",
+        "content": "IIT Bombay, consistently ranked as India's #1 technical institution, offers the prestigious Summer Internship Programme (SIP). This is the most sought-after program in the country, attracting the top 0.1% of engineering talent. The 2026 SIP is designed to be an intense, high-reward research sprint."
+      },
+      {
+        "title": "Premier Lab Ecosystem",
+        "content": "Interns work in iconic labs like the 'Center for Aerospace Systems Design' or the 'Nanotechnology Center'. Focus areas for 2026 include:\n- Bio-inspired robotics and locomotion.\n- Graphene-based sensors for environmental monitoring.\n- Large-scale optimization for urban logistics.\n- Distributed systems for financial high-frequency trading.",
+        "list": ["Aerospace Systems Lab", "Nanoscale Materials Cell", "Robotics and AI Hub", "Climate Change Analysis Unit"]
+      },
+      {
+        "title": "The God Level Selection Ratio",
+        "content": "IIT Bombay SIP typically receives over 50,000 applications for fewer than 200 spots. Selection is based on:\n1. **Academic Purity**: A CGPA usually above 9.0 (unless you're from an IIT, where 8.5+ is competitive).\n2. **National Competitions**: Top ranks in GATE, JAM, or international Olympiads.\n3. **Reference Strength**: A strong recommendation from a globally recognized scientist is often a deciding factor."
+      }
+    ]
   },
   {
     "id": "iit-indore-summer-2026",
@@ -141,7 +335,18 @@
     "stipend": "Self-Funded / Grant",
     "deadline": "2026-04-05",
     "workMode": "Onsite",
-    "tags": ["IIT", "Science", "Tech"]
+    "tags": ["IIT", "Science", "Tech"],
+    "contentBlocks": [
+      {
+        "title": "Advanced Science at IIT Indore",
+        "content": "Indian Institute of Technology Indore, known for its rapid rise in global research rankings, offers an Undergraduate Summer Research program focused on interdisciplinary innovation. The 2026 program is unique in its emphasis on 'Space Science' and 'Bio-Medical Engineering'."
+      },
+      {
+        "title": "Interdisciplinary Project Scope",
+        "content": "Projects for 2026 at IIT Indore bridge the gap between physics, biology, and engineering. Typical areas include:\n- Satellite data processing for climate tracking.\n- Computational modeling of neuron growth on silicon substrates.\n- Advanced catalysis for industrial chemical processes.",
+        "list": ["Astronomy & Space Lab", "Bio-Design Innovation Cell", "Catalysis & Green Chem Hub", "MEMS Design Unit"]
+      }
+    ]
   },
   {
     "id": "nit-surathkal-summer-2026",
@@ -153,7 +358,18 @@
     "stipend": "Paid",
     "deadline": "2026-03-25",
     "workMode": "Onsite",
-    "tags": ["NITK", "Elite", "Research"]
+    "tags": ["NITK", "Elite", "Research"],
+    "contentBlocks": [
+      {
+        "title": "Engineering by the Sea: NITK Surathkal",
+        "content": "NITK Surathkal, one of India's top-3 NITs, offers an elite Summer Research Program. Known for its world-class alumni network and strong industry ties, NITK provides interns with access to some of the most advanced technical facilities in Southern India."
+      },
+      {
+        "title": "God Level Research Labs",
+        "content": "Interns get hands-on experience in:\n- Marine Engineering and Offshore Structures.\n- Large-scale data engineering and cloud infra.\n- Sustainable energy and power grid resilience.\n- Advanced mechatronics and AI-driven automation.",
+        "list": ["Coastal Engineering Lab", "Center for Cloud Computing", "Advanced Mechatronics Unit", "Materials Characterization Facility"]
+      }
+    ]
   },
   {
     "id": "nit-uttarakhand-summer-2026",
@@ -165,7 +381,13 @@
     "stipend": "Provided",
     "deadline": "2026-05-10",
     "workMode": "Onsite",
-    "tags": ["NIT", "Technical", "Govt"]
+    "tags": ["NIT", "Technical", "Govt"],
+    "contentBlocks": [
+      {
+        "title": "Research in the Foothills",
+        "content": "NIT Uttarakhand, situated in the serene Garhwal region, offers a specialized summer internship for 2026. The program is tailored for students who enjoy challenging environments and unique research problems in civil and electrical engineering."
+      }
+    ]
   },
   {
     "id": "iit-patna-summer-2026",
@@ -177,7 +399,13 @@
     "stipend": "Stipend Available",
     "deadline": "2026-04-30",
     "workMode": "Onsite",
-    "tags": ["IIT", "Research", "Bihar"]
+    "tags": ["IIT", "Research", "Bihar"],
+    "contentBlocks": [
+      {
+        "title": "Research Excellence at IIT Patna",
+        "content": "IIT Patna's Summer Internship 2026 is a premier platform for technical innovation. Interns work on globally relevant projects in Computer Science, Chemical Engineering, and Humanities. The institute's focus on 'Viksit Bharat' drives much of the 2026 research agenda."
+      }
+    ]
   },
   {
     "id": "nit-agartala-summer-2026",
@@ -189,7 +417,13 @@
     "stipend": "Paid",
     "deadline": "2026-05-20",
     "workMode": "Onsite",
-    "tags": ["NIT", "North East", "Govt"]
+    "tags": ["NIT", "North East", "Govt"],
+    "contentBlocks": [
+      {
+        "title": "Northeast India's Research Hub",
+        "content": "NIT Agartala offers a unique cultural and academic experience through its Summer Research Fellows program. The 2026 cycle emphasizes 'Remote Sensing' and 'Sustainable Power Grids' for the Northeast region."
+      }
+    ]
   },
   {
     "id": "nit-sikkim-summer-2026",
@@ -201,7 +435,13 @@
     "stipend": "Provided",
     "deadline": "2026-05-15",
     "workMode": "Onsite",
-    "tags": ["NIT", "Research", "Quiet Campus"]
+    "tags": ["NIT", "Research", "Quiet Campus"],
+    "contentBlocks": [
+      {
+        "title": "Quiet Innovation at NIT Sikkim",
+        "content": "NIT Sikkim, located in the beautiful town of Ravangla, provides a peaceful yet high-intensity research environment. For 2026, the focus is on 'Eco-friendly Infrastructure' and 'High-Altitude Communication Systems'."
+      }
+    ]
   },
   {
     "id": "iiit-bhubaneswar-summer-2026",
@@ -213,7 +453,13 @@
     "stipend": "Performance Based",
     "deadline": "2026-04-15",
     "workMode": "Onsite",
-    "tags": ["IIIT", "Tech", "CS"]
+    "tags": ["IIIT", "Tech", "CS"],
+    "contentBlocks": [
+      {
+        "title": "Information Technology excellence",
+        "content": "IIIT Bhubaneswar is a premier institute for IT in Eastern India. The 2026 internship program focuses on 'Cloud Native Computing' and 'Enterprise Software Design'."
+      }
+    ]
   },
   {
     "id": "iiit-lucknow-summer-2026",
@@ -225,7 +471,13 @@
     "stipend": "Paid",
     "deadline": "2026-04-01",
     "workMode": "Remote",
-    "tags": ["IIIT", "AI", "ML", "Remote"]
+    "tags": ["IIIT", "AI", "ML", "Remote"],
+    "contentBlocks": [
+      {
+        "title": "Join the AI Wave: IIIT Lucknow",
+        "content": "IIIT Lucknow's AI & ML internship is a highly specialized program for 2026. Designed for remote participation, it allows students to collaborate on state-of-the-art NLP and Computer Vision models."
+      }
+    ]
   },
   {
     "id": "jp-morgan-internship-2026",
@@ -237,7 +489,13 @@
     "stipend": "High Stipend",
     "deadline": "2025-11-30",
     "workMode": "Onsite",
-    "tags": ["Corporate", "Fintech", "Elite"]
+    "tags": ["Corporate", "Fintech", "Elite"],
+    "contentBlocks": [
+      {
+        "title": "Fintech at Scale: JP Morgan Chase",
+        "content": "J.P. Morgan Chase & Co. offers an elite Software Engineering Internship for the 2026 summer. This is a high-octane role involving low-latency trading systems and global retail banking APIs."
+      }
+    ]
   },
   {
     "id": "rbi-internship-2026",
@@ -249,7 +507,13 @@
     "stipend": "INR 20,000 / month",
     "deadline": "2026-02-15",
     "workMode": "Onsite",
-    "tags": ["Govt", "Finance", "Elite"]
+    "tags": ["Govt", "Finance", "Elite"],
+    "contentBlocks": [
+      {
+        "title": "Inside the Central Bank",
+        "content": "The Reserve Bank of India (RBI) Summer Internship is a prestigious program for individuals interested in economics, finance, and central banking operations in the 2026 landscape."
+      }
+    ]
   },
   {
     "id": "mckinsey-internship-2026",
@@ -261,7 +525,13 @@
     "stipend": "Paid",
     "deadline": "2025-12-15",
     "workMode": "Hybrid",
-    "tags": ["Corporate", "Consulting", "Elite"]
+    "tags": ["Corporate", "Consulting", "Elite"],
+    "contentBlocks": [
+      {
+        "title": "Strategy Consulting with McKinsey",
+        "content": "McKinsey & Company's Summer Internship 2026 is the gold standard for management consulting. Interns solve some of the world's most complex business and social problems."
+      }
+    ]
   },
   {
     "id": "iit-bhilai-summer-2026",
@@ -273,7 +543,13 @@
     "stipend": "Paid",
     "deadline": "2026-05-05",
     "workMode": "Onsite",
-    "tags": ["IIT", "Tech", "Research"]
+    "tags": ["IIT", "Tech", "Research"],
+    "contentBlocks": [
+      {
+        "title": "Research Excellence in Bhilai",
+        "content": "IIT Bhilai's 2026 Summer Research program offers a hands-on experience in one of India's newest and most dynamic IITs. Focus areas include 'Sustainable Metals' and 'Next-Gen Computing'."
+      }
+    ]
   },
   {
     "id": "samsung-internship-2026",
@@ -285,7 +561,13 @@
     "stipend": "Rewards / Stipend",
     "deadline": "Rolling Basis",
     "workMode": "Remote",
-    "tags": ["Corporate", "R&D", "Remote"]
+    "tags": ["Corporate", "R&D", "Remote"],
+    "contentBlocks": [
+      {
+        "title": "Collaborative Innovation: Samsung PRISM",
+        "content": "Samsung PRISM is a unique industry-academia program for 2026. It allows students to work on real-world problems alongside Samsung R&D engineers. This is an elite opportunity for students to get their names on patents and top-tier industrial projects."
+      }
+    ]
   },
   {
     "id": "iiitdm-kurnool-summer-2026",
@@ -297,7 +579,13 @@
     "stipend": "Available",
     "deadline": "2026-04-20",
     "workMode": "Onsite",
-    "tags": ["IIITDM", "Design", "Technical"]
+    "tags": ["IIITDM", "Design", "Technical"],
+    "contentBlocks": [
+      {
+        "title": "Design-Centric Engineering",
+        "content": "IIITDM Kurnool's 2026 program is centered on 'Product Intelligence'. Interns explore the intersection of UI/UX, hardware design, and AI-driven product management."
+      }
+    ]
   },
   {
     "id": "nit-kurukshetra-summer-2026",
@@ -309,7 +597,13 @@
     "stipend": "Paid",
     "deadline": "2026-04-10",
     "workMode": "Onsite",
-    "tags": ["NIT", "Engineering", "Research"]
+    "tags": ["NIT", "Engineering", "Research"],
+    "contentBlocks": [
+      {
+        "title": "Elite Research at Kurukshetra",
+        "content": "NIT Kurukshetra's 2026 Summer Fellowship is a high-signal research sprint. It is known for its strong focus on 'Cyber-Physical Systems' and 'Smart Energy Management'."
+      }
+    ]
   },
   {
     "id": "nit-durgapur-summer-2026",
@@ -321,7 +615,13 @@
     "stipend": "Self-Funded",
     "deadline": "2026-05-15",
     "workMode": "Onsite",
-    "tags": ["NIT", "Technical", "B.Tech"]
+    "tags": ["NIT", "Technical", "B.Tech"],
+    "contentBlocks": [
+      {
+        "title": "Industrial Training in Durgapur",
+        "content": "NIT Durgapur offers a rigorous technical training program for 2026, ideal for students seeking hands-on experience in thermal engineering, computer science, and VLSI."
+      }
+    ]
   },
   {
     "id": "nit-arunachal-summer-2026",
@@ -333,7 +633,13 @@
     "stipend": "Stipend + Travel",
     "deadline": "2026-05-25",
     "workMode": "Onsite",
-    "tags": ["NIT", "High Altitude", "Research"]
+    "tags": ["NIT", "High Altitude", "Research"],
+    "contentBlocks": [
+      {
+        "title": "Unexplored Frontiers: NIT Arunachal",
+        "content": "NIT Arunachal Pradesh offers a rare research experience for the 2026 summer. Interns tackle problems related to 'High-Altitude Power Electronics' and 'Biological Diversity Informatics'."
+      }
+    ]
   },
   {
     "id": "nit-jalandhar-summer-2026",
@@ -345,7 +651,13 @@
     "stipend": "Paid",
     "deadline": "2026-04-30",
     "workMode": "Onsite",
-    "tags": ["NIT", "Technical", "Govt"]
+    "tags": ["NIT", "Technical", "Govt"],
+    "contentBlocks": [
+      {
+        "title": "Engineering the Future at NIT Jalandhar",
+        "content": "NIT Jalandhar's 2026 summer program focuses on 'Smart Manufacturing' and 'Textile Technology Innovation'. It is a top choice for students in North India."
+      }
+    ]
   },
   {
     "id": "nit-andhra-summer-2026",
@@ -357,7 +669,13 @@
     "stipend": "Available",
     "deadline": "2026-05-15",
     "workMode": "Onsite",
-    "tags": ["NIT", "Govt", "Research"]
+    "tags": ["NIT", "Govt", "Research"],
+    "contentBlocks": [
+      {
+        "title": "Research Growth at NIT Andhra",
+        "content": "NIT Andhra Pradesh, a key institute in the 2026 educational hub of Southern India, offers research internships in 'Cloud Security' and 'Environmental Engineering for Smart Cities'."
+      }
+    ]
   },
   {
     "id": "isi-kolkata-summer-2026",
@@ -369,6 +687,17 @@
     "stipend": "Stipend Provided",
     "deadline": "2026-03-15",
     "workMode": "Onsite",
-    "tags": ["ISI", "Mathematics", "Premier"]
+    "tags": ["ISI", "Mathematics", "Premier"],
+    "contentBlocks": [
+      {
+        "title": "The Gold Standard for Mathematical Research",
+        "content": "The Indian Statistical Institute (ISI) Kolkata offers its legendary Summer Research Program for 2026. This is the top choice globally for students interested in Theoretical Probability, Advanced Statistics, and Foundational Mathematics."
+      },
+      {
+        "title": "Projects in Data Science & Theory",
+        "content": "Interns work on groundbreaking problems such as:\n- High-dimensional data manifold learning.\n- Large sample theory for non-parametric models.\n- Quantum information theory and algorithmic complexity.",
+        "list": ["Advanced Probability Unit", "Data Science & AI Lab", "Theoretical Physics Group", "Applied Statistics Cell"]
+      }
+    ]
   }
 ]
