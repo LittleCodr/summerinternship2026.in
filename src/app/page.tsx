@@ -18,11 +18,19 @@ export default function Home() {
     setSearchQuery 
   } = useSearchAndFilter(internshipsData as Internship[]);
 
+  const handleCategorySelect = (category: string) => {
+    setActiveFilter(category);
+    const explorer = document.getElementById("explorer");
+    if (explorer) {
+      explorer.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <main className="min-h-screen">
       <Hero />
       
-      <CategoryExplorer />
+      <CategoryExplorer onCategorySelect={handleCategorySelect} />
 
       <section className="max-w-7xl mx-auto px-6 py-12" id="explorer">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
