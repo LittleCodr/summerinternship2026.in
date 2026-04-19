@@ -2,6 +2,12 @@
 
 import { useState, useMemo } from "react";
 
+export type ContentBlock = {
+  title: string;
+  content: string;
+  list?: string[];
+};
+
 export type Internship = {
   id: string;
   title: string;
@@ -13,6 +19,7 @@ export type Internship = {
   deadline: string;
   workMode: "Remote" | "Onsite" | "Hybrid";
   tags: string[];
+  contentBlocks?: ContentBlock[];
 };
 
 export function useSearchAndFilter(data: Internship[]) {
