@@ -47,10 +47,8 @@ export default function Footer() {
           <div className="space-y-6">
             <h4 className="text-sm font-black uppercase tracking-widest opacity-40">Company</h4>
             <ul className="space-y-4 font-bold">
-              <li><Link href="/about" className="text-milk/60 hover:text-white transition-colors">Our Story</Link></li>
-              <li><Link href="/contact" className="text-milk/60 hover:text-white transition-colors">Partner With Us</Link></li>
-              <li><Link href="/contact" className="text-milk/60 hover:text-white transition-colors">Support Hub</Link></li>
-              <li><Link href="mailto:support@summerinternship2026.in" className="text-milk/60 hover:text-white transition-colors">Email Us</Link></li>
+              <li><Link href="/about" className="text-milk/60 hover:text-white transition-colors">About Us</Link></li>
+              <li><Link href="/contact" className="text-milk/60 hover:text-white transition-colors">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -77,7 +75,7 @@ export default function Footer() {
             <span>© 2026 SummerInternships.in</span>
             <span className="hidden md:block w-1.5 h-1.5 bg-milk/20 rounded-full" />
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms & Conditions</Link>
             <Link href="/disclaimer" className="hover:text-white transition-colors">Disclaimer</Link>
           </div>
           
