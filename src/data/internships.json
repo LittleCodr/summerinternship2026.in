@@ -9,6 +9,7 @@
     "stipend": "Paid / Research Grant",
     "deadline": "2026-03-31",
     "workMode": "Onsite",
+    "hubSlug": "iit-bhu-varanasi-summer-internship-2026",
     "tags": ["Research", "Engineering", "Summer 2026"],
     "contentBlocks": [
       {
@@ -50,6 +51,7 @@
     "stipend": "Stipend Provided",
     "deadline": "2026-04-15",
     "workMode": "Onsite",
+    "hubSlug": "nit-patna-summer-internship-2026",
     "tags": ["NIT", "Summer Internship", "B.Tech"],
     "contentBlocks": [
       {
@@ -82,6 +84,7 @@
     "stipend": "Competitive Stipend",
     "deadline": "Rolling Basis",
     "workMode": "Hybrid",
+    "hubSlug": "tcs-tech-internship-2026",
     "tags": ["Corporate", "IT", "Tech"],
     "contentBlocks": [
       {
@@ -114,6 +117,7 @@
     "stipend": "Paid",
     "deadline": "2026-02-28",
     "workMode": "Hybrid",
+    "hubSlug": "accenture-india-tech-internship-2026",
     "tags": ["Consulting", "MN", "Business"],
     "contentBlocks": [
       {
@@ -146,6 +150,7 @@
     "stipend": "Available",
     "deadline": "2026-05-01",
     "workMode": "Onsite",
+    "hubSlug": "nit-jamshedpur-summer-internship-2026",
     "tags": ["NIT", "Technical", "Research"],
     "contentBlocks": [
       {
@@ -173,6 +178,7 @@
     "stipend": "Stipend Available",
     "deadline": "2026-04-10",
     "workMode": "Onsite",
+    "hubSlug": "nit-puducherry-summer-internship-2026",
     "tags": ["NIT", "Science", "Engineering"],
     "contentBlocks": [
       {
@@ -200,6 +206,7 @@
     "stipend": "Honorarium",
     "deadline": "2026-05-30",
     "workMode": "Onsite",
+    "hubSlug": "",
     "tags": ["Education", "Teaching", "Internship"],
     "contentBlocks": [
       {
@@ -227,6 +234,7 @@
     "stipend": "Paid",
     "deadline": "2026-05-15",
     "workMode": "Onsite",
+    "hubSlug": "nit-srinagar-summer-internship-2026",
     "tags": ["NIT", "Research", "Himalayan Studies"],
     "contentBlocks": [
       {
@@ -254,6 +262,7 @@
     "stipend": "Stipend + accommodation",
     "deadline": "2026-04-20",
     "workMode": "Onsite",
+    "hubSlug": "mnnit-allahabad-summer-internship-2026",
     "tags": ["NIT", "Internship", "Research"],
     "contentBlocks": [
       {
@@ -281,6 +290,7 @@
     "stipend": "Competitive Research Grant",
     "deadline": "2026-03-15",
     "workMode": "Onsite",
+    "hubSlug": "iit-dharwad-summer-internship-2026",
     "tags": ["IIT", "Research", "Newer IIT"],
     "contentBlocks": [
       {
@@ -308,6 +318,7 @@
     "stipend": "INR 10,000 - 15,000",
     "deadline": "2026-03-10",
     "workMode": "Onsite",
+    "hubSlug": "iit-bombay-summer-internship-2026",
     "tags": ["IIT Bombay", "Premier", "Elite"],
     "contentBlocks": [
       {
@@ -335,6 +346,7 @@
     "stipend": "Self-Funded / Grant",
     "deadline": "2026-04-05",
     "workMode": "Onsite",
+    "hubSlug": "iit-indore-summer-internship-2026",
     "tags": ["IIT", "Science", "Tech"],
     "contentBlocks": [
       {
@@ -358,6 +370,7 @@
     "stipend": "Paid",
     "deadline": "2026-03-25",
     "workMode": "Onsite",
+    "hubSlug": "nitk-surathkal-summer-internship-2026",
     "tags": ["NITK", "Elite", "Research"],
     "contentBlocks": [
       {
@@ -381,6 +394,7 @@
     "stipend": "Provided",
     "deadline": "2026-05-10",
     "workMode": "Onsite",
+    "hubSlug": "nit-uttarakhand-summer-internship-2026",
     "tags": ["NIT", "Technical", "Govt"],
     "contentBlocks": [
       {
@@ -399,6 +413,7 @@
     "stipend": "Stipend Available",
     "deadline": "2026-04-30",
     "workMode": "Onsite",
+    "hubSlug": "iit-patna-summer-internship-2026",
     "tags": ["IIT", "Research", "Bihar"],
     "contentBlocks": [
       {
@@ -417,6 +432,7 @@
     "stipend": "Paid",
     "deadline": "2026-05-20",
     "workMode": "Onsite",
+    "hubSlug": "nit-agartala-summer-internship-2026",
     "tags": ["NIT", "North East", "Govt"],
     "contentBlocks": [
       {
@@ -435,6 +451,7 @@
     "stipend": "Provided",
     "deadline": "2026-05-15",
     "workMode": "Onsite",
+    "hubSlug": "nit-sikkim-summer-internship-2026",
     "tags": ["NIT", "Research", "Quiet Campus"],
     "contentBlocks": [
       {
@@ -453,6 +470,7 @@
     "stipend": "Performance Based",
     "deadline": "2026-04-15",
     "workMode": "Onsite",
+    "hubSlug": "iiit-bhubaneswar-summer-internship-2026",
     "tags": ["IIIT", "Tech", "CS"],
     "contentBlocks": [
       {
@@ -471,6 +489,7 @@
     "stipend": "Paid",
     "deadline": "2026-04-01",
     "workMode": "Remote",
+    "hubSlug": "iiit-lucknow-summer-internship-2026",
     "tags": ["IIIT", "AI", "ML", "Remote"],
     "contentBlocks": [
       {
@@ -489,6 +508,7 @@
     "stipend": "High Stipend",
     "deadline": "2025-11-30",
     "workMode": "Onsite",
+    "hubSlug": "j-p-morgan-management-research-internship-2026",
     "tags": ["Corporate", "Fintech", "Elite"],
     "contentBlocks": [
       {
@@ -507,6 +527,7 @@
     "stipend": "INR 20,000 / month",
     "deadline": "2026-02-15",
     "workMode": "Onsite",
+    "hubSlug": "rbi-reserve-bank-of-india-govt-internship-2026",
     "tags": ["Govt", "Finance", "Elite"],
     "contentBlocks": [
       {
@@ -525,6 +546,7 @@
     "stipend": "Paid",
     "deadline": "2025-12-15",
     "workMode": "Hybrid",
+    "hubSlug": "mckinsey-and-company-management-research-internship-2026",
     "tags": ["Corporate", "Consulting", "Elite"],
     "contentBlocks": [
       {
@@ -543,6 +565,7 @@
     "stipend": "Paid",
     "deadline": "2026-05-05",
     "workMode": "Onsite",
+    "hubSlug": "iit-bhilai-summer-internship-2026",
     "tags": ["IIT", "Tech", "Research"],
     "contentBlocks": [
       {
@@ -561,6 +584,7 @@
     "stipend": "Rewards / Stipend",
     "deadline": "Rolling Basis",
     "workMode": "Remote",
+    "hubSlug": "samsung-prism-program-research-internship-2026",
     "tags": ["Corporate", "R&D", "Remote"],
     "contentBlocks": [
       {
@@ -579,6 +603,7 @@
     "stipend": "Available",
     "deadline": "2026-04-20",
     "workMode": "Onsite",
+    "hubSlug": "iiitdm-kurnool-summer-internship-2026",
     "tags": ["IIITDM", "Design", "Technical"],
     "contentBlocks": [
       {
@@ -597,6 +622,7 @@
     "stipend": "Paid",
     "deadline": "2026-04-10",
     "workMode": "Onsite",
+    "hubSlug": "nit-kurukshetra-summer-internship-2026",
     "tags": ["NIT", "Engineering", "Research"],
     "contentBlocks": [
       {
@@ -615,6 +641,7 @@
     "stipend": "Self-Funded",
     "deadline": "2026-05-15",
     "workMode": "Onsite",
+    "hubSlug": "nit-durgapur-summer-internship-2026",
     "tags": ["NIT", "Technical", "B.Tech"],
     "contentBlocks": [
       {
@@ -633,6 +660,7 @@
     "stipend": "Stipend + Travel",
     "deadline": "2026-05-25",
     "workMode": "Onsite",
+    "hubSlug": "nit-arunachal-pradesh-summer-internship-2026",
     "tags": ["NIT", "High Altitude", "Research"],
     "contentBlocks": [
       {
@@ -651,6 +679,7 @@
     "stipend": "Paid",
     "deadline": "2026-04-30",
     "workMode": "Onsite",
+    "hubSlug": "nit-jalandhar-summer-internship-2026",
     "tags": ["NIT", "Technical", "Govt"],
     "contentBlocks": [
       {
@@ -669,6 +698,7 @@
     "stipend": "Available",
     "deadline": "2026-05-15",
     "workMode": "Onsite",
+    "hubSlug": "nit-andhra-pradesh-summer-internship-2026",
     "tags": ["NIT", "Govt", "Research"],
     "contentBlocks": [
       {
@@ -687,6 +717,7 @@
     "stipend": "Stipend Provided",
     "deadline": "2026-03-15",
     "workMode": "Onsite",
+    "hubSlug": "isi-kolkata-summer-internship-2026",
     "tags": ["ISI", "Mathematics", "Premier"],
     "contentBlocks": [
       {

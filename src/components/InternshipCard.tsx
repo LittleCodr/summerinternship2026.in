@@ -78,9 +78,10 @@ export default function InternshipCard({ internship }: InternshipCardProps) {
         </div>
         <Link 
           href={`/internships/${internship.id}`}
+          title={`View full details and application steps for ${internship.title} at ${internship.organization}`}
           className="px-8 py-3.5 rounded-2xl bg-primary/5 text-primary font-black text-[10px] uppercase tracking-[0.2em] hover:bg-primary hover:text-milk transition-all shadow-xl shadow-black/5"
         >
-          Analysis
+          Apply Now
         </Link>
       </div>
     </motion.div>

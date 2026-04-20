@@ -21,6 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4399385504426408" crossOrigin="anonymous"></script>
+        <meta name="google-adsense-account" content="ca-pub-4399385504426408" />
+      </head>
       <body className={`${inter.variable} font-sans selection:bg-primary selection:text-milk`}>
         <Navbar />
         {children}

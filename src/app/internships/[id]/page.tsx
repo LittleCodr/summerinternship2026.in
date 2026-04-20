@@ -222,9 +222,10 @@ export default function InternshipDetail() {
                 </div>
                 
                 <a 
-                  href={`https://www.google.com/search?q=${encodeURIComponent(internship.organization + " " + internship.title + " 2026 apply")}`}
+                  href={`https://internshipshub.in/internships/${internship.hubSlug || ""}`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  title={`Apply for ${internship.title} at ${internship.organization} on InternshipHub`}
                   onClick={handleApply}
                   className="w-full bg-milk text-primary py-5 rounded-3xl font-black text-center block text-sm uppercase tracking-widest hover:scale-[1.02] active:scale-[0.98] transition-all shadow-xl shadow-black/10 group mb-4"
                 >

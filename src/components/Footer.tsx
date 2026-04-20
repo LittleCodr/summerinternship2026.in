@@ -52,6 +52,23 @@ export default function Footer() {
             </ul>
           </div>
 
+          <div className="space-y-6">
+            <h4 className="text-sm font-black uppercase tracking-widest opacity-40">Elite Network</h4>
+            <ul className="space-y-4 font-bold">
+              <li>
+                <a 
+                  href="https://internshipshub.in" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  title="Explore premium internship guides on InternshipHub"
+                  className="text-milk/60 hover:text-white transition-colors flex items-center gap-2"
+                >
+                  InternshipHub <ArrowRight className="w-4 h-4" />
+                </a>
+              </li>
+            </ul>
+          </div>
+
           <div className="space-y-8">
             <h4 className="text-sm font-black uppercase tracking-widest opacity-40">Stay Updated</h4>
             <div className="relative group">
