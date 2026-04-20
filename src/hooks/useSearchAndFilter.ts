@@ -19,6 +19,7 @@ export type Internship = {
   deadline: string;
   workMode: "Remote" | "Onsite" | "Hybrid";
   tags: string[];
+  hubSlug?: string;
   contentBlocks?: ContentBlock[];
 };
 

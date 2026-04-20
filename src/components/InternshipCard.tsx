@@ -15,6 +15,7 @@ interface InternshipCardProps {
     stipend: string;
     deadline: string;
     tags: string[];
+    hubSlug?: string;
   };
 }
 
