@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -11,6 +12,9 @@ export const metadata: Metadata = {
   description: "High-signal internship discovery platform for the 2026 cycle. Verified listings from top institutes and global companies.",
   icons: {
     icon: "/logo.svg",
+  },
+  other: {
+    "google-adsense-account": "ca-pub-4399385504426408",
   },
 };
 
@@ -21,10 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4399385504426408" crossOrigin="anonymous"></script>
-        <meta name="google-adsense-account" content="ca-pub-4399385504426408" />
-      </head>
+      <Script 
+        async 
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4399385504426408" 
+        crossOrigin="anonymous" 
+        strategy="afterInteractive"
+      />
       <body className={`${inter.variable} font-sans selection:bg-primary selection:text-milk`}>
         <Navbar />
         {children}
