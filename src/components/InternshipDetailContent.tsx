@@ -35,7 +35,7 @@ export default function InternshipDetailContent({ internship }: InternshipDetail
   };
 
   return (
-    <main className="min-h-screen pt-32 pb-20 px-4 md:px-6 relative selection:bg-primary selection:text-milk">
+    <main className="min-h-screen pt-32 pb-32 px-4 md:px-6 relative selection:bg-primary selection:text-milk">
       {/* Floating Progress Bar */}
       <div className="fixed top-0 left-0 w-full h-1.5 bg-primary/5 z-[100]">
         <motion.div 
@@ -202,6 +202,33 @@ export default function InternshipDetailContent({ internship }: InternshipDetail
           </div>
         </div>
       </div>
+      {/* Mobile Sticky Banner */}
+      <motion.div 
+        initial={{ y: 100 }}
+        animate={{ y: 0 }}
+        transition={{ delay: 0.5, type: "spring", damping: 20 }}
+        className="fixed bottom-0 left-0 right-0 z-[100] md:hidden p-4 bg-white/80 backdrop-blur-xl border-t border-primary/10"
+      >
+        <div className="flex items-center justify-between gap-4 max-w-md mx-auto">
+          <div className="flex-1 min-w-0">
+            <p className="text-[10px] font-black uppercase tracking-widest text-primary/40 truncate">
+              {internship.organization}
+            </p>
+            <h4 className="text-sm font-bold text-primary truncate leading-tight">
+              {internship.title}
+            </h4>
+          </div>
+          <a 
+            href={`https://internshipshub.in/internships/${internship.hubSlug || ""}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={handleApply}
+            className="flex-shrink-0 bg-primary text-milk px-6 py-3 rounded-2xl font-black text-xs uppercase tracking-widest shadow-lg shadow-primary/20 active:scale-95 transition-transform"
+          >
+            Apply Now
+          </a>
+        </div>
+      </motion.div>
     </main>
   );
 }
