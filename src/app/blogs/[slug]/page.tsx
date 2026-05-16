@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Script from "next/script";
 
+export const runtime = "edge";
 export const revalidate = 3600;
 
 interface Props {

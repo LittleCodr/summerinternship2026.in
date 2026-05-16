@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { collection, doc, setDoc } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 
+export const runtime = "edge";
+
 export async function GET() {
   try {
     const today = new Date();
