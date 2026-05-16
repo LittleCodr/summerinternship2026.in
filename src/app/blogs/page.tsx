@@ -2,6 +2,7 @@ import { getPublishedBlogs } from "@/lib/data-fetchers";
 import Link from "next/link";
 import { Metadata } from "next";
 
+export const runtime = "edge";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {

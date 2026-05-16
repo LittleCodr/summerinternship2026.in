@@ -2,6 +2,7 @@ import { getPublishedJobs } from "@/lib/data-fetchers";
 import Link from "next/link";
 import { Metadata } from "next";
 
+export const runtime = "edge";
 export const revalidate = 3600; // Revalidate every hour to fetch newly "published" items
 
 export const metadata: Metadata = {

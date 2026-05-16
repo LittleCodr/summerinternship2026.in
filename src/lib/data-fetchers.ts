@@ -29,20 +29,24 @@ export interface JobListing {
 // Fetch published blogs (publishDate <= now)
 export async function getPublishedBlogs(maxLimits = 50): Promise<BlogPost[]> {
   const now = new Date().toISOString();
+  // Fetch more to account for future posts being filtered out in-memory
   const q = query(
     collection(db, "blogs"),
-    where("publishDate", "<=", now),
     orderBy("publishDate", "desc"),
-    limit(maxLimits)
+    limit(maxLimits * 2) 
   );
 
   const querySnapshot = await getDocs(q);
   const blogs: BlogPost[] = [];
   querySnapshot.forEach((doc) => {
-    blogs.push({ ...doc.data(), id: doc.id } as BlogPost);
+    const data = doc.data() as BlogPost;
+    // Show if publishDate is in the past OR if it doesn't exist (treating as legacy/old)
+    if (!data.publishDate || data.publishDate <= now) {
+      blogs.push({ ...data, id: doc.id });
+    }
   });
 
-  return blogs;
+  return blogs.slice(0, maxLimits);
 }
 
 export async function getBlogBySlug(slug: string): Promise<BlogPost | null> {
@@ -61,8 +65,8 @@ export async function getBlogBySlug(slug: string): Promise<BlogPost | null> {
   const doc = querySnapshot.docs[0];
   const data = doc.data() as BlogPost;
   
-  // In-memory check to avoid complex index
-  if (data.publishDate > now) {
+  // Show if publishDate is in the past OR if it doesn't exist
+  if (data.publishDate && data.publishDate > now) {
     return null;
   }
 
@@ -74,18 +78,20 @@ export async function getPublishedJobs(maxLimits = 100): Promise<JobListing[]> {
   const now = new Date().toISOString();
   const q = query(
     collection(db, "jobs"),
-    where("publishDate", "<=", now),
     orderBy("publishDate", "desc"),
-    limit(maxLimits)
+    limit(maxLimits * 2)
   );
 
   const querySnapshot = await getDocs(q);
   const jobs: JobListing[] = [];
   querySnapshot.forEach((doc) => {
-    jobs.push({ ...doc.data(), id: doc.id } as JobListing);
+    const data = doc.data() as JobListing;
+    if (!data.publishDate || data.publishDate <= now) {
+      jobs.push({ ...data, id: doc.id });
+    }
   });
 
-  return jobs;
+  return jobs.slice(0, maxLimits);
 }
 
 export async function getJobBySlug(slug: string): Promise<JobListing | null> {
@@ -104,8 +110,8 @@ export async function getJobBySlug(slug: string): Promise<JobListing | null> {
   const doc = querySnapshot.docs[0];
   const data = doc.data() as JobListing;
 
-  // In-memory check to avoid complex index
-  if (data.publishDate > now) {
+  // Show if publishDate is in the past OR if it doesn't exist
+  if (data.publishDate && data.publishDate > now) {
     return null;
   }
   
