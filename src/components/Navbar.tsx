@@ -42,8 +42,6 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-10 text-xs font-black uppercase tracking-widest text-primary/40">
             <a href="/#explorer" className="hover:text-primary transition-all hover:scale-105">Explorer</a>
             <a href="/#institutes" className="hover:text-primary transition-all hover:scale-105">Institutes</a>
-            <Link href="/jobs" className="hover:text-primary transition-all hover:scale-105">Jobs</Link>
-            <Link href="/blogs" className="hover:text-primary transition-all hover:scale-105">Blogs</Link>
             
             <div 
               className="relative py-2"
