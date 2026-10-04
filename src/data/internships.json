@@ -2,7 +2,6 @@
   {
     "id": "iit-delhi-winter-2026",
     "title": "IIT Delhi Winter Research Internship 2026",
-    "company": "IIT Delhi",
     "location": "New Delhi, India",
     "type": "On-site",
     "category": "Research",
@@ -29,12 +28,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "IIT Delhi"
   },
   {
     "id": "iit-kanpur-winter-2026",
     "title": "SURGE Winter Internship 2026",
-    "company": "IIT Kanpur",
     "location": "Kanpur, UP",
     "type": "On-site",
     "category": "Research",
@@ -61,12 +60,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "IIT Kanpur"
   },
   {
     "id": "iit-madras-winter-2026",
     "title": "IITM Winter Fellowship",
-    "company": "IIT Madras",
     "location": "Chennai, TN",
     "type": "On-site",
     "category": "Research",
@@ -93,12 +92,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "IIT Madras"
   },
   {
     "id": "iit-kharagpur-winter-2026",
     "title": "Winter Research Training 2026",
-    "company": "IIT Kharagpur",
     "location": "Kharagpur, WB",
     "type": "On-site",
     "category": "Research",
@@ -125,12 +124,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "IIT Kharagpur"
   },
   {
     "id": "nit-trichy-winter-2026",
     "title": "NITT Winter Internship Program",
-    "company": "NIT Trichy",
     "location": "Tiruchirappalli, TN",
     "type": "On-site",
     "category": "Research",
@@ -157,12 +156,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "NIT Trichy"
   },
   {
     "id": "nit-warangal-winter-2026",
     "title": "Winter Project Internship",
-    "company": "NIT Warangal",
     "location": "Warangal, TS",
     "type": "On-site",
     "category": "Research",
@@ -189,12 +188,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "NIT Warangal"
   },
   {
     "id": "iiit-hyderabad-winter-2026",
     "title": "IIITH Winter Research Program",
-    "company": "IIIT Hyderabad",
     "location": "Hyderabad, TS",
     "type": "On-site",
     "category": "Research",
@@ -221,12 +220,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "IIIT Hyderabad"
   },
   {
     "id": "google-winter-2026",
     "title": "Google STEP Winter Internship",
-    "company": "Google",
     "location": "Bangalore / Remote",
     "type": "Hybrid",
     "category": "Corporate",
@@ -253,12 +252,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "Google"
   },
   {
     "id": "microsoft-winter-2026",
     "title": "Microsoft Winter Software Engineering Intern",
-    "company": "Microsoft",
     "location": "Hyderabad, TS",
     "type": "On-site",
     "category": "Corporate",
@@ -285,12 +284,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "Microsoft"
   },
   {
     "id": "amazon-winter-2026",
     "title": "Amazon Applied Science Winter Intern",
-    "company": "Amazon",
     "location": "Bangalore, KA",
     "type": "On-site",
     "category": "Corporate",
@@ -317,12 +316,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "Amazon"
   },
   {
     "id": "goldman-sachs-winter-2026",
     "title": "Goldman Sachs Winter Analyst",
-    "company": "Goldman Sachs",
     "location": "Bangalore, KA",
     "type": "On-site",
     "category": "Corporate",
@@ -349,12 +348,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "Goldman Sachs"
   },
   {
     "id": "bits-pilani-winter-2026",
     "title": "BITS Pilani Winter Research",
-    "company": "BITS Pilani",
     "location": "Pilani, RJ",
     "type": "On-site",
     "category": "Research",
@@ -381,12 +380,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "BITS Pilani"
   },
   {
     "id": "cisco-winter-2026",
     "title": "Cisco Winter Technical Intern",
-    "company": "Cisco",
     "location": "Bangalore, KA",
     "type": "On-site",
     "category": "Corporate",
@@ -413,12 +412,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "Cisco"
   },
   {
     "id": "ibm-winter-2026",
     "title": "IBM Research Winter Internship",
-    "company": "IBM",
     "location": "Remote / Bangalore",
     "type": "Hybrid",
     "category": "Corporate",
@@ -445,12 +444,12 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "IBM"
   },
   {
     "id": "isro-winter-2026",
     "title": "ISRO VSSC Winter Internship",
-    "company": "ISRO",
     "location": "Thiruvananthapuram, KL",
     "type": "On-site",
     "category": "Govt/Research",
@@ -477,7 +476,8 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in"
+    "applyUrl": "https://internshipshub.in",
+    "organization": "ISRO"
   },
   {
     "id": "iit-bhu-winter-2026",
@@ -2572,7 +2572,6 @@
   {
     "id": "iit-roorkee-winter-2026",
     "title": "IIT Roorkee Winter Internship 2026",
-    "company": "IIT Roorkee",
     "location": "Roorkee, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2609,12 +2608,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIT Roorkee"
   },
   {
     "id": "iit-guwahati-winter-2026",
     "title": "IIT Guwahati Winter Research Program",
-    "company": "IIT Guwahati",
     "location": "Guwahati, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2651,12 +2650,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIT Guwahati"
   },
   {
     "id": "iit-gandhinagar-winter-2026",
     "title": "IIT Gandhinagar Winter Research Intern",
-    "company": "IIT Gandhinagar",
     "location": "Gandhinagar, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2693,12 +2692,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIT Gandhinagar"
   },
   {
     "id": "iit-hyderabad-winter-2026",
     "title": "IIT Hyderabad Winter UG Research",
-    "company": "IIT Hyderabad",
     "location": "Hyderabad, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2735,12 +2734,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIT Hyderabad"
   },
   {
     "id": "iit-ropar-winter-2026",
     "title": "IIT Ropar Winter Internship Program",
-    "company": "IIT Ropar",
     "location": "Ropar, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2777,12 +2776,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIT Ropar"
   },
   {
     "id": "iit-jodhpur-winter-2026",
     "title": "IIT Jodhpur Winter Research Training",
-    "company": "IIT Jodhpur",
     "location": "Jodhpur, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2819,12 +2818,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIT Jodhpur"
   },
   {
     "id": "iit-mandi-winter-2026",
     "title": "IIT Mandi Winter Internship",
-    "company": "IIT Mandi",
     "location": "Mandi, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2861,12 +2860,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIT Mandi"
   },
   {
     "id": "iit-palakkad-winter-2026",
     "title": "IIT Palakkad Winter Internship",
-    "company": "IIT Palakkad",
     "location": "Palakkad, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2903,12 +2902,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIT Palakkad"
   },
   {
     "id": "iit-tirupati-winter-2026",
     "title": "IIT Tirupati Winter Research Internship",
-    "company": "IIT Tirupati",
     "location": "Tirupati, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2945,12 +2944,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIT Tirupati"
   },
   {
     "id": "nit-calicut-winter-2026",
     "title": "NIT Calicut Winter Research Intern",
-    "company": "NIT Calicut",
     "location": "Calicut, India",
     "type": "Research",
     "duration": "2 Months",
@@ -2987,12 +2986,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "NIT Calicut"
   },
   {
     "id": "nit-rourkela-winter-2026",
     "title": "NIT Rourkela Winter Internship",
-    "company": "NIT Rourkela",
     "location": "Rourkela, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3029,12 +3028,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "NIT Rourkela"
   },
   {
     "id": "nit-silchar-winter-2026",
     "title": "NIT Silchar Winter Research Program",
-    "company": "NIT Silchar",
     "location": "Silchar, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3071,12 +3070,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "NIT Silchar"
   },
   {
     "id": "nit-hamirpur-winter-2026",
     "title": "NIT Hamirpur Winter Internship",
-    "company": "NIT Hamirpur",
     "location": "Hamirpur, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3113,12 +3112,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "NIT Hamirpur"
   },
   {
     "id": "vnit-nagpur-winter-2026",
     "title": "VNIT Nagpur Winter Research Intern",
-    "company": "VNIT Nagpur",
     "location": "Nagpur, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3155,12 +3154,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "VNIT Nagpur"
   },
   {
     "id": "svnit-surat-winter-2026",
     "title": "SVNIT Surat Winter Training Program",
-    "company": "SVNIT Surat",
     "location": "Surat, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3197,12 +3196,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "SVNIT Surat"
   },
   {
     "id": "mnit-jaipur-winter-2026",
     "title": "MNIT Jaipur Winter Internship",
-    "company": "MNIT Jaipur",
     "location": "Jaipur, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3239,12 +3238,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "MNIT Jaipur"
   },
   {
     "id": "manit-bhopal-winter-2026",
     "title": "MANIT Bhopal Winter Research Intern",
-    "company": "MANIT Bhopal",
     "location": "Bhopal, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3281,12 +3280,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "MANIT Bhopal"
   },
   {
     "id": "iiit-allahabad-winter-2026",
     "title": "IIIT Allahabad Winter Internship",
-    "company": "IIIT Allahabad",
     "location": "Allahabad, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3323,12 +3322,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIIT Allahabad"
   },
   {
     "id": "iiit-bangalore-winter-2026",
     "title": "IIIT Bangalore Winter Research Intern",
-    "company": "IIIT Bangalore",
     "location": "Bangalore, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3365,12 +3364,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIIT Bangalore"
   },
   {
     "id": "iiit-delhi-winter-2026",
     "title": "IIIT Delhi Winter Internship Program",
-    "company": "IIIT Delhi",
     "location": "New Delhi, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3407,12 +3406,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IIIT Delhi"
   },
   {
     "id": "iisc-bangalore-winter-2026",
     "title": "IISc Bangalore Winter Research Fellowship",
-    "company": "IISc Bangalore",
     "location": "Bangalore, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3449,12 +3448,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IISc Bangalore"
   },
   {
     "id": "iiser-pune-winter-2026",
     "title": "IISER Pune Winter Research Intern",
-    "company": "IISER Pune",
     "location": "Pune, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3491,12 +3490,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IISER Pune"
   },
   {
     "id": "iiser-kolkata-winter-2026",
     "title": "IISER Kolkata Winter Internship",
-    "company": "IISER Kolkata",
     "location": "Kolkata, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3533,12 +3532,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IISER Kolkata"
   },
   {
     "id": "iiser-mohali-winter-2026",
     "title": "IISER Mohali Winter Training",
-    "company": "IISER Mohali",
     "location": "Mohali, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3575,12 +3574,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IISER Mohali"
   },
   {
     "id": "iiser-bhopal-winter-2026",
     "title": "IISER Bhopal Winter Research Program",
-    "company": "IISER Bhopal",
     "location": "Bhopal, India",
     "type": "Research",
     "duration": "2 Months",
@@ -3617,12 +3616,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "IISER Bhopal"
   },
   {
     "id": "meta-winter-2026",
     "title": "Meta Winter Software Engineer Intern",
-    "company": "Meta",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -3659,12 +3658,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Meta"
   },
   {
     "id": "apple-winter-2026",
     "title": "Apple Hardware Engineering Winter Intern",
-    "company": "Apple",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -3701,12 +3700,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Apple"
   },
   {
     "id": "netflix-winter-2026",
     "title": "Netflix Winter Data Science Intern",
-    "company": "Netflix",
     "location": "Mumbai, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -3743,12 +3742,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Netflix"
   },
   {
     "id": "adobe-winter-2026",
     "title": "Adobe Winter Research Intern",
-    "company": "Adobe",
     "location": "Noida, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -3785,12 +3784,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Adobe"
   },
   {
     "id": "intel-winter-2026",
     "title": "Intel Winter GPU Architecture Intern",
-    "company": "Intel",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -3827,12 +3826,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Intel"
   },
   {
     "id": "nvidia-winter-2026",
     "title": "NVIDIA Winter Deep Learning Intern",
-    "company": "NVIDIA",
     "location": "Pune, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -3869,12 +3868,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "NVIDIA"
   },
   {
     "id": "qualcomm-winter-2026",
     "title": "Qualcomm Winter Hardware Intern",
-    "company": "Qualcomm",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -3911,12 +3910,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Qualcomm"
   },
   {
     "id": "oracle-winter-2026",
     "title": "Oracle Winter Cloud Development Intern",
-    "company": "Oracle",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -3953,12 +3952,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Oracle"
   },
   {
     "id": "salesforce-winter-2026",
     "title": "Salesforce Winter Software Engineering Intern",
-    "company": "Salesforce",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -3995,12 +3994,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Salesforce"
   },
   {
     "id": "vmware-winter-2026",
     "title": "VMware Winter Research Intern",
-    "company": "VMware",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4037,12 +4036,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "VMware"
   },
   {
     "id": "atlassian-winter-2026",
     "title": "Atlassian Winter SDE Intern",
-    "company": "Atlassian",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4079,12 +4078,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Atlassian"
   },
   {
     "id": "uber-winter-2026",
     "title": "Uber Winter Engineering Intern",
-    "company": "Uber",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4121,12 +4120,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Uber"
   },
   {
     "id": "flipkart-winter-2026",
     "title": "Flipkart Winter SDE Intern",
-    "company": "Flipkart",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4163,12 +4162,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Flipkart"
   },
   {
     "id": "paytm-winter-2026",
     "title": "Paytm Winter Backend Intern",
-    "company": "Paytm",
     "location": "Noida, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4205,12 +4204,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Paytm"
   },
   {
     "id": "zomato-winter-2026",
     "title": "Zomato Winter Product Intern",
-    "company": "Zomato",
     "location": "Gurgaon, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4247,12 +4246,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Zomato"
   },
   {
     "id": "swiggy-winter-2026",
     "title": "Swiggy Winter Data Analyst Intern",
-    "company": "Swiggy",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4289,12 +4288,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Swiggy"
   },
   {
     "id": "ola-winter-2026",
     "title": "OLA Winter Operations Intern",
-    "company": "OLA",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4331,12 +4330,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "OLA"
   },
   {
     "id": "cred-winter-2026",
     "title": "CRED Winter Frontend Intern",
-    "company": "CRED",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4373,12 +4372,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "CRED"
   },
   {
     "id": "phonepe-winter-2026",
     "title": "PhonePe Winter SDE Intern",
-    "company": "PhonePe",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4415,12 +4414,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "PhonePe"
   },
   {
     "id": "razorpay-winter-2026",
     "title": "Razorpay Winter Software Intern",
-    "company": "Razorpay",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4457,12 +4456,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Razorpay"
   },
   {
     "id": "sharechat-winter-2026",
     "title": "ShareChat Winter ML Intern",
-    "company": "ShareChat",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4499,12 +4498,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "ShareChat"
   },
   {
     "id": "jio-winter-2026",
     "title": "Jio Winter Network Engineering Intern",
-    "company": "Jio",
     "location": "Mumbai, India",
     "type": "Corporate",
     "duration": "2 Months",
@@ -4541,12 +4540,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "Jio"
   },
   {
     "id": "drdo-winter-2026",
     "title": "DRDO Winter Research Intern",
-    "company": "DRDO",
     "location": "Delhi, India",
     "type": "Research",
     "duration": "2 Months",
@@ -4583,12 +4582,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "DRDO"
   },
   {
     "id": "barc-winter-2026",
     "title": "BARC Winter Research Fellow",
-    "company": "BARC",
     "location": "Mumbai, India",
     "type": "Research",
     "duration": "2 Months",
@@ -4625,12 +4624,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "BARC"
   },
   {
     "id": "cdac-winter-2026",
     "title": "C-DAC Winter Technical Intern",
-    "company": "C-DAC",
     "location": "Pune, India",
     "type": "Research",
     "duration": "2 Months",
@@ -4667,12 +4666,12 @@
           "Networking opportunities"
         ]
       }
-    ]
+    ],
+    "organization": "C-DAC"
   },
   {
     "id": "accenture-associate-software-engineer-winter-2026",
     "title": "Accenture Associate Software Engineer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -4713,12 +4712,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-full-stack-developer-winter-2026",
     "title": "Accenture Full Stack Developer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -4759,12 +4758,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-frontend-developer-winter-2026",
     "title": "Accenture Frontend Developer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -4805,12 +4804,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-backend-developer-winter-2026",
     "title": "Accenture Backend Developer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -4851,12 +4850,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-data-analyst-winter-2026",
     "title": "Accenture Data Analyst Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -4897,12 +4896,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-cloud-engineer-winter-2026",
     "title": "Accenture Cloud Engineer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -4943,12 +4942,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-devops-engineer-winter-2026",
     "title": "Accenture DevOps Engineer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -4989,12 +4988,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-cybersecurity-analyst-winter-2026",
     "title": "Accenture Cybersecurity Analyst Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5035,12 +5034,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-machine-learning-intern-winter-2026",
     "title": "Accenture Machine Learning Intern Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5081,12 +5080,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-ai-research-intern-winter-2026",
     "title": "Accenture AI Research Intern Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5127,12 +5126,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-business-analyst-winter-2026",
     "title": "Accenture Business Analyst Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5173,12 +5172,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-product-manager-intern-winter-2026",
     "title": "Accenture Product Manager Intern Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5219,12 +5218,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-ui-ux-designer-winter-2026",
     "title": "Accenture UI/UX Designer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5265,12 +5264,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-quality-assurance-engineer-winter-2026",
     "title": "Accenture Quality Assurance Engineer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5311,12 +5310,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-systems-engineer-winter-2026",
     "title": "Accenture Systems Engineer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5357,12 +5356,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-network-engineer-winter-2026",
     "title": "Accenture Network Engineer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5403,12 +5402,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-data-engineer-winter-2026",
     "title": "Accenture Data Engineer Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5449,12 +5448,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "accenture-it-operations-intern-winter-2026",
     "title": "Accenture IT Operations Intern Winter Internship",
-    "company": "Accenture",
     "location": "Bangalore / Pune / Hyderabad (Pan India)",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5495,12 +5494,12 @@
           "Foundational knowledge in modern programming languages and frameworks"
         ]
       }
-    ]
+    ],
+    "organization": "Accenture"
   },
   {
     "id": "zerodha-backend-developer-winter-2026",
     "title": "Zerodha Backend Developer Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5531,12 +5530,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-frontend-developer-winter-2026",
     "title": "Zerodha Frontend Developer Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5567,12 +5566,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-full-stack-developer-winter-2026",
     "title": "Zerodha Full Stack Developer Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5603,12 +5602,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-data-scientist-winter-2026",
     "title": "Zerodha Data Scientist Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5639,12 +5638,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-data-analyst-winter-2026",
     "title": "Zerodha Data Analyst Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5675,12 +5674,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-product-analyst-winter-2026",
     "title": "Zerodha Product Analyst Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5711,12 +5710,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-product-manager-intern-winter-2026",
     "title": "Zerodha Product Manager Intern Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5747,12 +5746,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-ui-ux-designer-winter-2026",
     "title": "Zerodha UI/UX Designer Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5783,12 +5782,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-devops-engineer-winter-2026",
     "title": "Zerodha DevOps Engineer Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5819,12 +5818,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-cloud-architect-intern-winter-2026",
     "title": "Zerodha Cloud Architect Intern Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5855,12 +5854,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-cybersecurity-intern-winter-2026",
     "title": "Zerodha Cybersecurity Intern Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5891,12 +5890,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-machine-learning-intern-winter-2026",
     "title": "Zerodha Machine Learning Intern Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5927,12 +5926,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-hardware-engineer-intern-winter-2026",
     "title": "Zerodha Hardware Engineer Intern Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5963,12 +5962,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-systems-engineer-winter-2026",
     "title": "Zerodha Systems Engineer Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -5999,12 +5998,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-qa-automation-intern-winter-2026",
     "title": "Zerodha QA Automation Intern Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6035,12 +6034,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-growth-hacker-intern-winter-2026",
     "title": "Zerodha Growth Hacker Intern Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6071,12 +6070,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-technical-content-engineer-winter-2026",
     "title": "Zerodha Technical Content Engineer Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6107,12 +6106,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "zerodha-developer-advocate-intern-winter-2026",
     "title": "Zerodha Developer Advocate Intern Winter Internship",
-    "company": "Zerodha",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6143,12 +6142,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zerodha"
   },
   {
     "id": "ather-energy-backend-developer-winter-2026",
     "title": "Ather Energy Backend Developer Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6179,12 +6178,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-frontend-developer-winter-2026",
     "title": "Ather Energy Frontend Developer Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6215,12 +6214,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-full-stack-developer-winter-2026",
     "title": "Ather Energy Full Stack Developer Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6251,12 +6250,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-data-scientist-winter-2026",
     "title": "Ather Energy Data Scientist Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6287,12 +6286,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-data-analyst-winter-2026",
     "title": "Ather Energy Data Analyst Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6323,12 +6322,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-product-analyst-winter-2026",
     "title": "Ather Energy Product Analyst Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6359,12 +6358,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-product-manager-intern-winter-2026",
     "title": "Ather Energy Product Manager Intern Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6395,12 +6394,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-ui-ux-designer-winter-2026",
     "title": "Ather Energy UI/UX Designer Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6431,12 +6430,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-devops-engineer-winter-2026",
     "title": "Ather Energy DevOps Engineer Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6467,12 +6466,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-cloud-architect-intern-winter-2026",
     "title": "Ather Energy Cloud Architect Intern Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6503,12 +6502,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-cybersecurity-intern-winter-2026",
     "title": "Ather Energy Cybersecurity Intern Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6539,12 +6538,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-machine-learning-intern-winter-2026",
     "title": "Ather Energy Machine Learning Intern Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6575,12 +6574,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-hardware-engineer-intern-winter-2026",
     "title": "Ather Energy Hardware Engineer Intern Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6611,12 +6610,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-systems-engineer-winter-2026",
     "title": "Ather Energy Systems Engineer Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6647,12 +6646,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-qa-automation-intern-winter-2026",
     "title": "Ather Energy QA Automation Intern Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6683,12 +6682,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-growth-hacker-intern-winter-2026",
     "title": "Ather Energy Growth Hacker Intern Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6719,12 +6718,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-technical-content-engineer-winter-2026",
     "title": "Ather Energy Technical Content Engineer Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6755,12 +6754,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "ather-energy-developer-advocate-intern-winter-2026",
     "title": "Ather Energy Developer Advocate Intern Winter Internship",
-    "company": "Ather Energy",
     "location": "Bangalore / Hosur",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6791,12 +6790,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Ather Energy"
   },
   {
     "id": "zoho-backend-developer-winter-2026",
     "title": "Zoho Backend Developer Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6827,12 +6826,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-frontend-developer-winter-2026",
     "title": "Zoho Frontend Developer Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6863,12 +6862,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-full-stack-developer-winter-2026",
     "title": "Zoho Full Stack Developer Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6899,12 +6898,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-data-scientist-winter-2026",
     "title": "Zoho Data Scientist Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6935,12 +6934,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-data-analyst-winter-2026",
     "title": "Zoho Data Analyst Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -6971,12 +6970,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-product-analyst-winter-2026",
     "title": "Zoho Product Analyst Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7007,12 +7006,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-product-manager-intern-winter-2026",
     "title": "Zoho Product Manager Intern Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7043,12 +7042,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-ui-ux-designer-winter-2026",
     "title": "Zoho UI/UX Designer Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7079,12 +7078,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-devops-engineer-winter-2026",
     "title": "Zoho DevOps Engineer Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7115,12 +7114,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-cloud-architect-intern-winter-2026",
     "title": "Zoho Cloud Architect Intern Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7151,12 +7150,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-cybersecurity-intern-winter-2026",
     "title": "Zoho Cybersecurity Intern Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7187,12 +7186,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-machine-learning-intern-winter-2026",
     "title": "Zoho Machine Learning Intern Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7223,12 +7222,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-hardware-engineer-intern-winter-2026",
     "title": "Zoho Hardware Engineer Intern Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7259,12 +7258,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-systems-engineer-winter-2026",
     "title": "Zoho Systems Engineer Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7295,12 +7294,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-qa-automation-intern-winter-2026",
     "title": "Zoho QA Automation Intern Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7331,12 +7330,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-growth-hacker-intern-winter-2026",
     "title": "Zoho Growth Hacker Intern Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7367,12 +7366,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-technical-content-engineer-winter-2026",
     "title": "Zoho Technical Content Engineer Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7403,12 +7402,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "zoho-developer-advocate-intern-winter-2026",
     "title": "Zoho Developer Advocate Intern Winter Internship",
-    "company": "Zoho",
     "location": "Chennai / Tenkasi",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7439,12 +7438,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Zoho"
   },
   {
     "id": "postman-backend-developer-winter-2026",
     "title": "Postman Backend Developer Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7475,12 +7474,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-frontend-developer-winter-2026",
     "title": "Postman Frontend Developer Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7511,12 +7510,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-full-stack-developer-winter-2026",
     "title": "Postman Full Stack Developer Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7547,12 +7546,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-data-scientist-winter-2026",
     "title": "Postman Data Scientist Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7583,12 +7582,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-data-analyst-winter-2026",
     "title": "Postman Data Analyst Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7619,12 +7618,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-product-analyst-winter-2026",
     "title": "Postman Product Analyst Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7655,12 +7654,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-product-manager-intern-winter-2026",
     "title": "Postman Product Manager Intern Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7691,12 +7690,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-ui-ux-designer-winter-2026",
     "title": "Postman UI/UX Designer Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7727,12 +7726,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-devops-engineer-winter-2026",
     "title": "Postman DevOps Engineer Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7763,12 +7762,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-cloud-architect-intern-winter-2026",
     "title": "Postman Cloud Architect Intern Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7799,12 +7798,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-cybersecurity-intern-winter-2026",
     "title": "Postman Cybersecurity Intern Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7835,12 +7834,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-machine-learning-intern-winter-2026",
     "title": "Postman Machine Learning Intern Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7871,12 +7870,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-hardware-engineer-intern-winter-2026",
     "title": "Postman Hardware Engineer Intern Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7907,12 +7906,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-systems-engineer-winter-2026",
     "title": "Postman Systems Engineer Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7943,12 +7942,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-qa-automation-intern-winter-2026",
     "title": "Postman QA Automation Intern Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -7979,12 +7978,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-growth-hacker-intern-winter-2026",
     "title": "Postman Growth Hacker Intern Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8015,12 +8014,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-technical-content-engineer-winter-2026",
     "title": "Postman Technical Content Engineer Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8051,12 +8050,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "postman-developer-advocate-intern-winter-2026",
     "title": "Postman Developer Advocate Intern Winter Internship",
-    "company": "Postman",
     "location": "Bangalore, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8087,12 +8086,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Postman"
   },
   {
     "id": "skyroot-backend-developer-winter-2026",
     "title": "Skyroot Aerospace Backend Developer Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8123,12 +8122,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-frontend-developer-winter-2026",
     "title": "Skyroot Aerospace Frontend Developer Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8159,12 +8158,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-full-stack-developer-winter-2026",
     "title": "Skyroot Aerospace Full Stack Developer Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8195,12 +8194,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-data-scientist-winter-2026",
     "title": "Skyroot Aerospace Data Scientist Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8231,12 +8230,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-data-analyst-winter-2026",
     "title": "Skyroot Aerospace Data Analyst Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8267,12 +8266,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-product-analyst-winter-2026",
     "title": "Skyroot Aerospace Product Analyst Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8303,12 +8302,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-product-manager-intern-winter-2026",
     "title": "Skyroot Aerospace Product Manager Intern Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8339,12 +8338,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-ui-ux-designer-winter-2026",
     "title": "Skyroot Aerospace UI/UX Designer Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8375,12 +8374,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-devops-engineer-winter-2026",
     "title": "Skyroot Aerospace DevOps Engineer Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8411,12 +8410,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-cloud-architect-intern-winter-2026",
     "title": "Skyroot Aerospace Cloud Architect Intern Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8447,12 +8446,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-cybersecurity-intern-winter-2026",
     "title": "Skyroot Aerospace Cybersecurity Intern Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8483,12 +8482,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-machine-learning-intern-winter-2026",
     "title": "Skyroot Aerospace Machine Learning Intern Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8519,12 +8518,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-hardware-engineer-intern-winter-2026",
     "title": "Skyroot Aerospace Hardware Engineer Intern Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8555,12 +8554,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-systems-engineer-winter-2026",
     "title": "Skyroot Aerospace Systems Engineer Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8591,12 +8590,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-qa-automation-intern-winter-2026",
     "title": "Skyroot Aerospace QA Automation Intern Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8627,12 +8626,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-growth-hacker-intern-winter-2026",
     "title": "Skyroot Aerospace Growth Hacker Intern Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8663,12 +8662,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-technical-content-engineer-winter-2026",
     "title": "Skyroot Aerospace Technical Content Engineer Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8699,12 +8698,12 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   },
   {
     "id": "skyroot-developer-advocate-intern-winter-2026",
     "title": "Skyroot Aerospace Developer Advocate Intern Winter Internship",
-    "company": "Skyroot Aerospace",
     "location": "Hyderabad, India",
     "type": "Corporate",
     "duration": "3-6 Months",
@@ -8735,6 +8734,7 @@
           "Ability to thrive in a fast-paced startup/tech environment"
         ]
       }
-    ]
+    ],
+    "organization": "Skyroot Aerospace"
   }
 ]
