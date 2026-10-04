@@ -83,7 +83,7 @@ export default async function InternshipDetailPage({ params }: Props) {
     "@type": "JobPosting",
     "title": internship.title,
     "description": fullDescription,
-    "datePosted": "2026-01-01",
+    "datePosted": new Date().toISOString().split('T')[0],
     "validThrough": internship.deadline ? new Date(internship.deadline).toISOString() : undefined,
     "employmentType": "INTERN",
     "hiringOrganization": {
