@@ -21,6 +21,8 @@ export type Internship = {
   tags: string[];
   hubSlug?: string;
   applyUrl?: string;
+  datePosted?: string;
+  updatedAt?: string;
   contentBlocks?: ContentBlock[];
 };
 

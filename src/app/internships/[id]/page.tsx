@@ -32,6 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       type: "article",
+      publishedTime: internship.datePosted ? new Date(internship.datePosted).toISOString() : undefined,
+      modifiedTime: internship.updatedAt ? new Date(internship.updatedAt).toISOString() : undefined,
       url: `https://summerinternship2026.in/internships/${id}`,
       siteName: "Winter Internships 2026",
       images: [
@@ -83,7 +85,7 @@ export default async function InternshipDetailPage({ params }: Props) {
     "@type": "JobPosting",
     "title": internship.title,
     "description": fullDescription,
-    "datePosted": new Date().toISOString().split('T')[0],
+    "datePosted": internship.datePosted ? new Date(internship.datePosted).toISOString() : new Date().toISOString(),
     "validThrough": internship.deadline ? new Date(internship.deadline).toISOString() : undefined,
     "employmentType": "INTERN",
     "hiringOrganization": {
