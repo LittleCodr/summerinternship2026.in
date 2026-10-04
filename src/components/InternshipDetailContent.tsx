@@ -164,7 +164,7 @@ export default function InternshipDetailContent({ internship }: InternshipDetail
                 </div>
                 
                 <a 
-                  href={internship.applyUrl || `https://internshipshub.in/internships/${internship.hubSlug || ""}`}
+                  href={internship.applyUrl && internship.applyUrl !== "WAITING_FOR_URL" ? internship.applyUrl : `https://internshipshub.in/internships/${internship.hubSlug || ""}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   title={`Apply for ${internship.title} at ${internship.organization} on InternshipHub`}
@@ -219,7 +219,7 @@ export default function InternshipDetailContent({ internship }: InternshipDetail
             </h4>
           </div>
           <a 
-            href={`https://internshipshub.in/internships/${internship.hubSlug || ""}`}
+            href={internship.applyUrl && internship.applyUrl !== "WAITING_FOR_URL" ? internship.applyUrl : `https://internshipshub.in/internships/${internship.hubSlug || ""}`}
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleApply}
