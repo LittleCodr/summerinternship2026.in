@@ -14,6 +14,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/disclaimer",
     "/contact",
     "/accenture-winter-internships",
+    "/zerodha-winter-internships",
+    "/ather-energy-winter-internships",
+    "/zoho-winter-internships",
+    "/postman-winter-internships",
+    "/skyroot-winter-internships",
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
