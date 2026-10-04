@@ -20,6 +20,7 @@ export type Internship = {
   workMode: "Remote" | "Onsite" | "Hybrid";
   tags: string[];
   hubSlug?: string;
+  applyUrl?: string;
   contentBlocks?: ContentBlock[];
 };
 

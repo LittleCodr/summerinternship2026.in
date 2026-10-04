@@ -22,7 +22,7 @@ export default function Disclaimer() {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">1. Information Accuracy</h2>
               <p>
-                The information provided by SummerInternships.in is for general informational purposes only. All information on the site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
+                The information provided by WinterInternships.in is for general informational purposes only. All information on the site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
               </p>
             </section>
 
@@ -50,7 +50,7 @@ export default function Disclaimer() {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">5. Errors and Omissions</h2>
               <p>
-                While we have made every attempt to ensure that the information contained in this site has been obtained from reliable sources, SummerInternships.in is not responsible for any errors or omissions, or for the results obtained from the use of this information.
+                While we have made every attempt to ensure that the information contained in this site has been obtained from reliable sources, WinterInternships.in is not responsible for any errors or omissions, or for the results obtained from the use of this information.
               </p>
             </section>
           </div>

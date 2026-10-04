@@ -22,7 +22,7 @@ export default function Terms() {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">1. Acceptance of Terms</h2>
               <p>
-                By accessing SummerInternships.in, you agree to comply with and be bound by these Terms and Conditions. Our platform is a curated discovery service for internship opportunities.
+                By accessing WinterInternships.in, you agree to comply with and be bound by these Terms and Conditions. Our platform is a curated discovery service for internship opportunities.
               </p>
             </section>
 
@@ -36,21 +36,21 @@ export default function Terms() {
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">3. No Guarantee</h2>
               <p>
-                SummerInternships.in does not guarantee placement or selection in any internship program. We facilitate discovery, but the selection process is entirely handled by the external providers. 
+                WinterInternships.in does not guarantee placement or selection in any internship program. We facilitate discovery, but the selection process is entirely handled by the external providers. 
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">4. Intellectual Property</h2>
               <p>
-                All content, design, and logic on this platform are the intellectual property of SummerInternships.in. Unauthorized scraping or commercial use of our datasets is strictly prohibited.
+                All content, design, and logic on this platform are the intellectual property of WinterInternships.in. Unauthorized scraping or commercial use of our datasets is strictly prohibited.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-4">5. Limitation of Liability</h2>
               <p>
-                In no event shall SummerInternships.in be liable for any direct or indirect damages resulting from your use of the platform or reliance on the information provided herein.
+                In no event shall WinterInternships.in be liable for any direct or indirect damages resulting from your use of the platform or reliance on the information provided herein.
               </p>
             </section>
 

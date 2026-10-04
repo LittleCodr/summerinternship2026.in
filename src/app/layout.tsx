@@ -8,7 +8,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Summer Internships 2026 | Verified IIT, NIT & Corporate Opportunities",
+  title: "Winter Internships 2026 | Verified IIT, NIT & Corporate Opportunities",
   description: "High-signal internship discovery platform for the 2026 cycle. Verified listings from top institutes and global companies.",
   icons: {
     icon: "/logo.svg",

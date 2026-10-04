@@ -113,7 +113,7 @@ export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onCl
                 <div className="p-4 space-y-4">
                   <div className="text-[10px] font-black uppercase tracking-widest text-primary/20 px-4">Trending Explorations</div>
                   <div className="grid grid-cols-2 gap-2">
-                    {["IIT Summer Internships", "Google STEP 2026", "Corporate Strategy", "Remote Dev Roles"].map((val) => (
+                    {["IIT Winter Internships", "Google STEP 2026", "Corporate Strategy", "Remote Dev Roles"].map((val) => (
                       <button 
                         key={val}
                         onClick={() => setQuery(val.split(" ")[0])}

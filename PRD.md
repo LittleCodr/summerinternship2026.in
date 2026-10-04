@@ -2,7 +2,7 @@
 
 ## **🏷 Product Name**
 
-**Summer Internships 2026**
+**Winter Internships 2026**
 
 ---
 
@@ -42,7 +42,7 @@ This is not a job board.
 * Especially from Tier 2/3 colleges  
 * Searching for:  
   * IIT internships  
-  * Summer 2026 research programs  
+  * Winter 2026 research programs  
   * Corporate internships
 
 ### **Secondary:**

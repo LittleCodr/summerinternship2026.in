@@ -1,5 +1,5 @@
 #:schema https://developers.cloudflare.com/workers/wrangler/configuration-schema/
-name = "summerinternship2026-in"
+name = "winterinternship2026-in"
 compatibility_date = "2026-04-19"
 compatibility_flags = [ "nodejs_compat" ]
 

@@ -18,11 +18,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!internship) {
     return {
-      title: "Internship Not Found | Summer Internships 2026",
+      title: "Internship Not Found | Winter Internships 2026",
     };
   }
 
-  const title = `${internship.title} Internship at ${internship.organization} - Summer Internships 2026`;
+  const title = `${internship.title} Internship at ${internship.organization} - Winter Internships 2026`;
   const description = `Apply for the ${internship.title} program at ${internship.organization} in ${internship.location}. Duration: ${internship.duration}, Stipend: ${internship.stipend}. Deadline: ${internship.deadline}.`;
 
   return {
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       type: "article",
       url: `https://summerinternship2026.in/internships/${id}`,
-      siteName: "Summer Internships 2026",
+      siteName: "Winter Internships 2026",
       images: [
         {
           url: "/logo.svg", // Fallback to logo
@@ -73,17 +73,23 @@ export default async function InternshipDetailPage({ params }: Props) {
     );
   }
 
+  const fullDescription = internship.contentBlocks
+    ?.map((block) => `<p>${block.content}</p>${block.list ? `<ul>${block.list.map(l => `<li>${l}</li>`).join('')}</ul>` : ''}`)
+    .join('') || `${internship.title} opportunity at ${internship.organization}`;
+
   // Google Job Posting Schema (for SEO indexing)
   const schema = {
     "@context": "https://schema.org/",
     "@type": "JobPosting",
     "title": internship.title,
-    "description": internship.title + " opportunity at " + internship.organization,
-    "datePosted": new Date().toISOString().split('T')[0],
-    "validThrough": internship.deadline,
+    "description": fullDescription,
+    "datePosted": "2026-01-01",
+    "validThrough": internship.deadline ? new Date(internship.deadline).toISOString() : undefined,
+    "employmentType": "INTERN",
     "hiringOrganization": {
       "@type": "Organization",
       "name": internship.organization,
+      "sameAs": internship.applyUrl || "https://summerinternship2026.in",
       "logo": "https://summerinternship2026.in/logo.svg"
     },
     "jobLocation": {
@@ -94,14 +100,14 @@ export default async function InternshipDetailPage({ params }: Props) {
         "addressCountry": "IN"
       }
     },
-    "baseSalary": {
+    "baseSalary": internship.stipend !== "Unpaid" ? {
       "@type": "MonetaryAmount",
       "currency": "INR",
       "value": {
         "@type": "QuantitativeValue",
         "unitText": "MONTH"
       }
-    }
+    } : undefined
   };
 
   return (

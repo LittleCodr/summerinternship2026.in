@@ -69,7 +69,7 @@ export default function About() {
           <div className="flex flex-col lg:flex-row items-center gap-20">
             <div className="flex-1 space-y-10">
               <h2 className="text-4xl md:text-5xl font-black tracking-tighter leading-tight">
-                Why we built <br/>SummerInternships.in
+                Why we built <br/>WinterInternships.in
               </h2>
               <div className="space-y-6 text-xl text-milk/60 font-medium leading-relaxed">
                 <p>

@@ -164,7 +164,7 @@ export default function InternshipDetailContent({ internship }: InternshipDetail
                 </div>
                 
                 <a 
-                  href={`https://internshipshub.in/internships/${internship.hubSlug || ""}`}
+                  href={internship.applyUrl || `https://internshipshub.in/internships/${internship.hubSlug || ""}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   title={`Apply for ${internship.title} at ${internship.organization} on InternshipHub`}
