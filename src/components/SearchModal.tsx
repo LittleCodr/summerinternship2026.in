@@ -24,7 +24,7 @@ export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onCl
     if (query.trim().length > 1) {
       const filtered = (internshipsData as Internship[]).filter(i => 
         (i.title || "").toLowerCase().includes(query.toLowerCase()) ||
-        (i.organization || i.company || "").toLowerCase().includes(query.toLowerCase()) ||
+        (i.organization || "").toLowerCase().includes(query.toLowerCase()) ||
         (i.tags || []).some(t => t.toLowerCase().includes(query.toLowerCase()))
       ).slice(0, 8);
       setResults(filtered);
