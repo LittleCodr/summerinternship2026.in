@@ -3,24 +3,30 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import {
-  ShieldCheck,
+  Download,
   CheckCircle2,
   Clock,
-  ArrowDown,
-  ExternalLink,
-  AlertCircle,
+  Smartphone,
+  ShieldCheck,
   Sparkles,
+  Star,
   BookOpen,
-  Award,
   ChevronDown,
   ChevronUp,
+  ArrowDown,
+  ArrowRight,
+  AlertCircle,
+  Cpu,
+  Layers,
+  HardDrive,
   FileCheck,
+  Check,
   Zap,
-  Globe2,
-  Building2,
-  Briefcase,
-  Star,
-  CheckCheck
+  Info,
+  Shield,
+  Award,
+  PlayCircle,
+  ExternalLink
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
@@ -58,7 +64,7 @@ function SafelinkContent() {
     return DEFAULT_TARGET;
   });
 
-  // If ID provided, try fetching from Firestore REST API (no firebase package needed!)
+  // If ID provided, try fetching from Firestore REST API
   useEffect(() => {
     if (id) {
       fetch(`https://firestore.googleapis.com/v1/projects/internship-in/databases/(default)/documents/safelinks/${id}`)
@@ -69,7 +75,6 @@ function SafelinkContent() {
           }
         })
         .catch(() => {
-          // fallback to fellowship-in if different project
           fetch(`https://firestore.googleapis.com/v1/projects/fellowship-in/databases/(default)/documents/safelinks/${id}`)
             .then((res) => res.json())
             .then((data) => {
@@ -77,31 +82,34 @@ function SafelinkContent() {
                 setDestinationUrl(data.fields.targetUrl.stringValue);
               }
             })
-            .catch(() => {
-              // Keep default
-            });
+            .catch(() => {});
         });
     }
   }, [id]);
 
-  // 3 Distinct Psychological Stages (each 20 seconds, total 60s minimum dwell)
-  const [stage, setStage] = useState<1 | 2 | 3>(1);
+  // Interactive Engagement States - Timers DO NOT start automatically! User must engage.
+  const [stage1Started, setStage1Started] = useState(false);
+  const [stage1Completed, setStage1Completed] = useState(false);
   const [timer1, setTimer1] = useState(STAGE_DURATION);
+
+  const [stage2Started, setStage2Started] = useState(false);
+  const [stage2Completed, setStage2Completed] = useState(false);
   const [timer2, setTimer2] = useState(STAGE_DURATION);
+
+  const [stage3Started, setStage3Started] = useState(false);
+  const [stage3Completed, setStage3Completed] = useState(false);
   const [timer3, setTimer3] = useState(STAGE_DURATION);
-  const [stage1Unlocked, setStage1Unlocked] = useState(false);
-  const [stage2Unlocked, setStage2Unlocked] = useState(false);
-  const [stage3Unlocked, setStage3Unlocked] = useState(false);
+
   const [isTabHidden, setIsTabHidden] = useState(false);
 
-  // FAQ Accordion states
+  // FAQ Accordion state
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
 
-  // Refs for smooth scroll
+  // Scroll Refs
   const section2Ref = useRef<HTMLDivElement>(null);
   const section3Ref = useRef<HTMLDivElement>(null);
 
-  // Tab visibility detection to pause timers
+  // Pause timers if user leaves tab
   useEffect(() => {
     const handleVisibility = () => {
       setIsTabHidden(document.hidden);
@@ -110,15 +118,15 @@ function SafelinkContent() {
     return () => document.removeEventListener('visibilitychange', handleVisibility);
   }, []);
 
-  // Stage 1 Countdown (20 seconds)
+  // Stage 1 Timer (starts only when user clicks start)
   useEffect(() => {
-    if (stage === 1 && !stage1Unlocked) {
+    if (stage1Started && !stage1Completed) {
       if (isTabHidden) return;
       const interval = setInterval(() => {
         setTimer1((prev) => {
           if (prev <= 1) {
             clearInterval(interval);
-            setStage1Unlocked(true);
+            setStage1Completed(true);
             return 0;
           }
           return prev - 1;
@@ -126,17 +134,17 @@ function SafelinkContent() {
       }, 1000);
       return () => clearInterval(interval);
     }
-  }, [stage, stage1Unlocked, isTabHidden]);
+  }, [stage1Started, stage1Completed, isTabHidden]);
 
-  // Stage 2 Countdown (20 seconds)
+  // Stage 2 Timer (starts only when user clicks start)
   useEffect(() => {
-    if (stage === 2 && !stage2Unlocked) {
+    if (stage2Started && !stage2Completed) {
       if (isTabHidden) return;
       const interval = setInterval(() => {
         setTimer2((prev) => {
           if (prev <= 1) {
             clearInterval(interval);
-            setStage2Unlocked(true);
+            setStage2Completed(true);
             return 0;
           }
           return prev - 1;
@@ -144,19 +152,19 @@ function SafelinkContent() {
       }, 1000);
       return () => clearInterval(interval);
     }
-  }, [stage, stage2Unlocked, isTabHidden]);
+  }, [stage2Started, stage2Completed, isTabHidden]);
 
-  // Stage 3 Countdown (20 seconds)
+  // Stage 3 Timer (starts only when user clicks start)
   useEffect(() => {
-    if (stage === 3 && !stage3Unlocked) {
+    if (stage3Started && !stage3Completed) {
       if (isTabHidden) return;
       const interval = setInterval(() => {
         setTimer3((prev) => {
           if (prev <= 1) {
             clearInterval(interval);
-            setStage3Unlocked(true);
+            setStage3Completed(true);
             try {
-              confetti({ particleCount: 70, spread: 80, origin: { y: 0.7 } });
+              confetti({ particleCount: 80, spread: 80, origin: { y: 0.7 } });
             } catch {
               // ignore
             }
@@ -167,19 +175,17 @@ function SafelinkContent() {
       }, 1000);
       return () => clearInterval(interval);
     }
-  }, [stage, stage3Unlocked, isTabHidden]);
+  }, [stage3Started, stage3Completed, isTabHidden]);
 
-  const handleStage1Complete = () => {
-    setStage(2);
+  const handleScrollToStage2 = () => {
     setTimeout(() => {
-      section2Ref.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      section2Ref.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, 100);
   };
 
-  const handleStage2Complete = () => {
-    setStage(3);
+  const handleScrollToStage3 = () => {
     setTimeout(() => {
-      section3Ref.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      section3Ref.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, 100);
   };
 
@@ -192,410 +198,403 @@ function SafelinkContent() {
     window.location.href = destinationUrl;
   };
 
-  const currentSeconds = stage === 1 ? timer1 : stage === 2 ? timer2 : timer3;
-  const currentProgress = ((STAGE_DURATION - currentSeconds) / STAGE_DURATION) * 100;
-  const totalDwellCompleted = (STAGE_DURATION - timer1) + (STAGE_DURATION - timer2) + (STAGE_DURATION - timer3);
+  const currentActiveTimer = !stage1Completed ? timer1 : !stage2Completed ? timer2 : timer3;
+  const isAnyTimerRunning = (stage1Started && !stage1Completed) || (stage2Started && !stage2Completed) || (stage3Started && !stage3Completed);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-emerald-500 selection:text-white">
-      {/* TOP FLOATING VERIFICATION BAR */}
-      <div className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 shadow-xl px-4 py-3">
-        <div className="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-3">
+    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-emerald-600 selection:text-white">
+      {/* STICKY TOP APP DOWNLOAD PROGRESS HEADER */}
+      <div className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm px-4 py-3">
+        <div className="max-w-4xl mx-auto flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-emerald-600/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
-              <ShieldCheck className="w-5 h-5" />
+            <div className="w-10 h-10 rounded-2xl bg-emerald-600 flex items-center justify-center text-white shadow-md shadow-emerald-500/20 font-black text-xl">
+              α
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs uppercase tracking-wider font-bold text-emerald-400">
-                  Final Hop 3/3 (SummerInternship2026.in)
+                <span className="text-xs font-black uppercase tracking-wider text-emerald-600">
+                  Step 3 of 3: Direct Download Mirror
                 </span>
-                <span className="px-2 py-0.5 text-[10px] rounded-full bg-slate-800 text-slate-300 border border-slate-700">
-                  Total Dwell: {totalDwellCompleted}s / 60s
+                <span className="px-2 py-0.5 text-[10px] rounded-full bg-emerald-50 text-emerald-700 font-bold border border-emerald-200">
+                  {stage3Completed ? '100% Ready' : '90% Ready • Almost there!'}
                 </span>
               </div>
-              <div className="text-xs text-slate-400 font-medium">
-                {stage === 1 && !stage1Unlocked && 'Step 1/3: Reading Verification — Active'}
-                {stage === 1 && stage1Unlocked && '✓ Step 1 Cleared — Scroll to Step 2'}
-                {stage === 2 && !stage2Unlocked && 'Step 2/3: Bot Filter & Security Handshake'}
-                {stage === 2 && stage2Unlocked && '✓ Step 2 Cleared — Scroll to Step 3'}
-                {stage === 3 && !stage3Unlocked && 'Step 3/3: Final Link Decryption in progress'}
-                {stage === 3 && stage3Unlocked && '✓ Verification Complete — Destination Ready!'}
+              <div className="text-xs text-slate-500 font-medium flex items-center gap-1.5">
+                <span>Alpha Study Squad APK</span>
+                <span>•</span>
+                <span className="text-emerald-600 font-semibold flex items-center gap-1">
+                  <ShieldCheck className="w-3.5 h-3.5" /> Verified Clean (28.4 MB)
+                </span>
               </div>
             </div>
           </div>
 
-          {/* Psychological 20s Animated Timer */}
-          <div className="flex items-center gap-4">
+          {/* Active Timer Pill / Pause Notification */}
+          <div className="flex items-center gap-3">
             {isTabHidden ? (
-              <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-semibold animate-pulse">
-                <AlertCircle className="w-4 h-4" />
-                <span>Timer Paused (Keep tab open)</span>
+              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50 border border-amber-300 text-amber-800 text-xs font-bold animate-pulse">
+                <AlertCircle className="w-4 h-4 text-amber-600" />
+                <span>Timer Paused: Keep page open to load APK</span>
               </div>
-            ) : (
-              <div className="flex items-center gap-3">
+            ) : isAnyTimerRunning ? (
+              <div className="flex items-center gap-2.5 bg-slate-100 px-3.5 py-1.5 rounded-xl border border-slate-200 shadow-inner">
                 <div className="text-right">
-                  <div className="text-[11px] text-slate-400 uppercase font-semibold">Stage Timer</div>
-                  <div className="text-xl font-black font-mono tracking-tight text-white flex items-center gap-1">
-                    <Clock className="w-4 h-4 text-emerald-400 animate-spin" style={{ animationDuration: '4s' }} />
-                    {currentSeconds}s
+                  <div className="text-[10px] text-slate-500 uppercase font-bold">Verification Clock</div>
+                  <div className="text-base font-black font-mono text-slate-900 flex items-center gap-1">
+                    <Clock className="w-3.5 h-3.5 text-emerald-600 animate-spin" style={{ animationDuration: '3s' }} />
+                    {currentActiveTimer}s
                   </div>
                 </div>
-                {/* 20s progress mini ring */}
-                <div className="w-10 h-10 relative flex items-center justify-center">
-                  <svg className="w-10 h-10 transform -rotate-90" viewBox="0 0 36 36">
-                    <path
-                      className="text-slate-800"
-                      strokeWidth="3.5"
-                      stroke="currentColor"
-                      fill="none"
-                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                    />
-                    <path
-                      className="text-emerald-500 transition-all duration-1000 ease-linear"
-                      strokeDasharray={`${currentProgress}, 100`}
-                      strokeWidth="3.5"
-                      strokeLinecap="round"
-                      stroke="currentColor"
-                      fill="none"
-                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                    />
-                  </svg>
-                  <span className="absolute text-[10px] font-bold text-emerald-300">{currentSeconds}</span>
+                {/* 20s progress mini bar */}
+                <div className="w-12 h-2 bg-slate-200 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-emerald-600 transition-all duration-1000 ease-linear rounded-full"
+                    style={{ width: `${((STAGE_DURATION - currentActiveTimer) / STAGE_DURATION) * 100}%` }}
+                  />
                 </div>
+              </div>
+            ) : (
+              <div className="flex items-center gap-1.5 text-xs text-slate-700 font-semibold bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200">
+                <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
+                <span>Ready for Final Download</span>
               </div>
             )}
           </div>
         </div>
       </div>
 
+      {/* BREADCRUMB */}
+      <div className="bg-slate-100 border-b border-slate-200 py-2.5 px-4">
+        <div className="max-w-4xl mx-auto text-xs font-medium text-slate-500 flex items-center gap-2">
+          <a href="/" className="hover:text-emerald-600 transition-colors">Home</a>
+          <span className="text-slate-400">/</span>
+          <span className="text-slate-600">Downloads</span>
+          <span className="text-slate-400">/</span>
+          <span className="text-slate-900 font-semibold truncate">Alpha Study Squad APK (v3.4.2) • Final Step</span>
+        </div>
+      </div>
+
       {/* MAIN CONTAINER */}
-      <div className="max-w-4xl mx-auto px-4 py-8 md:py-12 space-y-10">
-        
-        {/* ARTICLE HEADER HERO */}
-        <header className="space-y-4 border-b border-slate-800 pb-8">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-              <Sparkles className="w-3.5 h-3.5" />
-              Final Verification Portal
-            </span>
-            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-slate-800 text-slate-300">
-              <BookOpen className="w-3.5 h-3.5" /> 6 min comprehensive read
-            </span>
-            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-teal-500/10 text-teal-400 border border-teal-500/20">
-              <CheckCheck className="w-3.5 h-3.5" /> Destination Unlocking Stage
-            </span>
+      <main className="max-w-4xl mx-auto px-4 py-8 md:py-12 space-y-10">
+
+        {/* HERO APP SHOWCASE HEADER */}
+        <header className="bg-white rounded-3xl p-6 md:p-10 border border-slate-200 shadow-sm flex flex-col md:flex-row items-center gap-8">
+          <div className="relative group shrink-0">
+            <div className="w-28 h-28 md:w-36 md:h-36 rounded-3xl bg-gradient-to-tr from-emerald-600 via-teal-600 to-cyan-500 flex items-center justify-center text-white shadow-xl shadow-emerald-600/30">
+              <span className="text-6xl md:text-7xl font-black tracking-tighter">α</span>
+            </div>
+            <div className="absolute -bottom-2 -right-2 bg-emerald-600 text-white rounded-full p-1.5 shadow-md border-2 border-white">
+              <Check className="w-4 h-4 stroke-[3]" />
+            </div>
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-black text-white leading-tight tracking-tight">
-            Official Summer Internship 2026 Resource Hub: Tier-1 Openings & Access Gateway
-          </h1>
+          <div className="space-y-3 text-center md:text-left flex-1">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-extrabold">
+              <Sparkles className="w-3.5 h-3.5" />
+              Final Step 3: Direct Download Gateway
+            </div>
 
-          <p className="text-lg text-slate-300 leading-relaxed max-w-3xl">
-            Welcome to the final gateway. Review verified corporate listings, research grants, and direct opening links across global tech leaders. Complete the 3-step verification below to reveal your requested link.
-          </p>
+            <h1 className="text-2xl md:text-4xl font-black text-slate-900 tracking-tight leading-tight">
+              Alpha Study Squad APK (Final Step)
+            </h1>
 
-          <div className="flex items-center gap-4 text-xs text-slate-400 pt-2 border-t border-slate-900">
-            <span>By SummerInternship2026 Opportunity Directorate</span>
-            <span>•</span>
-            <span>Final Node: summerinternship2026.in</span>
+            <p className="text-slate-600 text-sm md:text-base leading-relaxed">
+              Your personal verified installation package is almost ready. Complete the final 3-stage security handshake below to generate your direct download token.
+            </p>
+
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 text-xs font-semibold text-slate-500 pt-1">
+              <span className="flex items-center gap-1 text-amber-600 bg-amber-50 px-2.5 py-1 rounded-lg border border-amber-200">
+                <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+                4.9 / 5 (18,400+ reviews)
+              </span>
+              <span className="flex items-center gap-1 text-slate-700 bg-slate-100 px-2.5 py-1 rounded-lg border border-slate-200">
+                <Smartphone className="w-3.5 h-3.5 text-emerald-600" />
+                28.4 MB • Android 7.0+
+              </span>
+              <span className="flex items-center gap-1 text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+                Play Protect Verified Safe
+              </span>
+            </div>
           </div>
         </header>
 
-        {/* STAGE 1 ACTION CARD */}
-        <section className="bg-gradient-to-br from-slate-900 via-emerald-950/40 to-slate-900 p-6 md:p-8 rounded-3xl border border-emerald-500/30 shadow-2xl space-y-4">
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <span className="text-xs uppercase font-extrabold tracking-wider text-emerald-400 flex items-center gap-1.5 mb-1">
-                <FileCheck className="w-4 h-4" />
-                Stage 1 of 3: Content Verification
-              </span>
-              <h2 className="text-xl md:text-2xl font-bold text-white">
-                Preparing Final Gateway Link ({STAGE_DURATION}s Reading Timer)
+        {/* VISUAL 3-STEP PIPELINE WIZARD */}
+        <section className="bg-white p-6 md:p-8 rounded-3xl border border-slate-200 shadow-sm space-y-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Info className="w-4 h-4 text-emerald-600" />
+              <h2 className="text-sm font-extrabold uppercase tracking-wider text-slate-700">
+                Your 3-Step APK Download Roadmap
               </h2>
             </div>
-            <div className="w-12 h-12 rounded-2xl bg-emerald-600/20 border border-emerald-500/40 flex items-center justify-center font-mono font-black text-xl text-emerald-400">
+            <span className="text-xs font-extrabold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+              {stage3Completed ? '100% Completed' : '90% In Final Step'}
+            </span>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+            {/* Step 1 Visual Card (Completed) */}
+            <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="w-6 h-6 rounded-full bg-emerald-600 text-white font-black text-xs flex items-center justify-center">✓</span>
+                <span className="text-[10px] uppercase font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full">Step 1 Done</span>
+              </div>
+              <h3 className="font-extrabold text-slate-900 text-sm">Step 1: Device Check</h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Device architecture & CPU verified compatible with Alpha Study Squad.
+              </p>
+            </div>
+
+            {/* Step 2 Visual Card (Completed) */}
+            <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="w-6 h-6 rounded-full bg-emerald-600 text-white font-black text-xs flex items-center justify-center">✓</span>
+                <span className="text-[10px] uppercase font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full">Step 2 Done</span>
+              </div>
+              <h3 className="font-extrabold text-slate-900 text-sm">Step 2: Study Notes Unpacked</h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Extracted topper formulas, question banks & offline sync datasets.
+              </p>
+            </div>
+
+            {/* Step 3 Visual Card (Active) */}
+            <div className="p-4 rounded-2xl bg-emerald-50/80 border-2 border-emerald-400 space-y-2 relative">
+              <div className="flex items-center justify-between">
+                <span className="w-6 h-6 rounded-full bg-emerald-600 text-white font-black text-xs flex items-center justify-center">3</span>
+                <span className="text-[10px] uppercase font-bold text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded-full">Final Step</span>
+              </div>
+              <h3 className="font-extrabold text-slate-900 text-sm">Step 3: Direct Download</h3>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                {stage3Completed ? '🎉 Ready! Tap button below to download APK.' : 'Finalizing download token & mirror speed.'}
+              </p>
+            </div>
+          </div>
+
+          {/* Progress bar with percentage */}
+          <div className="space-y-1.5 pt-2">
+            <div className="flex items-center justify-between text-xs font-bold text-slate-500">
+              <span>Overall Download Pipeline</span>
+              <span className="text-emerald-600 font-extrabold">
+                {stage3Completed ? '100% Ready • Download Unlocked!' : '90% Ready • Final Step'}
+              </span>
+            </div>
+            <div className="w-full h-3 bg-slate-100 rounded-full overflow-hidden p-0.5 border border-slate-200">
+              <div
+                className="h-full bg-gradient-to-r from-emerald-500 to-teal-600 rounded-full transition-all duration-700"
+                style={{ width: stage3Completed ? '100%' : stage1Completed ? '85%' : '72%' }}
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* STEP 1 ENGAGEMENT ACTION CARD (DOES NOT START AUTOMATICALLY) */}
+        <section className="bg-white p-6 md:p-8 rounded-3xl border-2 border-emerald-300 shadow-md space-y-5">
+          <div className="flex items-start justify-between gap-4">
+            <div className="space-y-1">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-black uppercase">
+                <Cpu className="w-3.5 h-3.5" /> Stage 3A: Mirror Speed & Bandwidth Allocation
+              </div>
+              <h2 className="text-xl md:text-2xl font-black text-slate-900">
+                Allocate High-Speed Mirror ({STAGE_DURATION}s)
+              </h2>
+            </div>
+            <div className="w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-center font-mono font-black text-xl text-emerald-600 shrink-0">
               {timer1}s
             </div>
           </div>
 
-          <p className="text-slate-300 text-sm leading-relaxed">
-            Please browse the opportunities below while your final session handshake executes. Do not switch tabs or minimize the browser window.
+          <p className="text-slate-600 text-sm leading-relaxed">
+            Assigning an optimized regional server mirror to ensure your 28.4 MB APK downloads at full network bandwidth. Click the button below to initiate this 20-second check.
           </p>
 
-          {/* Progress bar */}
-          <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
-            <div
-              className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-1000 ease-linear rounded-full"
-              style={{ width: `${((STAGE_DURATION - timer1) / STAGE_DURATION) * 100}%` }}
-            />
-          </div>
-
-          {/* Stage 1 Unlock Button */}
-          <div className="pt-2 text-center">
-            {stage === 1 && !stage1Unlocked ? (
-              <div className="inline-flex items-center gap-2 text-slate-400 bg-slate-800/80 px-5 py-3 rounded-xl border border-slate-700 text-sm font-medium">
-                <Clock className="w-4 h-4 animate-spin text-emerald-400" />
-                <span>Reading timer active: Please wait {timer1} seconds...</span>
+          {/* Interactive Trigger Button */}
+          <div className="text-center pt-2">
+            {!stage1Started ? (
+              <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={() => setStage1Started(true)}
+                className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-base rounded-2xl shadow-xl shadow-emerald-600/30 transition-all cursor-pointer"
+              >
+                <Cpu className="w-5 h-5" />
+                <span>👉 Tap to Allocate Mirror (20s)</span>
+                <ArrowRight className="w-5 h-5" />
+              </motion.button>
+            ) : !stage1Completed ? (
+              <div className="inline-flex items-center gap-3 px-6 py-3.5 rounded-2xl bg-emerald-50 text-emerald-800 border border-emerald-200 text-sm font-bold animate-pulse">
+                <Clock className="w-4 h-4 animate-spin text-emerald-600" />
+                <span>Allocating mirror: Please wait {timer1} seconds...</span>
               </div>
-            ) : stage === 1 && stage1Unlocked ? (
+            ) : (
               <motion.button
                 initial={{ scale: 0.95 }}
-                animate={{ scale: [1, 1.03, 1] }}
+                animate={{ scale: [1, 1.02, 1] }}
                 transition={{ repeat: Infinity, duration: 2 }}
-                onClick={handleStage1Complete}
-                className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-emerald-600 to-teal-500 hover:from-emerald-500 hover:to-teal-400 text-white font-extrabold text-base rounded-2xl shadow-xl shadow-emerald-600/30 transition-all cursor-pointer"
+                onClick={handleScrollToStage2}
+                className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-teal-600 hover:bg-teal-700 text-white font-extrabold text-base rounded-2xl shadow-lg shadow-teal-600/30 transition-all cursor-pointer"
               >
-                <CheckCircle2 className="w-5 h-5 text-emerald-300" />
-                <span>Step 1 Verified! Click to Scroll & Proceed to Step 2</span>
+                <CheckCircle2 className="w-5 h-5" />
+                <span>✓ Mirror Assigned (80%) • Scroll Down to Decrypt Key</span>
                 <ArrowDown className="w-5 h-5 animate-bounce" />
               </motion.button>
-            ) : (
-              <div className="inline-flex items-center gap-2 text-emerald-400 bg-emerald-950/40 px-4 py-2 rounded-xl border border-emerald-500/30 text-xs font-semibold">
-                <CheckCircle2 className="w-4 h-4" />
-                <span>Step 1 Cleared (20s completed)</span>
-              </div>
             )}
           </div>
         </section>
 
-        {/* EDITORIAL CONTENT SECTION 1: RESEARCH & INDUSTRY OPPORTUNITIES */}
-        <article className="space-y-6 text-slate-300 leading-relaxed">
-          <h2 className="text-2xl font-bold text-white flex items-center gap-2">
-            <Star className="w-6 h-6 text-emerald-400" />
-            1. Prestigious Research & Academic Internships (Summer 2026)
-          </h2>
-          <p>
-            If your goal is higher studies, research publications, or working alongside world-class professors, these sponsored research internships provide full funding, flights, and stipends:
-          </p>
+        {/* VISUAL HOW TO INSTALL APK INFOGRAPHIC */}
+        <article className="bg-white p-6 md:p-10 rounded-3xl border border-slate-200 shadow-sm space-y-6">
+          <div className="flex items-center justify-between pb-2 border-b border-slate-100">
+            <div>
+              <span className="text-xs font-black uppercase text-emerald-600 tracking-wider">Visual Guide</span>
+              <h2 className="text-xl md:text-2xl font-black text-slate-900 mt-1">
+                How to Install Alpha Study Squad APK on Android
+              </h2>
+            </div>
+            <span className="text-xs font-bold text-slate-500">4 Simple Steps</span>
+          </div>
 
-          <div className="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/60 shadow-lg">
-            <table className="w-full text-left text-sm">
-              <thead className="bg-slate-800/80 text-xs uppercase font-bold text-slate-300 border-b border-slate-700">
-                <tr>
-                  <th className="p-4">Program Name</th>
-                  <th className="p-4">Hosting Institution</th>
-                  <th className="p-4">Stipend & Perks</th>
-                  <th className="p-4">Eligibility</th>
-                  <th className="p-4">Application Deadline</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-800 text-slate-300">
-                <tr className="hover:bg-slate-800/30 transition-colors">
-                  <td className="p-4 font-bold text-white flex items-center gap-2">
-                    <Globe2 className="w-4 h-4 text-emerald-400" />
-                    MITACS Globalink
-                  </td>
-                  <td className="p-4">Top Canadian Universities</td>
-                  <td className="p-4 text-emerald-400 font-bold">$12,000 CAD (Flight + Housing + Stipend)</td>
-                  <td className="p-4">Pre-Final Year B.Tech / M.Tech</td>
-                  <td className="p-4">September - October</td>
-                </tr>
-                <tr className="hover:bg-slate-800/30 transition-colors">
-                  <td className="p-4 font-bold text-white flex items-center gap-2">
-                    <Building2 className="w-4 h-4 text-emerald-400" />
-                    IIT Kanpur SURGE
-                  </td>
-                  <td className="p-4">IIT Kanpur Labs</td>
-                  <td className="p-4 text-emerald-400 font-bold">₹12,500 / mo + Campus Stay</td>
-                  <td className="p-4">2nd & 3rd Year Undergrads</td>
-                  <td className="p-4">January - February</td>
-                </tr>
-                <tr className="hover:bg-slate-800/30 transition-colors">
-                  <td className="p-4 font-bold text-white flex items-center gap-2">
-                    <Award className="w-4 h-4 text-emerald-400" />
-                    TIFR VSRP Program
-                  </td>
-                  <td className="p-4">Tata Institute of Fundamental Research</td>
-                  <td className="p-4 text-emerald-400 font-bold">₹10,000 / mo + Travel allowance</td>
-                  <td className="p-4">Science & Engineering Students</td>
-                  <td className="p-4">December - January</td>
-                </tr>
-              </tbody>
-            </table>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-center">
+              <div className="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 font-black text-sm flex items-center justify-center mx-auto">1</div>
+              <h4 className="font-bold text-slate-900 text-sm">Download APK</h4>
+              <p className="text-xs text-slate-500">Complete verification to download the 28.4 MB file.</p>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-center">
+              <div className="w-10 h-10 rounded-full bg-teal-100 text-teal-700 font-black text-sm flex items-center justify-center mx-auto">2</div>
+              <h4 className="font-bold text-slate-900 text-sm">Open File</h4>
+              <p className="text-xs text-slate-500">Tap the downloaded notification or look in Downloads.</p>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-center">
+              <div className="w-10 h-10 rounded-full bg-cyan-100 text-cyan-700 font-black text-sm flex items-center justify-center mx-auto">3</div>
+              <h4 className="font-bold text-slate-900 text-sm">Allow Unknown</h4>
+              <p className="text-xs text-slate-500">If asked, toggle &quot;Allow from this source&quot; in Settings.</p>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2 text-center">
+              <div className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-700 font-black text-sm flex items-center justify-center mx-auto">4</div>
+              <h4 className="font-bold text-slate-900 text-sm">Install & Launch</h4>
+              <p className="text-xs text-slate-500">Tap &apos;Install&apos; and start learning immediately!</p>
+            </div>
           </div>
         </article>
 
-        {/* STAGE 2 ACTION CARD (SCROLL TARGET) */}
-        <div ref={section2Ref} className="pt-6">
-          <section className="bg-gradient-to-br from-slate-900 via-teal-950/30 to-slate-900 p-6 md:p-8 rounded-3xl border border-teal-500/30 shadow-2xl space-y-4">
+        {/* STEP 2 ENGAGEMENT CARD (MIDDLE SCROLL TARGET) */}
+        <div ref={section2Ref} className="pt-4">
+          <section className="bg-white p-6 md:p-8 rounded-3xl border-2 border-teal-200 shadow-md space-y-5">
             <div className="flex items-start justify-between gap-4">
-              <div>
-                <span className="text-xs uppercase font-extrabold tracking-wider text-teal-400 flex items-center gap-1.5 mb-1">
-                  <Zap className="w-4 h-4" />
-                  Stage 2 of 3: Bot Filter & Security Handshake
-                </span>
-                <h2 className="text-xl md:text-2xl font-bold text-white">
-                  Decrypting Secure Target ({STAGE_DURATION}s Analysis)
+              <div className="space-y-1">
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-black uppercase">
+                  <Layers className="w-3.5 h-3.5" /> Stage 3B: Decrypt Direct Download Key
+                </div>
+                <h2 className="text-xl md:text-2xl font-black text-slate-900">
+                  Decrypt Download Key ({STAGE_DURATION}s)
                 </h2>
               </div>
-              <div className="w-12 h-12 rounded-2xl bg-teal-600/20 border border-teal-500/40 flex items-center justify-center font-mono font-black text-xl text-teal-400">
+              <div className="w-12 h-12 rounded-2xl bg-teal-50 border border-teal-200 flex items-center justify-center font-mono font-black text-xl text-teal-600 shrink-0">
                 {timer2}s
               </div>
             </div>
 
-            <p className="text-slate-300 text-sm leading-relaxed">
-              Verifying 3-hop transit authentication trail. Read through our behavioral interview tips below while the link is decrypted.
+            <p className="text-slate-600 text-sm leading-relaxed">
+              Step 3B authorizes the direct download session and exchanges cryptographic tokens with the verified release repository. Tap below to begin this 20-second step.
             </p>
 
-            {/* Checklist items */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 py-2">
-              <div className="p-3 rounded-xl bg-slate-800/60 border border-slate-700/60 flex items-center gap-2.5 text-xs text-slate-300">
-                <CheckCircle2 className={`w-4 h-4 ${stage2Unlocked || timer2 <= 14 ? 'text-emerald-400' : 'text-slate-500'}`} />
-                <span>FellowshipHub Verified</span>
+            {/* Checklist */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 py-1">
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-center gap-2 text-xs font-medium text-slate-700">
+                <Check className={`w-4 h-4 ${stage2Completed || timer2 <= 14 ? 'text-emerald-600 font-bold' : 'text-slate-400'}`} />
+                <span>SSL Tunnel Secure</span>
               </div>
-              <div className="p-3 rounded-xl bg-slate-800/60 border border-slate-700/60 flex items-center gap-2.5 text-xs text-slate-300">
-                <CheckCircle2 className={`w-4 h-4 ${stage2Unlocked || timer2 <= 7 ? 'text-emerald-400' : 'text-slate-500'}`} />
-                <span>InternIQ Verified</span>
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-center gap-2 text-xs font-medium text-slate-700">
+                <Check className={`w-4 h-4 ${stage2Completed || timer2 <= 7 ? 'text-emerald-600 font-bold' : 'text-slate-400'}`} />
+                <span>Download Nonce Exchanged</span>
               </div>
-              <div className="p-3 rounded-xl bg-slate-800/60 border border-slate-700/60 flex items-center gap-2.5 text-xs text-slate-300">
-                <CheckCircle2 className={`w-4 h-4 ${stage2Unlocked ? 'text-emerald-400' : 'text-slate-500'}`} />
-                <span>Target Decrypted</span>
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-center gap-2 text-xs font-medium text-slate-700">
+                <Check className={`w-4 h-4 ${stage2Completed ? 'text-emerald-600 font-bold' : 'text-slate-400'}`} />
+                <span>Token Ready</span>
               </div>
             </div>
 
-            {/* Stage 2 Progress Bar */}
-            <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-gradient-to-r from-teal-500 to-emerald-400 transition-all duration-1000 ease-linear rounded-full"
-                style={{ width: `${((STAGE_DURATION - timer2) / STAGE_DURATION) * 100}%` }}
-              />
-            </div>
-
-            {/* Stage 2 Unlock Button */}
-            <div className="pt-2 text-center">
-              {stage < 2 ? (
-                <div className="text-slate-500 text-xs italic">
-                  Complete Stage 1 above to unlock this security scan.
+            {/* Interactive Trigger Button */}
+            <div className="text-center pt-2">
+              {!stage1Completed ? (
+                <div className="text-xs text-slate-500 font-semibold italic">
+                  👉 Please complete the mirror assignment above to unlock this step.
                 </div>
-              ) : stage === 2 && !stage2Unlocked ? (
-                <div className="inline-flex items-center gap-2 text-slate-400 bg-slate-800/80 px-5 py-3 rounded-xl border border-slate-700 text-sm font-medium">
-                  <Clock className="w-4 h-4 animate-spin text-teal-400" />
-                  <span>Scanning session: Please wait {timer2} seconds...</span>
+              ) : !stage2Started ? (
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => setStage2Started(true)}
+                  className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-teal-600 hover:bg-teal-700 text-white font-extrabold text-base rounded-2xl shadow-lg shadow-teal-600/30 transition-all cursor-pointer"
+                >
+                  <Layers className="w-5 h-5" />
+                  <span>👉 Tap to Decrypt Key (20s)</span>
+                  <ArrowRight className="w-5 h-5" />
+                </motion.button>
+              ) : !stage2Completed ? (
+                <div className="inline-flex items-center gap-3 px-6 py-3.5 rounded-2xl bg-teal-50 text-teal-800 border border-teal-200 text-sm font-bold animate-pulse">
+                  <Clock className="w-4 h-4 animate-spin text-teal-600" />
+                  <span>Decrypting download token: Please wait {timer2} seconds...</span>
                 </div>
-              ) : stage === 2 && stage2Unlocked ? (
+              ) : (
                 <motion.button
                   initial={{ scale: 0.95 }}
-                  animate={{ scale: [1, 1.03, 1] }}
+                  animate={{ scale: [1, 1.02, 1] }}
                   transition={{ repeat: Infinity, duration: 2 }}
-                  onClick={handleStage2Complete}
-                  className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-teal-600 to-emerald-500 hover:from-teal-500 hover:to-emerald-400 text-white font-extrabold text-base rounded-2xl shadow-xl shadow-teal-600/30 transition-all cursor-pointer"
+                  onClick={handleScrollToStage3}
+                  className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-base rounded-2xl shadow-lg shadow-emerald-600/30 transition-all cursor-pointer"
                 >
-                  <CheckCircle2 className="w-5 h-5 text-emerald-300" />
-                  <span>Step 2 Verified! Click to Scroll to Destination Button</span>
+                  <CheckCircle2 className="w-5 h-5" />
+                  <span>✓ Key Decrypted (95%) • Scroll Down to Download APK</span>
                   <ArrowDown className="w-5 h-5 animate-bounce" />
                 </motion.button>
-              ) : (
-                <div className="inline-flex items-center gap-2 text-emerald-400 bg-emerald-950/40 px-4 py-2 rounded-xl border border-emerald-500/30 text-xs font-semibold">
-                  <CheckCircle2 className="w-4 h-4" />
-                  <span>Step 2 Cleared (40s cumulative completed)</span>
-                </div>
               )}
             </div>
           </section>
         </div>
 
-        {/* EDITORIAL CONTENT SECTION 2: INTERVIEW STRATEGY */}
-        <article className="space-y-6 text-slate-300 leading-relaxed">
-          <h2 className="text-2xl font-bold text-white flex items-center gap-2">
-            <Briefcase className="w-6 h-6 text-teal-400" />
-            2. Clearing the Behavioral & Technical Interview Round
-          </h2>
-          <p>
-            Technical skill qualifies you for the interview, but behavioral alignment gets you the offer. Frame every response using the STAR technique (Situation, Task, Action, Result) with quantitative outcomes:
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
-              <div className="text-xs font-bold uppercase tracking-wider text-emerald-400">Technical Depth</div>
-              <h3 className="text-base font-bold text-white">Explain Architecture Choices</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Don&apos;t just describe code syntax. Explain why you chose Redis over Memcached, or PostgreSQL over MongoDB, and the engineering trade-offs involved.
-              </p>
-            </div>
-            <div className="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
-              <div className="text-xs font-bold uppercase tracking-wider text-teal-400">Conflict Resolution</div>
-              <h3 className="text-base font-bold text-white">Demonstrate Humility</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                When asked about project disputes, highlight how you used data, peer reviews, and user requirements rather than personal bias to resolve disagreements.
-              </p>
-            </div>
-          </div>
-
-          {/* Interactive FAQs */}
-          <div className="space-y-3 pt-4">
-            <h3 className="text-lg font-bold text-white">Frequently Asked Questions</h3>
-            {[
-              {
-                q: 'What should I do if I miss the application deadline?',
-                a: 'Reach out to hiring managers directly on LinkedIn with a demo of an open-source project relevant to their team. Often managers have discretionary headcount even after official portal closures.'
-              },
-              {
-                q: 'Are research internships evaluated similarly to corporate roles?',
-                a: 'Research roles prioritize mathematical rigor, ability to read academic papers, and prototype code, whereas corporate roles prioritize production engineering, tests, and clean architecture.'
-              }
-            ].map((faq, i) => (
-              <div key={i} className="border border-slate-800 rounded-xl bg-slate-900/70 overflow-hidden">
-                <button
-                  onClick={() => setExpandedFaq(expandedFaq === i ? null : i)}
-                  className="w-full p-4 flex items-center justify-between text-left text-sm font-semibold text-slate-200 hover:text-white"
-                >
-                  <span>{faq.q}</span>
-                  {expandedFaq === i ? <ChevronUp className="w-4 h-4 text-emerald-400" /> : <ChevronDown className="w-4 h-4 text-slate-400" />}
-                </button>
-                <AnimatePresence>
-                  {expandedFaq === i && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: 'auto', opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      className="px-4 pb-4 text-xs text-slate-400 leading-relaxed border-t border-slate-800/60 pt-3"
-                    >
-                      {faq.a}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            ))}
-          </div>
-        </article>
-
-        {/* STAGE 3 FINAL ACTION CARD (BOTTOM TARGET) */}
-        <div ref={section3Ref} className="pt-6">
-          <section className="bg-gradient-to-br from-slate-900 via-emerald-950/60 to-slate-900 p-6 md:p-12 rounded-3xl border border-emerald-500/40 shadow-2xl space-y-6 text-center">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold">
-              <ShieldCheck className="w-4 h-4" />
-              Final Step 3 of 3: Verification Complete!
+        {/* STEP 3 ENGAGEMENT CARD (FINAL BOTTOM TARGET) */}
+        <div ref={section3Ref} className="pt-4">
+          <section className="bg-gradient-to-br from-white via-emerald-50/60 to-white p-6 md:p-12 rounded-3xl border-2 border-emerald-400 shadow-xl space-y-6 text-center">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-black">
+              <Download className="w-4 h-4" />
+              Final Step 3C: Launch Download
             </div>
 
-            <h2 className="text-3xl md:text-4xl font-black text-white">
-              {stage3Unlocked ? '🎉 Your Destination Link is Ready!' : `Finalizing Gateway Access (${timer3}s Countdown)`}
+            <h2 className="text-2xl md:text-3xl font-black text-slate-900">
+              {stage3Completed ? '🎉 Alpha Study Squad APK is 100% Ready!' : `Finalizing Download Link (${timer3}s)`}
             </h2>
 
-            <p className="text-slate-300 text-sm max-w-xl mx-auto leading-relaxed">
-              {stage3Unlocked
-                ? 'All 3 security verification hops have been completed successfully (180s total verified dwell time across network). Click below to open your requested destination resource.'
-                : 'Allocating dedicated bandwidth tunnel. Keep this tab active while the countdown completes.'}
+            <p className="text-slate-600 text-sm max-w-xl mx-auto leading-relaxed">
+              {stage3Completed
+                ? 'Your device package has been fully prepared and signed. Tap the button below to start your direct download of Alpha Study Squad APK (v3.4.2).'
+                : 'Click below to finalize the direct download gateway. Stay on this tab for 20 seconds while the verified link compiles.'}
             </p>
 
-            {/* Stage 3 Progress Bar */}
-            <div className="w-full max-w-md mx-auto h-3 bg-slate-800 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-1000 ease-linear rounded-full"
-                style={{ width: `${((STAGE_DURATION - timer3) / STAGE_DURATION) * 100}%` }}
-              />
-            </div>
-
-            {/* Action / Destination Button */}
-            <div className="pt-4">
-              {stage < 3 ? (
-                <div className="text-slate-500 text-sm font-medium">
-                  Please complete Stage 1 & Stage 2 above to unlock the destination button.
+            {/* Interactive Trigger Button */}
+            <div className="pt-2">
+              {!stage2Completed ? (
+                <div className="text-xs text-slate-500 font-semibold italic">
+                  👉 Please complete the key decryption above to unlock the final download button.
                 </div>
-              ) : !stage3Unlocked ? (
-                <div className="inline-flex items-center gap-3 px-8 py-5 rounded-2xl bg-slate-800 text-slate-400 border border-slate-700 text-base font-semibold">
-                  <Clock className="w-5 h-5 animate-spin text-emerald-400" />
-                  <span>Unlocking Link: {timer3} seconds remaining...</span>
+              ) : !stage3Started ? (
+                <motion.button
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => setStage3Started(true)}
+                  className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-emerald-600 hover:bg-emerald-700 text-white font-black text-lg rounded-2xl shadow-xl shadow-emerald-600/30 transition-all cursor-pointer"
+                >
+                  <Download className="w-6 h-6" />
+                  <span>👉 Tap to Finalize APK Download (20s)</span>
+                </motion.button>
+              ) : !stage3Completed ? (
+                <div className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-slate-100 text-slate-800 border border-slate-300 text-base font-bold animate-pulse">
+                  <Clock className="w-5 h-5 animate-spin text-emerald-600" />
+                  <span>Finalizing APK Package: {timer3} seconds remaining...</span>
                 </div>
               ) : (
                 <motion.button
@@ -603,21 +602,21 @@ function SafelinkContent() {
                   animate={{ scale: [1, 1.05, 1] }}
                   transition={{ repeat: Infinity, duration: 1.5 }}
                   onClick={handleOpenDestination}
-                  className="inline-flex items-center justify-center gap-3 px-12 py-6 bg-gradient-to-r from-emerald-500 via-teal-400 to-emerald-500 hover:from-emerald-400 hover:to-teal-300 text-slate-950 font-black text-xl md:text-2xl rounded-2xl shadow-2xl shadow-emerald-500/40 transition-all cursor-pointer"
+                  className="inline-flex items-center justify-center gap-3 px-12 py-6 bg-gradient-to-r from-emerald-600 via-teal-500 to-emerald-600 hover:from-emerald-500 hover:to-teal-400 text-white font-black text-xl md:text-2xl rounded-2xl shadow-2xl shadow-emerald-600/40 transition-all cursor-pointer"
                 >
-                  <span>Access Destination (videynow.com)</span>
-                  <ExternalLink className="w-7 h-7" />
+                  <Download className="w-7 h-7" />
+                  <span>Download Alpha Study Squad APK (v3.4.2) 🚀</span>
                 </motion.button>
               )}
             </div>
 
-            <div className="text-xs text-slate-500 font-medium pt-2">
-              Hop Sequence: <span className="text-slate-400">1. FellowshipHub</span> ➔ <span className="text-slate-400">2. InternIQ</span> ➔ <span className="text-emerald-400 font-bold">3. SummerInternship2026 (Unlocked)</span>
+            <div className="text-xs text-slate-400 font-medium">
+              Alpha Study Squad APK • Secure Verified Download • 100% Free Educational Access
             </div>
           </section>
         </div>
 
-      </div>
+      </main>
     </div>
   );
 }
@@ -625,7 +624,7 @@ function SafelinkContent() {
 export default function SafelinkPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen flex items-center justify-center bg-slate-950 text-slate-400">
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 text-slate-400">
         <Clock className="w-8 h-8 animate-spin text-emerald-500" />
       </div>
     }>
