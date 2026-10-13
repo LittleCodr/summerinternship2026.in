@@ -28,8 +28,9 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in",
-    "organization": "IIT Delhi"
+    "applyUrl": "https://internshipshub.in/internships/iit-delhi-internship",
+    "organization": "IIT Delhi",
+    "hubSlug": "iit-delhi-internship"
   },
   {
     "id": "iit-kanpur-winter-2026",
@@ -60,8 +61,9 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in",
-    "organization": "IIT Kanpur"
+    "applyUrl": "https://internshipshub.in/internships/iit-kanpur-internship",
+    "organization": "IIT Kanpur",
+    "hubSlug": "iit-kanpur-internship"
   },
   {
     "id": "iit-madras-winter-2026",
@@ -124,8 +126,9 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in",
-    "organization": "IIT Kharagpur"
+    "applyUrl": "https://internshipshub.in/internships/iit-kharagpur-internship",
+    "organization": "IIT Kharagpur",
+    "hubSlug": "iit-kharagpur-internship"
   },
   {
     "id": "nit-trichy-winter-2026",
@@ -188,8 +191,9 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in",
-    "organization": "NIT Warangal"
+    "applyUrl": "https://internshipshub.in/internships/nit-warangal-internship",
+    "organization": "NIT Warangal",
+    "hubSlug": "nit-warangal-internship"
   },
   {
     "id": "iiit-hyderabad-winter-2026",
@@ -220,8 +224,9 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in",
-    "organization": "IIIT Hyderabad"
+    "applyUrl": "https://internshipshub.in/internships/iiit-hyderabad-internship",
+    "organization": "IIIT Hyderabad",
+    "hubSlug": "iiit-hyderabad-internship"
   },
   {
     "id": "google-winter-2026",
@@ -252,7 +257,7 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "organization": "Google"
   },
   {
@@ -316,7 +321,7 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "organization": "Amazon"
   },
   {
@@ -348,7 +353,7 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "organization": "Goldman Sachs"
   },
   {
@@ -380,8 +385,9 @@
         ]
       }
     ],
-    "applyUrl": "https://internshipshub.in",
-    "organization": "BITS Pilani"
+    "applyUrl": "https://internshipshub.in/internships/bits-pilani-internship",
+    "organization": "BITS Pilani",
+    "hubSlug": "bits-pilani-internship"
   },
   {
     "id": "cisco-winter-2026",
@@ -489,7 +495,7 @@
     "stipend": "Paid / Research Grant",
     "deadline": "2027-01-15",
     "workMode": "Onsite",
-    "hubSlug": "iit-bhu-varanasi-winter-internship-2026",
+    "hubSlug": "iit-bhu-varanasi-internship",
     "tags": [
       "Research",
       "Engineering",
@@ -553,7 +559,7 @@
     "stipend": "Stipend Provided",
     "deadline": "2027-01-10",
     "workMode": "Onsite",
-    "hubSlug": "nit-patna-winter-internship-2026",
+    "hubSlug": "nit-patna-internship",
     "tags": [
       "NIT",
       "Winter Internship",
@@ -703,7 +709,7 @@
     "stipend": "Available",
     "deadline": "2027-01-10",
     "workMode": "Onsite",
-    "hubSlug": "nit-jamshedpur-winter-internship-2026",
+    "hubSlug": "nit-jamshedpur-internship",
     "tags": [
       "NIT",
       "Technical",
@@ -823,7 +829,7 @@
     "stipend": "Paid",
     "deadline": "2027-01-01",
     "workMode": "Onsite",
-    "hubSlug": "nit-srinagar-winter-internship-2026",
+    "hubSlug": "nit-srinagar-internship",
     "tags": [
       "NIT",
       "Research",
@@ -863,7 +869,7 @@
     "stipend": "Stipend + accommodation",
     "deadline": "2027-01-06",
     "workMode": "Onsite",
-    "hubSlug": "mnnit-allahabad-winter-internship-2026",
+    "hubSlug": "mnnit-allahabad-internship",
     "tags": [
       "NIT",
       "Internship",
@@ -903,7 +909,7 @@
     "stipend": "Competitive Research Grant",
     "deadline": "2027-01-14",
     "workMode": "Onsite",
-    "hubSlug": "iit-dharwad-winter-internship-2026",
+    "hubSlug": "iit-dharwad-internship",
     "tags": [
       "IIT",
       "Research",
@@ -1019,7 +1025,7 @@
     "stipend": "Paid",
     "deadline": "2027-01-15",
     "workMode": "Onsite",
-    "hubSlug": "nitk-surathkal-winter-internship-2026",
+    "hubSlug": "nit-surathkal-internship",
     "tags": [
       "NITK",
       "Elite",
@@ -1055,7 +1061,7 @@
     "stipend": "Provided",
     "deadline": "2027-01-03",
     "workMode": "Onsite",
-    "hubSlug": "nit-uttarakhand-winter-internship-2026",
+    "hubSlug": "nit-uttarakhand-internship",
     "tags": [
       "NIT",
       "Technical",
@@ -1081,7 +1087,7 @@
     "stipend": "Stipend Available",
     "deadline": "2027-01-04",
     "workMode": "Onsite",
-    "hubSlug": "iit-patna-winter-internship-2026",
+    "hubSlug": "iit-patna-internship",
     "tags": [
       "IIT",
       "Research",
@@ -1107,7 +1113,7 @@
     "stipend": "Paid",
     "deadline": "2026-12-29",
     "workMode": "Onsite",
-    "hubSlug": "nit-agartala-winter-internship-2026",
+    "hubSlug": "nit-agartala-internship",
     "tags": [
       "NIT",
       "North East",
@@ -1133,7 +1139,7 @@
     "stipend": "Provided",
     "deadline": "2027-01-06",
     "workMode": "Onsite",
-    "hubSlug": "nit-sikkim-winter-internship-2026",
+    "hubSlug": "nit-sikkim-internship",
     "tags": [
       "NIT",
       "Research",
@@ -1159,7 +1165,7 @@
     "stipend": "Performance Based",
     "deadline": "2027-01-11",
     "workMode": "Onsite",
-    "hubSlug": "iiit-bhubaneswar-winter-internship-2026",
+    "hubSlug": "iiit-bhubaneswar-internship",
     "tags": [
       "IIIT",
       "Tech",
@@ -1185,7 +1191,7 @@
     "stipend": "Paid",
     "deadline": "2027-01-15",
     "workMode": "Remote",
-    "hubSlug": "iiit-lucknow-winter-internship-2026",
+    "hubSlug": "iiit-lucknow-internship",
     "tags": [
       "IIIT",
       "AI",
@@ -1224,7 +1230,7 @@
         "content": "J.P. Morgan Chase & Co. offers an elite Software Engineering Internship for the 2026 winter. This is a high-octane role involving low-latency trading systems and global retail banking APIs."
       }
     ],
-    "applyUrl": "https://internshipshub.in/jobs/software-development-internships",
+    "applyUrl": "https://internshipshub.in/internships",
     "datePosted": "2026-09-01",
     "updatedAt": "2026-10-04"
   },
@@ -1238,7 +1244,7 @@
     "stipend": "INR 20,000 / month",
     "deadline": "2026-11-17",
     "workMode": "Onsite",
-    "hubSlug": "rbi-reserve-bank-of-india-govt-internship-2026",
+    "hubSlug": "rbi-summer-placement",
     "tags": [
       "Govt",
       "Finance",
@@ -1250,7 +1256,7 @@
         "content": "The Reserve Bank of India (RBI) Winter Internship is a prestigious program for individuals interested in economics, finance, and central banking operations in the 2026 landscape."
       }
     ],
-    "applyUrl": "https://internshipshub.in/guides/rbi-summer-placement",
+    "applyUrl": "https://internshipshub.in/internships/rbi-summer-placement",
     "datePosted": "2026-09-01",
     "updatedAt": "2026-10-01"
   },
@@ -1276,7 +1282,7 @@
         "content": "McKinsey & Company's Winter Internship 2026 is the gold standard for management consulting. Interns solve some of the world's most complex business and social problems."
       }
     ],
-    "applyUrl": "https://internshipshub.in/internships/zomato-data-analyst-intern-2026",
+    "applyUrl": "https://internshipshub.in/internships",
     "datePosted": "2026-09-01",
     "updatedAt": "2026-10-03"
   },
@@ -1290,7 +1296,7 @@
     "stipend": "Paid",
     "deadline": "2027-01-07",
     "workMode": "Onsite",
-    "hubSlug": "iit-bhilai-winter-internship-2026",
+    "hubSlug": "iit-bhilai-internship",
     "tags": [
       "IIT",
       "Tech",
@@ -1328,7 +1334,7 @@
         "content": "Samsung PRISM is a unique industry-academia program for 2026. It allows students to work on real-world problems alongside Samsung R&D engineers. This is an elite opportunity for students to get their names on patents and top-tier industrial projects."
       }
     ],
-    "applyUrl": "https://internshipshub.in/research/visiting-student-research-programs",
+    "applyUrl": "https://internshipshub.in/internships",
     "datePosted": "2026-09-01",
     "updatedAt": "2026-09-15"
   },
@@ -1368,7 +1374,7 @@
     "stipend": "Paid",
     "deadline": "2027-01-11",
     "workMode": "Onsite",
-    "hubSlug": "nit-kurukshetra-winter-internship-2026",
+    "hubSlug": "nit-kurukshetra-internship",
     "tags": [
       "NIT",
       "Engineering",
@@ -1394,7 +1400,7 @@
     "stipend": "Self-Funded",
     "deadline": "2026-12-31",
     "workMode": "Onsite",
-    "hubSlug": "nit-durgapur-winter-internship-2026",
+    "hubSlug": "nit-durgapur-internship",
     "tags": [
       "NIT",
       "Technical",
@@ -1420,7 +1426,7 @@
     "stipend": "Stipend + Travel",
     "deadline": "2026-12-30",
     "workMode": "Onsite",
-    "hubSlug": "nit-arunachal-pradesh-winter-internship-2026",
+    "hubSlug": "nit-arunachal-pradesh-internship",
     "tags": [
       "NIT",
       "High Altitude",
@@ -1498,7 +1504,7 @@
     "stipend": "Stipend Provided",
     "deadline": "2027-01-06",
     "workMode": "Onsite",
-    "hubSlug": "isi-kolkata-winter-internship-2026",
+    "hubSlug": "indian-statistical-institute-isi-internship",
     "tags": [
       "ISI",
       "Mathematics",
@@ -1534,7 +1540,7 @@
     "stipend": "Paid / Research Grant",
     "deadline": "2026-12-14",
     "workMode": "Onsite",
-    "hubSlug": "iit-bhu-varanasi-summer-internship-2026",
+    "hubSlug": "iit-bhu-varanasi-internship",
     "tags": [
       "Research",
       "Engineering",
@@ -1598,7 +1604,7 @@
     "stipend": "Stipend Provided",
     "deadline": "2026-11-08",
     "workMode": "Onsite",
-    "hubSlug": "nit-patna-summer-internship-2026",
+    "hubSlug": "nit-patna-internship",
     "tags": [
       "NIT",
       "Summer Internship",
@@ -1748,7 +1754,7 @@
     "stipend": "Available",
     "deadline": "2026-12-16",
     "workMode": "Onsite",
-    "hubSlug": "nit-jamshedpur-summer-internship-2026",
+    "hubSlug": "nit-jamshedpur-internship",
     "tags": [
       "NIT",
       "Technical",
@@ -1788,7 +1794,7 @@
     "stipend": "Stipend Available",
     "deadline": "2026-12-23",
     "workMode": "Onsite",
-    "hubSlug": "nit-puducherry-summer-internship-2026",
+    "hubSlug": "nit-puducherry-internship",
     "tags": [
       "NIT",
       "Science",
@@ -1868,7 +1874,7 @@
     "stipend": "Paid",
     "deadline": "2026-12-15",
     "workMode": "Onsite",
-    "hubSlug": "nit-srinagar-summer-internship-2026",
+    "hubSlug": "nit-srinagar-internship",
     "tags": [
       "NIT",
       "Research",
@@ -1908,7 +1914,7 @@
     "stipend": "Stipend + accommodation",
     "deadline": "2026-11-11",
     "workMode": "Onsite",
-    "hubSlug": "mnnit-allahabad-summer-internship-2026",
+    "hubSlug": "mnnit-allahabad-internship",
     "tags": [
       "NIT",
       "Internship",
@@ -1948,7 +1954,7 @@
     "stipend": "Competitive Research Grant",
     "deadline": "2026-12-31",
     "workMode": "Onsite",
-    "hubSlug": "iit-dharwad-summer-internship-2026",
+    "hubSlug": "iit-dharwad-internship",
     "tags": [
       "IIT",
       "Research",
@@ -1988,7 +1994,7 @@
     "stipend": "INR 10,000 - 15,000",
     "deadline": "2026-12-28",
     "workMode": "Onsite",
-    "hubSlug": "iit-bombay-summer-internship-2026",
+    "hubSlug": "iit-bombay-internship",
     "tags": [
       "IIT Bombay",
       "Premier",
@@ -2028,7 +2034,7 @@
     "stipend": "Self-Funded / Grant",
     "deadline": "2026-11-07",
     "workMode": "Onsite",
-    "hubSlug": "iit-indore-summer-internship-2026",
+    "hubSlug": "iit-indore-internship",
     "tags": [
       "IIT",
       "Science",
@@ -2064,7 +2070,7 @@
     "stipend": "Paid",
     "deadline": "2026-12-03",
     "workMode": "Onsite",
-    "hubSlug": "nitk-surathkal-summer-internship-2026",
+    "hubSlug": "nit-surathkal-internship",
     "tags": [
       "NITK",
       "Elite",
@@ -2100,7 +2106,7 @@
     "stipend": "Provided",
     "deadline": "2026-11-13",
     "workMode": "Onsite",
-    "hubSlug": "nit-uttarakhand-summer-internship-2026",
+    "hubSlug": "nit-uttarakhand-internship",
     "tags": [
       "NIT",
       "Technical",
@@ -2126,7 +2132,7 @@
     "stipend": "Stipend Available",
     "deadline": "2026-12-21",
     "workMode": "Onsite",
-    "hubSlug": "iit-patna-summer-internship-2026",
+    "hubSlug": "iit-patna-internship",
     "tags": [
       "IIT",
       "Research",
@@ -2152,7 +2158,7 @@
     "stipend": "Paid",
     "deadline": "2026-11-24",
     "workMode": "Onsite",
-    "hubSlug": "nit-agartala-summer-internship-2026",
+    "hubSlug": "nit-agartala-internship",
     "tags": [
       "NIT",
       "North East",
@@ -2178,7 +2184,7 @@
     "stipend": "Provided",
     "deadline": "2026-11-09",
     "workMode": "Onsite",
-    "hubSlug": "nit-sikkim-summer-internship-2026",
+    "hubSlug": "nit-sikkim-internship",
     "tags": [
       "NIT",
       "Research",
@@ -2204,7 +2210,7 @@
     "stipend": "Performance Based",
     "deadline": "2026-11-08",
     "workMode": "Onsite",
-    "hubSlug": "iiit-bhubaneswar-summer-internship-2026",
+    "hubSlug": "iiit-bhubaneswar-internship",
     "tags": [
       "IIIT",
       "Tech",
@@ -2230,7 +2236,7 @@
     "stipend": "Paid",
     "deadline": "2026-11-23",
     "workMode": "Remote",
-    "hubSlug": "iiit-lucknow-summer-internship-2026",
+    "hubSlug": "iiit-lucknow-internship",
     "tags": [
       "IIIT",
       "AI",
@@ -2269,7 +2275,7 @@
         "content": "J.P. Morgan Chase & Co. offers an elite Software Engineering Internship for the 2026 summer. This is a high-octane role involving low-latency trading systems and global retail banking APIs."
       }
     ],
-    "applyUrl": "https://internshipshub.in/jobs/software-development-internships",
+    "applyUrl": "https://internshipshub.in/internships",
     "datePosted": "2026-09-01",
     "updatedAt": "2026-10-02"
   },
@@ -2283,7 +2289,7 @@
     "stipend": "INR 20,000 / month",
     "deadline": "2026-11-11",
     "workMode": "Onsite",
-    "hubSlug": "rbi-reserve-bank-of-india-govt-internship-2026",
+    "hubSlug": "rbi-summer-placement",
     "tags": [
       "Govt",
       "Finance",
@@ -2295,7 +2301,7 @@
         "content": "The Reserve Bank of India (RBI) Summer Internship is a prestigious program for individuals interested in economics, finance, and central banking operations in the 2026 landscape."
       }
     ],
-    "applyUrl": "https://internshipshub.in/guides/rbi-summer-placement",
+    "applyUrl": "https://internshipshub.in/internships/rbi-summer-placement",
     "datePosted": "2026-09-01",
     "updatedAt": "2026-10-04"
   },
@@ -2321,7 +2327,7 @@
         "content": "McKinsey & Company's Summer Internship 2026 is the gold standard for management consulting. Interns solve some of the world's most complex business and social problems."
       }
     ],
-    "applyUrl": "https://internshipshub.in/internships/zomato-data-analyst-intern-2026",
+    "applyUrl": "https://internshipshub.in/internships",
     "datePosted": "2026-09-01",
     "updatedAt": "2026-10-01"
   },
@@ -2335,7 +2341,7 @@
     "stipend": "Paid",
     "deadline": "2026-11-04",
     "workMode": "Onsite",
-    "hubSlug": "iit-bhilai-summer-internship-2026",
+    "hubSlug": "iit-bhilai-internship",
     "tags": [
       "IIT",
       "Tech",
@@ -2373,7 +2379,7 @@
         "content": "Samsung PRISM is a unique industry-academia program for 2026. It allows students to work on real-world problems alongside Samsung R&D engineers. This is an elite opportunity for students to get their names on patents and top-tier industrial projects."
       }
     ],
-    "applyUrl": "https://internshipshub.in/research/visiting-student-research-programs",
+    "applyUrl": "https://internshipshub.in/internships",
     "datePosted": "2026-09-01",
     "updatedAt": "2026-09-15"
   },
@@ -2387,7 +2393,7 @@
     "stipend": "Available",
     "deadline": "2026-11-29",
     "workMode": "Onsite",
-    "hubSlug": "iiitdm-kurnool-summer-internship-2026",
+    "hubSlug": "iiitdm-kurnool-internship",
     "tags": [
       "IIITDM",
       "Design",
@@ -2413,7 +2419,7 @@
     "stipend": "Paid",
     "deadline": "2026-11-18",
     "workMode": "Onsite",
-    "hubSlug": "nit-kurukshetra-summer-internship-2026",
+    "hubSlug": "nit-kurukshetra-internship",
     "tags": [
       "NIT",
       "Engineering",
@@ -2439,7 +2445,7 @@
     "stipend": "Self-Funded",
     "deadline": "2026-11-25",
     "workMode": "Onsite",
-    "hubSlug": "nit-durgapur-summer-internship-2026",
+    "hubSlug": "nit-durgapur-internship",
     "tags": [
       "NIT",
       "Technical",
@@ -2465,7 +2471,7 @@
     "stipend": "Stipend + Travel",
     "deadline": "2026-12-10",
     "workMode": "Onsite",
-    "hubSlug": "nit-arunachal-pradesh-summer-internship-2026",
+    "hubSlug": "nit-arunachal-pradesh-internship",
     "tags": [
       "NIT",
       "High Altitude",
@@ -2491,7 +2497,7 @@
     "stipend": "Paid",
     "deadline": "2026-12-08",
     "workMode": "Onsite",
-    "hubSlug": "nit-jalandhar-summer-internship-2026",
+    "hubSlug": "nit-jalandhar-internship",
     "tags": [
       "NIT",
       "Technical",
@@ -2517,7 +2523,7 @@
     "stipend": "Available",
     "deadline": "2026-12-17",
     "workMode": "Onsite",
-    "hubSlug": "nit-andhra-pradesh-summer-internship-2026",
+    "hubSlug": "nit-andhra-pradesh-internship",
     "tags": [
       "NIT",
       "Govt",
@@ -2543,7 +2549,7 @@
     "stipend": "Stipend Provided",
     "deadline": "2026-12-31",
     "workMode": "Onsite",
-    "hubSlug": "isi-kolkata-summer-internship-2026",
+    "hubSlug": "indian-statistical-institute-isi-internship",
     "tags": [
       "ISI",
       "Mathematics",
@@ -2581,7 +2587,7 @@
     "updatedAt": "2026-10-15",
     "description": "Apply now for the highly coveted IIT Roorkee Winter Internship 2026 by IIT Roorkee. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iit-roorkee-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -2609,7 +2615,8 @@
         ]
       }
     ],
-    "organization": "IIT Roorkee"
+    "organization": "IIT Roorkee",
+    "hubSlug": "iit-roorkee-internship"
   },
   {
     "id": "iit-guwahati-winter-2026",
@@ -2623,7 +2630,7 @@
     "updatedAt": "2026-10-14",
     "description": "Apply now for the highly coveted IIT Guwahati Winter Research Program by IIT Guwahati. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iit-guwahati-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -2651,7 +2658,8 @@
         ]
       }
     ],
-    "organization": "IIT Guwahati"
+    "organization": "IIT Guwahati",
+    "hubSlug": "iit-guwahati-internship"
   },
   {
     "id": "iit-gandhinagar-winter-2026",
@@ -2665,7 +2673,7 @@
     "updatedAt": "2026-10-15",
     "description": "Apply now for the highly coveted IIT Gandhinagar Winter Research Intern by IIT Gandhinagar. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iit-gandhinagar-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -2693,7 +2701,8 @@
         ]
       }
     ],
-    "organization": "IIT Gandhinagar"
+    "organization": "IIT Gandhinagar",
+    "hubSlug": "iit-gandhinagar-internship"
   },
   {
     "id": "iit-hyderabad-winter-2026",
@@ -2707,7 +2716,7 @@
     "updatedAt": "2026-10-14",
     "description": "Apply now for the highly coveted IIT Hyderabad Winter UG Research by IIT Hyderabad. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iit-hyderabad-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -2735,7 +2744,8 @@
         ]
       }
     ],
-    "organization": "IIT Hyderabad"
+    "organization": "IIT Hyderabad",
+    "hubSlug": "iit-hyderabad-internship"
   },
   {
     "id": "iit-ropar-winter-2026",
@@ -2749,7 +2759,7 @@
     "updatedAt": "2026-10-14",
     "description": "Apply now for the highly coveted IIT Ropar Winter Internship Program by IIT Ropar. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iit-ropar-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -2777,7 +2787,8 @@
         ]
       }
     ],
-    "organization": "IIT Ropar"
+    "organization": "IIT Ropar",
+    "hubSlug": "iit-ropar-internship"
   },
   {
     "id": "iit-jodhpur-winter-2026",
@@ -2833,7 +2844,7 @@
     "updatedAt": "2026-10-06",
     "description": "Apply now for the highly coveted IIT Mandi Winter Internship by IIT Mandi. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iit-mandi-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -2861,7 +2872,8 @@
         ]
       }
     ],
-    "organization": "IIT Mandi"
+    "organization": "IIT Mandi",
+    "hubSlug": "iit-mandi-internship"
   },
   {
     "id": "iit-palakkad-winter-2026",
@@ -2875,7 +2887,7 @@
     "updatedAt": "2026-10-05",
     "description": "Apply now for the highly coveted IIT Palakkad Winter Internship by IIT Palakkad. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iit-palakkad-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -2903,7 +2915,8 @@
         ]
       }
     ],
-    "organization": "IIT Palakkad"
+    "organization": "IIT Palakkad",
+    "hubSlug": "iit-palakkad-internship"
   },
   {
     "id": "iit-tirupati-winter-2026",
@@ -2917,7 +2930,7 @@
     "updatedAt": "2026-10-09",
     "description": "Apply now for the highly coveted IIT Tirupati Winter Research Internship by IIT Tirupati. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iit-tirupati-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -2945,7 +2958,8 @@
         ]
       }
     ],
-    "organization": "IIT Tirupati"
+    "organization": "IIT Tirupati",
+    "hubSlug": "iit-tirupati-internship"
   },
   {
     "id": "nit-calicut-winter-2026",
@@ -2959,7 +2973,7 @@
     "updatedAt": "2026-10-07",
     "description": "Apply now for the highly coveted NIT Calicut Winter Research Intern by NIT Calicut. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/nit-calicut-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -2987,7 +3001,8 @@
         ]
       }
     ],
-    "organization": "NIT Calicut"
+    "organization": "NIT Calicut",
+    "hubSlug": "nit-calicut-internship"
   },
   {
     "id": "nit-rourkela-winter-2026",
@@ -3001,7 +3016,7 @@
     "updatedAt": "2026-10-14",
     "description": "Apply now for the highly coveted NIT Rourkela Winter Internship by NIT Rourkela. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/nit-rourkela-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3029,7 +3044,8 @@
         ]
       }
     ],
-    "organization": "NIT Rourkela"
+    "organization": "NIT Rourkela",
+    "hubSlug": "nit-rourkela-internship"
   },
   {
     "id": "nit-silchar-winter-2026",
@@ -3043,7 +3059,7 @@
     "updatedAt": "2026-10-14",
     "description": "Apply now for the highly coveted NIT Silchar Winter Research Program by NIT Silchar. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/nit-silchar-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3071,7 +3087,8 @@
         ]
       }
     ],
-    "organization": "NIT Silchar"
+    "organization": "NIT Silchar",
+    "hubSlug": "nit-silchar-internship"
   },
   {
     "id": "nit-hamirpur-winter-2026",
@@ -3085,7 +3102,7 @@
     "updatedAt": "2026-10-13",
     "description": "Apply now for the highly coveted NIT Hamirpur Winter Internship by NIT Hamirpur. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/nit-hamirpur-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3113,7 +3130,8 @@
         ]
       }
     ],
-    "organization": "NIT Hamirpur"
+    "organization": "NIT Hamirpur",
+    "hubSlug": "nit-hamirpur-internship"
   },
   {
     "id": "vnit-nagpur-winter-2026",
@@ -3127,7 +3145,7 @@
     "updatedAt": "2026-10-09",
     "description": "Apply now for the highly coveted VNIT Nagpur Winter Research Intern by VNIT Nagpur. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/vnit-nagpur-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3155,7 +3173,8 @@
         ]
       }
     ],
-    "organization": "VNIT Nagpur"
+    "organization": "VNIT Nagpur",
+    "hubSlug": "vnit-nagpur-internship"
   },
   {
     "id": "svnit-surat-winter-2026",
@@ -3169,7 +3188,7 @@
     "updatedAt": "2026-10-13",
     "description": "Apply now for the highly coveted SVNIT Surat Winter Training Program by SVNIT Surat. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/svnit-surat-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3197,7 +3216,8 @@
         ]
       }
     ],
-    "organization": "SVNIT Surat"
+    "organization": "SVNIT Surat",
+    "hubSlug": "svnit-surat-internship"
   },
   {
     "id": "mnit-jaipur-winter-2026",
@@ -3211,7 +3231,7 @@
     "updatedAt": "2026-10-13",
     "description": "Apply now for the highly coveted MNIT Jaipur Winter Internship by MNIT Jaipur. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/mnit-jaipur-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3239,7 +3259,8 @@
         ]
       }
     ],
-    "organization": "MNIT Jaipur"
+    "organization": "MNIT Jaipur",
+    "hubSlug": "mnit-jaipur-internship"
   },
   {
     "id": "manit-bhopal-winter-2026",
@@ -3253,7 +3274,7 @@
     "updatedAt": "2026-10-08",
     "description": "Apply now for the highly coveted MANIT Bhopal Winter Research Intern by MANIT Bhopal. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/manit-bhopal-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3281,7 +3302,8 @@
         ]
       }
     ],
-    "organization": "MANIT Bhopal"
+    "organization": "MANIT Bhopal",
+    "hubSlug": "manit-bhopal-internship"
   },
   {
     "id": "iiit-allahabad-winter-2026",
@@ -3295,7 +3317,7 @@
     "updatedAt": "2026-10-07",
     "description": "Apply now for the highly coveted IIIT Allahabad Winter Internship by IIIT Allahabad. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iiit-allahabad-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3323,7 +3345,8 @@
         ]
       }
     ],
-    "organization": "IIIT Allahabad"
+    "organization": "IIIT Allahabad",
+    "hubSlug": "iiit-allahabad-internship"
   },
   {
     "id": "iiit-bangalore-winter-2026",
@@ -3337,7 +3360,7 @@
     "updatedAt": "2026-10-11",
     "description": "Apply now for the highly coveted IIIT Bangalore Winter Research Intern by IIIT Bangalore. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iiit-bangalore-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3365,7 +3388,8 @@
         ]
       }
     ],
-    "organization": "IIIT Bangalore"
+    "organization": "IIIT Bangalore",
+    "hubSlug": "iiit-bangalore-internship"
   },
   {
     "id": "iiit-delhi-winter-2026",
@@ -3379,7 +3403,7 @@
     "updatedAt": "2026-10-09",
     "description": "Apply now for the highly coveted IIIT Delhi Winter Internship Program by IIIT Delhi. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iiit-delhi-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -3407,7 +3431,8 @@
         ]
       }
     ],
-    "organization": "IIIT Delhi"
+    "organization": "IIIT Delhi",
+    "hubSlug": "iiit-delhi-internship"
   },
   {
     "id": "iisc-bangalore-winter-2026",
@@ -3421,7 +3446,7 @@
     "updatedAt": "2026-10-07",
     "description": "Apply now for the highly coveted IISc Bangalore Winter Research Fellowship by IISc Bangalore. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Science",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/indian-institute-of-science-iisc-internship",
     "tags": [
       "Winter 2026",
       "Science",
@@ -3449,7 +3474,8 @@
         ]
       }
     ],
-    "organization": "IISc Bangalore"
+    "organization": "IISc Bangalore",
+    "hubSlug": "indian-institute-of-science-iisc-internship"
   },
   {
     "id": "iiser-pune-winter-2026",
@@ -3463,7 +3489,7 @@
     "updatedAt": "2026-10-09",
     "description": "Apply now for the highly coveted IISER Pune Winter Research Intern by IISER Pune. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Science",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iiser-pune-internship",
     "tags": [
       "Winter 2026",
       "Science",
@@ -3491,7 +3517,8 @@
         ]
       }
     ],
-    "organization": "IISER Pune"
+    "organization": "IISER Pune",
+    "hubSlug": "iiser-pune-internship"
   },
   {
     "id": "iiser-kolkata-winter-2026",
@@ -3547,7 +3574,7 @@
     "updatedAt": "2026-10-08",
     "description": "Apply now for the highly coveted IISER Mohali Winter Training by IISER Mohali. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Science",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iiser-mohali-internship",
     "tags": [
       "Winter 2026",
       "Science",
@@ -3575,7 +3602,8 @@
         ]
       }
     ],
-    "organization": "IISER Mohali"
+    "organization": "IISER Mohali",
+    "hubSlug": "iiser-mohali-internship"
   },
   {
     "id": "iiser-bhopal-winter-2026",
@@ -3589,7 +3617,7 @@
     "updatedAt": "2026-10-12",
     "description": "Apply now for the highly coveted IISER Bhopal Winter Research Program by IISER Bhopal. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Science",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/iiser-bhopal-internship",
     "tags": [
       "Winter 2026",
       "Science",
@@ -3617,7 +3645,8 @@
         ]
       }
     ],
-    "organization": "IISER Bhopal"
+    "organization": "IISER Bhopal",
+    "hubSlug": "iiser-bhopal-internship"
   },
   {
     "id": "meta-winter-2026",
@@ -3631,7 +3660,7 @@
     "updatedAt": "2026-10-08",
     "description": "Apply now for the highly coveted Meta Winter Software Engineer Intern by Meta. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Software",
@@ -3673,7 +3702,7 @@
     "updatedAt": "2026-10-11",
     "description": "Apply now for the highly coveted Apple Hardware Engineering Winter Intern by Apple. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Hardware",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Hardware",
@@ -3799,7 +3828,7 @@
     "updatedAt": "2026-10-06",
     "description": "Apply now for the highly coveted Intel Winter GPU Architecture Intern by Intel. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Hardware",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Hardware",
@@ -3841,7 +3870,7 @@
     "updatedAt": "2026-10-13",
     "description": "Apply now for the highly coveted NVIDIA Winter Deep Learning Intern by NVIDIA. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Software",
@@ -3883,7 +3912,7 @@
     "updatedAt": "2026-10-15",
     "description": "Apply now for the highly coveted Qualcomm Winter Hardware Intern by Qualcomm. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Hardware",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Hardware",
@@ -3925,7 +3954,7 @@
     "updatedAt": "2026-10-11",
     "description": "Apply now for the highly coveted Oracle Winter Cloud Development Intern by Oracle. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/guides/oracle-internship",
     "tags": [
       "Winter 2026",
       "Software",
@@ -4009,7 +4038,7 @@
     "updatedAt": "2026-10-07",
     "description": "Apply now for the highly coveted VMware Winter Research Intern by VMware. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Software",
@@ -4051,7 +4080,7 @@
     "updatedAt": "2026-10-12",
     "description": "Apply now for the highly coveted Atlassian Winter SDE Intern by Atlassian. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Software",
@@ -4135,7 +4164,7 @@
     "updatedAt": "2026-10-07",
     "description": "Apply now for the highly coveted Flipkart Winter SDE Intern by Flipkart. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Software",
@@ -4177,7 +4206,7 @@
     "updatedAt": "2026-10-10",
     "description": "Apply now for the highly coveted Paytm Winter Backend Intern by Paytm. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Software",
@@ -4219,7 +4248,7 @@
     "updatedAt": "2026-10-08",
     "description": "Apply now for the highly coveted Zomato Winter Product Intern by Zomato. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Product",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/zomato-product-management-intern-2026",
     "tags": [
       "Winter 2026",
       "Product",
@@ -4247,7 +4276,8 @@
         ]
       }
     ],
-    "organization": "Zomato"
+    "organization": "Zomato",
+    "hubSlug": "zomato-product-management-intern-2026"
   },
   {
     "id": "swiggy-winter-2026",
@@ -4555,7 +4585,7 @@
     "updatedAt": "2026-10-11",
     "description": "Apply now for the highly coveted DRDO Winter Research Intern by DRDO. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/defence-research-and-development-organisation-drdo-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -4583,7 +4613,8 @@
         ]
       }
     ],
-    "organization": "DRDO"
+    "organization": "DRDO",
+    "hubSlug": "defence-research-and-development-organisation-drdo-internship"
   },
   {
     "id": "barc-winter-2026",
@@ -4597,7 +4628,7 @@
     "updatedAt": "2026-10-11",
     "description": "Apply now for the highly coveted BARC Winter Research Fellow by BARC. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Science",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/bhabha-atomic-research-centre-barc-internship",
     "tags": [
       "Winter 2026",
       "Science",
@@ -4625,7 +4656,8 @@
         ]
       }
     ],
-    "organization": "BARC"
+    "organization": "BARC",
+    "hubSlug": "bhabha-atomic-research-centre-barc-internship"
   },
   {
     "id": "cdac-winter-2026",
@@ -4639,7 +4671,7 @@
     "updatedAt": "2026-10-11",
     "description": "Apply now for the highly coveted C-DAC Winter Technical Intern by C-DAC. Gain hands-on experience and build your career during Winter 2026.",
     "category": "Engineering",
-    "applyUrl": "https://internshipshub.in",
+    "applyUrl": "https://internshipshub.in/internships/centre-for-development-of-advanced-computing-c-dac-internship",
     "tags": [
       "Winter 2026",
       "Engineering",
@@ -4667,7 +4699,8 @@
         ]
       }
     ],
-    "organization": "C-DAC"
+    "organization": "C-DAC",
+    "hubSlug": "centre-for-development-of-advanced-computing-c-dac-internship"
   },
   {
     "id": "accenture-associate-software-engineer-winter-2026",
@@ -4773,7 +4806,7 @@
     "updatedAt": "2026-10-14",
     "description": "Launch your corporate career with Accenture as a Frontend Developer Intern. Work on cutting-edge enterprise projects and global solutions during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/accenture-ase-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Accenture",
@@ -4865,7 +4898,7 @@
     "updatedAt": "2026-10-07",
     "description": "Launch your corporate career with Accenture as a Data Analyst Intern. Work on cutting-edge enterprise projects and global solutions during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/accenture-ase-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Accenture",
@@ -5095,7 +5128,7 @@
     "updatedAt": "2026-10-10",
     "description": "Launch your corporate career with Accenture as a AI Research Intern Intern. Work on cutting-edge enterprise projects and global solutions during Winter 2026.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/accenture-ase-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Accenture",
@@ -5509,7 +5542,7 @@
     "updatedAt": "2026-10-08",
     "description": "Join Zerodha, India's leading Fintech & Trading pioneer, as a Backend Developer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/zerodha-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zerodha",
@@ -5545,7 +5578,7 @@
     "updatedAt": "2026-10-10",
     "description": "Join Zerodha, India's leading Fintech & Trading pioneer, as a Frontend Developer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/zerodha-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zerodha",
@@ -5689,7 +5722,7 @@
     "updatedAt": "2026-10-15",
     "description": "Join Zerodha, India's leading Fintech & Trading pioneer, as a Product Analyst Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/zerodha-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zerodha",
@@ -5761,7 +5794,7 @@
     "updatedAt": "2026-10-13",
     "description": "Join Zerodha, India's leading Fintech & Trading pioneer, as a UI/UX Designer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/zerodha-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zerodha",
@@ -5869,7 +5902,7 @@
     "updatedAt": "2026-10-09",
     "description": "Join Zerodha, India's leading Fintech & Trading pioneer, as a Cybersecurity Intern Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/zerodha-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zerodha",
@@ -5941,7 +5974,7 @@
     "updatedAt": "2026-10-14",
     "description": "Join Zerodha, India's leading Fintech & Trading pioneer, as a Hardware Engineer Intern Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Hardware",
-    "applyUrl": "https://internshipshub.in/jobs/zerodha-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zerodha",
@@ -5977,7 +6010,7 @@
     "updatedAt": "2026-10-12",
     "description": "Join Zerodha, India's leading Fintech & Trading pioneer, as a Systems Engineer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/zerodha-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zerodha",
@@ -6265,7 +6298,7 @@
     "updatedAt": "2026-10-09",
     "description": "Join Ather Energy, India's leading EV & CleanTech pioneer, as a Data Scientist Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/ather-energy-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Ather Energy",
@@ -6337,7 +6370,7 @@
     "updatedAt": "2026-10-14",
     "description": "Join Ather Energy, India's leading EV & CleanTech pioneer, as a Product Analyst Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/ather-energy-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Ather Energy",
@@ -6373,7 +6406,7 @@
     "updatedAt": "2026-10-10",
     "description": "Join Ather Energy, India's leading EV & CleanTech pioneer, as a Product Manager Intern Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/ather-energy-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Ather Energy",
@@ -6517,7 +6550,7 @@
     "updatedAt": "2026-10-06",
     "description": "Join Ather Energy, India's leading EV & CleanTech pioneer, as a Cybersecurity Intern Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/ather-energy-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Ather Energy",
@@ -6625,7 +6658,7 @@
     "updatedAt": "2026-10-11",
     "description": "Join Ather Energy, India's leading EV & CleanTech pioneer, as a Systems Engineer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/ather-energy-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Ather Energy",
@@ -6661,7 +6694,7 @@
     "updatedAt": "2026-10-06",
     "description": "Join Ather Energy, India's leading EV & CleanTech pioneer, as a QA Automation Intern Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/ather-energy-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Ather Energy",
@@ -6877,7 +6910,7 @@
     "updatedAt": "2026-10-09",
     "description": "Join Zoho, India's leading Enterprise SaaS pioneer, as a Full Stack Developer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/zoho-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zoho",
@@ -6985,7 +7018,7 @@
     "updatedAt": "2026-10-15",
     "description": "Join Zoho, India's leading Enterprise SaaS pioneer, as a Product Analyst Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/zoho-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zoho",
@@ -7093,7 +7126,7 @@
     "updatedAt": "2026-10-13",
     "description": "Join Zoho, India's leading Enterprise SaaS pioneer, as a DevOps Engineer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/zoho-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Zoho",
@@ -7561,7 +7594,7 @@
     "updatedAt": "2026-10-07",
     "description": "Join Postman, India's leading API & DevTools pioneer, as a Data Scientist Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/postman-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Postman",
@@ -8065,7 +8098,7 @@
     "updatedAt": "2026-10-09",
     "description": "Join Postman, India's leading API & DevTools pioneer, as a Developer Advocate Intern Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/postman-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Postman",
@@ -8101,7 +8134,7 @@
     "updatedAt": "2026-10-09",
     "description": "Join Skyroot Aerospace, India's leading SpaceTech & DeepTech pioneer, as a Backend Developer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/skyroot-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Skyroot Aerospace",
@@ -8209,7 +8242,7 @@
     "updatedAt": "2026-10-08",
     "description": "Join Skyroot Aerospace, India's leading SpaceTech & DeepTech pioneer, as a Data Scientist Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/skyroot-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Skyroot Aerospace",
@@ -8353,7 +8386,7 @@
     "updatedAt": "2026-10-13",
     "description": "Join Skyroot Aerospace, India's leading SpaceTech & DeepTech pioneer, as a UI/UX Designer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/skyroot-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Skyroot Aerospace",
@@ -8389,7 +8422,7 @@
     "updatedAt": "2026-10-13",
     "description": "Join Skyroot Aerospace, India's leading SpaceTech & DeepTech pioneer, as a DevOps Engineer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/skyroot-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Skyroot Aerospace",
@@ -8461,7 +8494,7 @@
     "updatedAt": "2026-10-14",
     "description": "Join Skyroot Aerospace, India's leading SpaceTech & DeepTech pioneer, as a Cybersecurity Intern Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/skyroot-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Skyroot Aerospace",
@@ -8569,7 +8602,7 @@
     "updatedAt": "2026-10-12",
     "description": "Join Skyroot Aerospace, India's leading SpaceTech & DeepTech pioneer, as a Systems Engineer Intern this Winter 2026. Work on high-impact projects at scale.",
     "category": "Software",
-    "applyUrl": "https://internshipshub.in/jobs/skyroot-off-campus",
+    "applyUrl": "https://internshipshub.in/internships",
     "tags": [
       "Winter 2026",
       "Skyroot Aerospace",
