@@ -1,4 +1,55 @@
-# URL Mapping
+# URL & Opportunity Mapping Tables
+
+## 1. Niche & Underrated Internship Titles (42 Titles)
+
+| Internship Title | Site URL | Opportunity URL |
+| :--- | :--- | :--- |
+| Graviton Research Capital – Software Engineer Intern (C++ / Low-Latency Systems) 2026 | https://summerinternship2026.in/internships/graviton-research-capital-software-engineer-intern-c-low-latency-systems-2026 | https://internshipshub.in/internships |
+| Graviton Research Capital – Quantitative Research Intern 2026 | https://summerinternship2026.in/internships/graviton-research-capital-quantitative-research-intern-2026 | https://internshipshub.in/internships |
+| Tower Research Capital – Quantitative Developer Intern 2026 | https://summerinternship2026.in/internships/tower-research-capital-quantitative-developer-intern-2026 | https://internshipshub.in/internships |
+| Tower Research Capital – Core Systems Engineering Intern 2026 | https://summerinternship2026.in/internships/tower-research-capital-core-systems-engineering-intern-2026 | https://internshipshub.in/internships |
+| Quadeye Securities – Quantitative Trading & Systems Intern 2026 | https://summerinternship2026.in/internships/quadeye-securities-quantitative-trading-and-systems-intern-2026 | https://internshipshub.in/internships |
+| Quadeye Securities – C++ Core Engineering Intern 2026 | https://summerinternship2026.in/internships/quadeye-securities-c-core-engineering-intern-2026 | https://internshipshub.in/internships |
+| NK Securities Research – High-Frequency Trading Developer Intern 2026 | https://summerinternship2026.in/internships/nk-securities-research-high-frequency-trading-developer-intern-2026 | https://internshipshub.in/internships |
+| NK Securities Research – Quantitative Analyst Intern 2026 | https://summerinternship2026.in/internships/nk-securities-research-quantitative-analyst-intern-2026 | https://internshipshub.in/internships |
+| WorldQuant – Quantitative Research Consultant (VRC) Internship 2026 | https://summerinternship2026.in/internships/worldquant-quantitative-research-consultant-vrc-internship-2026 | https://internshipshub.in/internships |
+| NITI Aayog – Public Policy & AI Analytics Internship Scheme 2026 | https://summerinternship2026.in/internships/niti-aayog-public-policy-and-ai-analytics-internship-scheme-2026 | https://internshipshub.in/internships/niti-aayog-internship-scheme |
+| NITI Aayog – Data Science & National Governance Internship 2026 | https://summerinternship2026.in/internships/niti-aayog-data-science-and-national-governance-internship-2026 | https://internshipshub.in/internships/niti-aayog-internship-scheme |
+| SEBI – IT & Cyber Security Internship 2026 | https://summerinternship2026.in/internships/sebi-it-and-cyber-security-internship-2026 | https://internshipshub.in/jobs/sebi-internship |
+| SEBI – Financial Market Algorithmic Surveillance Internship 2026 | https://summerinternship2026.in/internships/sebi-financial-market-algorithmic-surveillance-internship-2026 | https://internshipshub.in/jobs/sebi-internship |
+| MeitY – Digital India Emerging Technologies Internship 2026 | https://summerinternship2026.in/internships/meity-digital-india-emerging-technologies-internship-2026 | https://internshipshub.in/internships |
+| Ministry of External Affairs (MEA) – Cyber Diplomacy & International Tech Policy Internship 2026 | https://summerinternship2026.in/internships/ministry-of-external-affairs-mea-cyber-diplomacy-and-international-tech-policy-internship-2026 | https://internshipshub.in/internships/mea-ministry-of-external-affairs-internship |
+| TIFR Mumbai – Visiting Students' Research Programme (VSRP) Computer Science 2026 | https://summerinternship2026.in/internships/tifr-mumbai-visiting-students-research-programme-vsrp-computer-science-2026 | https://internshipshub.in/research/tifr-vsrp-research-internship |
+| TIFR Mumbai – VSRP Theoretical Physics & Mathematics Research Internship 2026 | https://summerinternship2026.in/internships/tifr-mumbai-vsrp-theoretical-physics-and-mathematics-research-internship-2026 | https://internshipshub.in/research/tifr-vsrp-research-internship |
+| CSIR – Summer Research Training Program (SRTP) 2026 | https://summerinternship2026.in/internships/csir-summer-research-training-program-srtp-2026 | https://internshipshub.in/research/csir-srtp-research-internship |
+| Linux Foundation (LFX) – Linux Kernel & Low-Level Systems Mentorship 2026 | https://summerinternship2026.in/internships/linux-foundation-lfx-linux-kernel-and-low-level-systems-mentorship-2026 | https://internshipshub.in/internships |
+| Linux Foundation (LFX) – Kubernetes & Cloud Native Mentorship 2026 | https://summerinternship2026.in/internships/linux-foundation-lfx-kubernetes-and-cloud-native-mentorship-2026 | https://internshipshub.in/internships |
+| Outreachy – Remote Open Source Software Engineering Internship 2026 | https://summerinternship2026.in/internships/outreachy-remote-open-source-software-engineering-internship-2026 | https://internshipshub.in/internships |
+| MLH Fellowship – Open Source Software Engineering Track 2026 | https://summerinternship2026.in/internships/mlh-fellowship-open-source-software-engineering-track-2026 | https://internshipshub.in/internships |
+| MLH Fellowship – Web3 & Distributed Systems Track 2026 | https://summerinternship2026.in/internships/mlh-fellowship-web3-and-distributed-systems-track-2026 | https://internshipshub.in/internships |
+| Summer of Bitcoin – Bitcoin Core Protocol & Cryptography Internship 2026 | https://summerinternship2026.in/internships/summer-of-bitcoin-bitcoin-core-protocol-and-cryptography-internship-2026 | https://internshipshub.in/internships |
+| Summer of Bitcoin – Lightning Network Software Engineering Internship 2026 | https://summerinternship2026.in/internships/summer-of-bitcoin-lightning-network-software-engineering-internship-2026 | https://internshipshub.in/internships |
+| Pixxel Space – Satellite Flight Software Engineering Intern 2026 | https://summerinternship2026.in/internships/pixxel-space-satellite-flight-software-engineering-intern-2026 | https://internshipshub.in/internships |
+| Pixxel Space – Hyperspectral Earth Observation Computer Vision Intern 2026 | https://summerinternship2026.in/internships/pixxel-space-hyperspectral-earth-observation-computer-vision-intern-2026 | https://internshipshub.in/internships |
+| Agnikul Cosmos – Rocket Avionics & Flight Control Firmware Intern 2026 | https://summerinternship2026.in/internships/agnikul-cosmos-rocket-avionics-and-flight-control-firmware-intern-2026 | https://internshipshub.in/internships |
+| Agnikul Cosmos – Propulsion Systems & Aerospace Engineering Intern 2026 | https://summerinternship2026.in/internships/agnikul-cosmos-propulsion-systems-and-aerospace-engineering-intern-2026 | https://internshipshub.in/internships |
+| ideaForge – UAV Autonomous Flight Systems Intern 2026 | https://summerinternship2026.in/internships/ideaforge-uav-autonomous-flight-systems-intern-2026 | https://internshipshub.in/internships |
+| ideaForge – Edge AI & Computer Vision Drone Intern 2026 | https://summerinternship2026.in/internships/ideaforge-edge-ai-and-computer-vision-drone-intern-2026 | https://internshipshub.in/internships |
+| Exponent Energy – Battery Management System (BMS) Firmware Intern 2026 | https://summerinternship2026.in/internships/exponent-energy-battery-management-system-bms-firmware-intern-2026 | https://internshipshub.in/internships |
+| Exponent Energy – Power Electronics & EV Rapid Charging Intern 2026 | https://summerinternship2026.in/internships/exponent-energy-power-electronics-and-ev-rapid-charging-intern-2026 | https://internshipshub.in/internships |
+| Ati Motors – Autonomous Mobile Robotics (AMR) & ROS2 Intern 2026 | https://summerinternship2026.in/internships/ati-motors-autonomous-mobile-robotics-amr-and-ros2-intern-2026 | https://internshipshub.in/internships |
+| Ati Motors – LiDAR SLAM & Path Planning Intern 2026 | https://summerinternship2026.in/internships/ati-motors-lidar-slam-and-path-planning-intern-2026 | https://internshipshub.in/internships |
+| SigNoz – Distributed Systems & Observability Intern (Go / ClickHouse) 2026 | https://summerinternship2026.in/internships/signoz-distributed-systems-and-observability-intern-go-clickhouse-2026 | https://internshipshub.in/internships |
+| SigNoz – Frontend Engineering Intern (React / OpenTelemetry) 2026 | https://summerinternship2026.in/internships/signoz-frontend-engineering-intern-react-opentelemetry-2026 | https://internshipshub.in/internships |
+| BrowserStack – Cloud Infrastructure & Systems Engineering Intern 2026 | https://summerinternship2026.in/internships/browserstack-cloud-infrastructure-and-systems-engineering-intern-2026 | https://internshipshub.in/internships |
+| BrowserStack – Automated Testing Platform Software Intern 2026 | https://summerinternship2026.in/internships/browserstack-automated-testing-platform-software-intern-2026 | https://internshipshub.in/internships |
+| Hasura – Compiler & Distributed Query Engine Intern (Haskell / Go) 2026 | https://summerinternship2026.in/internships/hasura-compiler-and-distributed-query-engine-intern-haskell-go-2026 | https://internshipshub.in/internships |
+| Samagra Governance – GovTech Full Stack Engineering Intern 2026 | https://summerinternship2026.in/internships/samagra-governance-govtech-full-stack-engineering-intern-2026 | https://internshipshub.in/internships |
+| Samagra Governance – Public Systems Data Engineering Intern 2026 | https://summerinternship2026.in/internships/samagra-governance-public-systems-data-engineering-intern-2026 | https://internshipshub.in/internships |
+
+---
+
+## 2. Legacy Search Console URL Mapping (125 URLs)
 
 | Original URL | Opportunity URL |
 | :--- | :--- |

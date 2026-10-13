@@ -8769,5 +8769,2237 @@
       }
     ],
     "organization": "Skyroot Aerospace"
+  },
+  {
+    "id": "graviton-research-capital-software-engineer-intern-c-low-latency-systems-2026",
+    "title": "Graviton Research Capital \u2013 Software Engineer Intern (C++ / Low-Latency Systems) 2026",
+    "organization": "Graviton Research Capital",
+    "location": "Gurugram, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "2-6 Months",
+    "stipend": "\u20b93,50,000 - \u20b94,50,000/month",
+    "deadline": "2026-12-15",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Graviton Research Capital is one of India's elite quantitative trading and high-frequency market-making firms. As a Software Engineer Intern in Low-Latency Systems, you will design, profile, and optimize ultra-fast trading engines executing millions of trades per second with sub-microsecond latency.",
+    "tags": [
+      "Winter 2026",
+      "Graviton Research Capital",
+      "HFT",
+      "Low Latency",
+      "C++",
+      "Systems"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Graviton Research Capital is one of India's elite quantitative trading and high-frequency market-making firms. As a Software Engineer Intern in Low-Latency Systems, you will design, profile, and optimize ultra-fast trading engines executing millions of trades per second with sub-microsecond latency."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "B.Tech / M.Tech / Dual Degree in Computer Science, Electrical Engineering, or related fields",
+          "Exceptional problem-solving abilities and competitive programming background (Codeforces, ICPC)",
+          "Deep proficiency in Modern C++ (C++17/20), multi-threading, and memory management",
+          "Strong understanding of Computer Architecture, Cache hierarchy, OS internals, and Networking (TCP/UDP, Sockets)"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Develop ultra-low latency exchange connectors and high-throughput order execution software",
+          "Profile execution paths using hardware performance counters and Linux kernel tracing tools",
+          "Optimize memory access patterns, cache utilization, and lockless data structures",
+          "Collaborate with Quantitative Researchers to test and deploy algorithmic strategies in real-time"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Graviton Research Capital \u2013 Software Engineer Intern (C++ / Low-Latency Systems) 2026 at Graviton Research Capital will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b93,50,000 - \u20b94,50,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "graviton-research-capital-quantitative-research-intern-2026",
+    "title": "Graviton Research Capital \u2013 Quantitative Research Intern 2026",
+    "organization": "Graviton Research Capital",
+    "location": "Gurugram, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Data",
+    "duration": "2-6 Months",
+    "stipend": "\u20b93,50,000 - \u20b94,50,000/month",
+    "deadline": "2026-12-18",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Graviton's Quantitative Research team formulates mathematical models to capture statistical patterns and anomalies across global financial exchanges. As a Quantitative Research Intern, you will work on predictive modeling, stochastic calculus, and machine learning pipelines operating on petabyte-scale tick data.",
+    "tags": [
+      "Winter 2026",
+      "Graviton Research Capital",
+      "Quantitative Research",
+      "Mathematics",
+      "Machine Learning",
+      "HFT"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Graviton's Quantitative Research team formulates mathematical models to capture statistical patterns and anomalies across global financial exchanges. As a Quantitative Research Intern, you will work on predictive modeling, stochastic calculus, and machine learning pipelines operating on petabyte-scale tick data."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students pursuing degrees in Mathematics, Statistics, Computer Science, Physics, or Engineering",
+          "Superior grasp of probability theory, linear algebra, time-series forecasting, and statistics",
+          "Proficiency in Python (NumPy, SciPy, Pandas) or C++ for mathematical prototyping",
+          "Track record in quantitative olympiads, Kaggle grandmaster status, or high-tier algorithmic competitions"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Research, formulate, and backtest statistical arbitrage and predictive alpha signals",
+          "Process and analyze tick-by-tick financial market microstructure datasets",
+          "Design simulation frameworks and evaluate slippage, execution latency, and market impact",
+          "Partner with quantitative developers to productionize algorithmic trading strategies"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Graviton Research Capital \u2013 Quantitative Research Intern 2026 at Graviton Research Capital will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b93,50,000 - \u20b94,50,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "tower-research-capital-quantitative-developer-intern-2026",
+    "title": "Tower Research Capital \u2013 Quantitative Developer Intern 2026",
+    "organization": "Tower Research Capital",
+    "location": "Gurugram, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "2-6 Months",
+    "stipend": "\u20b92,50,000 - \u20b93,50,000/month",
+    "deadline": "2026-12-10",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Founded in 1998, Tower Research Capital is a globally recognized proprietary algorithmic trading and technology powerhouse. As a Quantitative Developer Intern, you will bridge the gap between mathematical models and robust production execution systems.",
+    "tags": [
+      "Winter 2026",
+      "Tower Research Capital",
+      "Quantitative Developer",
+      "C++",
+      "Algorithms",
+      "Fintech"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Founded in 1998, Tower Research Capital is a globally recognized proprietary algorithmic trading and technology powerhouse. As a Quantitative Developer Intern, you will bridge the gap between mathematical models and robust production execution systems."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Undergraduate or graduate students in Computer Science, Mathematics, or allied engineering domains",
+          "Mastery of modern C++ and solid foundational knowledge of Python and Linux",
+          "Thorough grounding in data structures, algorithms, and asynchronous event loops",
+          "Passion for building resilient, high-speed distributed financial platforms"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Engineer high-speed automated trading frameworks and market data distribution systems",
+          "Implement high-throughput statistical modeling tools for quant trading desks",
+          "Diagnose bottlenecks, perform code instrumentation, and optimize runtime performance",
+          "Ensure highest software engineering standards with comprehensive unit and fuzz testing"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Tower Research Capital \u2013 Quantitative Developer Intern 2026 at Tower Research Capital will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b92,50,000 - \u20b93,50,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "tower-research-capital-core-systems-engineering-intern-2026",
+    "title": "Tower Research Capital \u2013 Core Systems Engineering Intern 2026",
+    "organization": "Tower Research Capital",
+    "location": "Gurugram, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Engineering",
+    "duration": "2-6 Months",
+    "stipend": "\u20b92,50,000 - \u20b93,50,000/month",
+    "deadline": "2026-12-14",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Tower's Core Systems engineering group designs and maintains one of the world's most sophisticated low-latency computing grids. Interns work directly on core Linux kernel tuning, network stack optimization, and high-performance distributed infrastructure.",
+    "tags": [
+      "Winter 2026",
+      "Tower Research Capital",
+      "Systems Engineering",
+      "Linux Kernel",
+      "Distributed Systems"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Tower's Core Systems engineering group designs and maintains one of the world's most sophisticated low-latency computing grids. Interns work directly on core Linux kernel tuning, network stack optimization, and high-performance distributed infrastructure."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Penultimate or final-year engineering students with a systems programming focus",
+          "Hands-on familiarity with Linux operating system internals, POSIX threads, and memory hierarchy",
+          "Proficiency in C/C++, Shell scripting, and systems debugging tools (gdb, perf, strace)",
+          "Interest in kernel bypass networking (DPDK, Solarflare OpenOnload)"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Fine-tune Linux kernel parameters and hardware BIOS configurations for maximum determinism",
+          "Build automation pipelines monitoring microsecond-level latency spikes across global co-locations",
+          "Benchmark and optimize networking stacks across high-speed optical network interfaces",
+          "Contribute to distributed telemetry, logging, and automated recovery tools"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Tower Research Capital \u2013 Core Systems Engineering Intern 2026 at Tower Research Capital will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b92,50,000 - \u20b93,50,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "quadeye-securities-quantitative-trading-and-systems-intern-2026",
+    "title": "Quadeye Securities \u2013 Quantitative Trading & Systems Intern 2026",
+    "organization": "Quadeye Securities",
+    "location": "Gurugram, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Data",
+    "duration": "2-6 Months",
+    "stipend": "\u20b92,50,000 - \u20b93,50,000/month",
+    "deadline": "2026-12-20",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Quadeye Securities is a premier Indian algorithmic trading firm focused on continuous research and cutting-edge automation in global capital markets. As a Quant Trading & Systems Intern, you will participate in the design of mathematical trading strategies and execution engines.",
+    "tags": [
+      "Winter 2026",
+      "Quadeye Securities",
+      "Quantitative Trading",
+      "Algorithmic Trading",
+      "Probability"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Quadeye Securities is a premier Indian algorithmic trading firm focused on continuous research and cutting-edge automation in global capital markets. As a Quant Trading & Systems Intern, you will participate in the design of mathematical trading strategies and execution engines."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students pursuing B.Tech/M.Tech/Dual Degree with high academic standing",
+          "Exceptional analytical, mathematical, and logical problem-solving track record",
+          "Fluency in Python for statistical analysis and C++ for strategy implementation",
+          "Prior exposure to game theory, stochastic models, or financial derivative pricing is a plus"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Analyze large-scale order book dynamics and identify statistical market anomalies",
+          "Simulate automated market-making algorithms across equities, futures, and currency pairs",
+          "Collaborate with core engineering to refine low-latency order routing systems",
+          "Monitor live trading metrics, strategy risk parameters, and PnL performance"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Quadeye Securities \u2013 Quantitative Trading & Systems Intern 2026 at Quadeye Securities will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b92,50,000 - \u20b93,50,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "quadeye-securities-c-core-engineering-intern-2026",
+    "title": "Quadeye Securities \u2013 C++ Core Engineering Intern 2026",
+    "organization": "Quadeye Securities",
+    "location": "Gurugram, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "2-6 Months",
+    "stipend": "\u20b92,50,000 - \u20b93,50,000/month",
+    "deadline": "2026-12-22",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Quadeye's C++ Core Engineering team develops proprietary high-throughput trading software that powers automated decisions in nanoseconds. This internship offers intensive immersion in high-performance computing and low-latency system design.",
+    "tags": [
+      "Winter 2026",
+      "Quadeye Securities",
+      "C++ Core",
+      "Low Latency",
+      "Data Structures"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Quadeye's C++ Core Engineering team develops proprietary high-throughput trading software that powers automated decisions in nanoseconds. This internship offers intensive immersion in high-performance computing and low-latency system design."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Computer Science or related Engineering major with strong DSA fundamentals",
+          "In-depth command of modern C++ (templates, smart pointers, move semantics, STL)",
+          "Solid grasp of multi-threaded concurrency, cache coherence, and operating systems",
+          "Demonstrated enthusiasm for building hyper-performant backend architectures"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Implement high-speed algorithmic execution handlers and market feed parsers",
+          "Eliminate cache misses and memory allocation bottlenecks in mission-critical loops",
+          "Write robust automated tests and validation harnesses for real-time trading components",
+          "Work alongside systems architects to benchmark throughput on specialized hardware"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Quadeye Securities \u2013 C++ Core Engineering Intern 2026 at Quadeye Securities will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b92,50,000 - \u20b93,50,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "nk-securities-research-high-frequency-trading-developer-intern-2026",
+    "title": "NK Securities Research \u2013 High-Frequency Trading Developer Intern 2026",
+    "organization": "NK Securities Research",
+    "location": "Gurugram, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "2-6 Months",
+    "stipend": "\u20b92,00,000 - \u20b93,00,000/month",
+    "deadline": "2026-12-12",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "NK Securities Research is a quantitative trading firm operating at the technological forefront of global electronic exchanges. As an HFT Developer Intern, you will craft ultra-fast execution systems where microsecond optimizations make all the difference.",
+    "tags": [
+      "Winter 2026",
+      "NK Securities Research",
+      "HFT",
+      "C++",
+      "Kernel Bypass",
+      "Trading Systems"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "NK Securities Research is a quantitative trading firm operating at the technological forefront of global electronic exchanges. As an HFT Developer Intern, you will craft ultra-fast execution systems where microsecond optimizations make all the difference."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Undergraduate or postgraduate students in CS, Electrical, or Mathematics",
+          "Strong skills in C++20, data structures, and computer organization",
+          "Understanding of network protocols, socket programming, and low-level Linux API",
+          "High ranking in national/international competitive programming contests"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Build zero-copy networking modules and custom network protocol decoders",
+          "Design lock-free ring buffers and specialized queues for low-latency IPC",
+          "Optimize latency-critical algorithmic components using modern C++ compiler features",
+          "Participate in daily code reviews and performance profiling sessions"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for NK Securities Research \u2013 High-Frequency Trading Developer Intern 2026 at NK Securities Research will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b92,00,000 - \u20b93,00,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "nk-securities-research-quantitative-analyst-intern-2026",
+    "title": "NK Securities Research \u2013 Quantitative Analyst Intern 2026",
+    "organization": "NK Securities Research",
+    "location": "Gurugram, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Data",
+    "duration": "2-6 Months",
+    "stipend": "\u20b92,00,000 - \u20b93,00,000/month",
+    "deadline": "2026-12-16",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The Quantitative Research group at NK Securities extracts actionable market patterns from immense volumes of raw market data. Interns work with senior quants to build predictive statistical models for proprietary electronic trading.",
+    "tags": [
+      "Winter 2026",
+      "NK Securities Research",
+      "Quantitative Analysis",
+      "Financial Modeling",
+      "Statistics"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The Quantitative Research group at NK Securities extracts actionable market patterns from immense volumes of raw market data. Interns work with senior quants to build predictive statistical models for proprietary electronic trading."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Pursuing degree in Mathematics, Statistics, Computer Science, or Engineering",
+          "Exceptional understanding of statistical regression, probability, and optimization",
+          "Proficient in Python data stack (NumPy, SciPy, Pandas, Matplotlib)",
+          "Keen curiosity about financial markets, electronic exchanges, and risk management"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Cleanse, normalize, and analyze terabytes of high-frequency exchange order book data",
+          "Formulate mathematical hypotheses and backtest algorithmic trading models",
+          "Develop automated performance dashboards monitoring risk and return profiles",
+          "Present research findings and strategy recommendations to senior portfolio managers"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for NK Securities Research \u2013 Quantitative Analyst Intern 2026 at NK Securities Research will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b92,00,000 - \u20b93,00,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "worldquant-quantitative-research-consultant-vrc-internship-2026",
+    "title": "WorldQuant \u2013 Quantitative Research Consultant (VRC) Internship 2026",
+    "organization": "WorldQuant",
+    "location": "Remote / Mumbai, India",
+    "workMode": "Remote",
+    "type": "Corporate",
+    "category": "Research",
+    "duration": "3-6 Months",
+    "stipend": "Performance-based ($500 - $3,000+)",
+    "deadline": "2026-12-30",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "WorldQuant is a premier global quantitative asset management firm. Through the WorldQuant BRAIN platform and Virtual Research Consultant program, students create alpha formulas\u2014mathematical predictive models\u2014from anywhere in India with merit-based compensation.",
+    "tags": [
+      "Winter 2026",
+      "WorldQuant",
+      "Alpha Modeling",
+      "Quantitative Finance",
+      "Remote",
+      "Data Science"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "WorldQuant is a premier global quantitative asset management firm. Through the WorldQuant BRAIN platform and Virtual Research Consultant program, students create alpha formulas\u2014mathematical predictive models\u2014from anywhere in India with merit-based compensation."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Enrolled students from any recognized college or university in India",
+          "Strong quantitative, mathematical, or scientific background",
+          "Analytical thinking with curiosity about financial data and factor investing",
+          "Self-motivated to learn quantitative modeling through hands-on simulations"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Learn quantitative finance principles and factor modeling on the WorldQuant BRAIN portal",
+          "Develop, test, and submit algorithmic alphas predicting future asset price movements",
+          "Participate in global research challenges and quantitative hackathons",
+          "Earn monthly consulting stipends and performance bonuses based on approved alphas"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for WorldQuant \u2013 Quantitative Research Consultant (VRC) Internship 2026 at WorldQuant will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of Performance-based ($500 - $3,000+), and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "niti-aayog-public-policy-and-ai-analytics-internship-scheme-2026",
+    "title": "NITI Aayog \u2013 Public Policy & AI Analytics Internship Scheme 2026",
+    "organization": "NITI Aayog",
+    "location": "New Delhi, India",
+    "workMode": "Hybrid",
+    "type": "Govt/Research",
+    "category": "Govt/Research",
+    "duration": "6-12 Weeks",
+    "stipend": "Certificate of Excellence & Experience",
+    "deadline": "2026-12-10",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "NITI Aayog, the premier policy think tank of the Government of India, offers undergraduate and postgraduate students direct exposure to national policymaking. Interns in the AI & Analytics vertical work on national data roadmaps, tech policies, and governance evaluation.",
+    "tags": [
+      "Winter 2026",
+      "NITI Aayog",
+      "Public Policy",
+      "AI Analytics",
+      "Government of India",
+      "New Delhi"
+    ],
+    "applyUrl": "https://internshipshub.in/internships/niti-aayog-internship-scheme",
+    "hubSlug": "niti-aayog-internship-scheme",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "NITI Aayog, the premier policy think tank of the Government of India, offers undergraduate and postgraduate students direct exposure to national policymaking. Interns in the AI & Analytics vertical work on national data roadmaps, tech policies, and governance evaluation."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Undergraduate students with minimum 85% in Class 12 or postgraduates with first-class academic record",
+          "Enrolled in recognized universities in engineering, economics, public policy, or data science",
+          "Strong research acumen, data synthesis capability, and written communication skills",
+          "Application open from the 1st to 10th of every calendar month"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Conduct empirical data analysis supporting national technology initiatives and policy briefs",
+          "Assist vertical advisors in benchmarking international AI and digital infrastructure frameworks",
+          "Synthesize complex datasets from government ministries into actionable policy presentations",
+          "Draft analytical reports evaluated directly by senior government officials"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for NITI Aayog \u2013 Public Policy & AI Analytics Internship Scheme 2026 at NITI Aayog will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of Certificate of Excellence & Experience, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "niti-aayog-data-science-and-national-governance-internship-2026",
+    "title": "NITI Aayog \u2013 Data Science & National Governance Internship 2026",
+    "organization": "NITI Aayog",
+    "location": "New Delhi, India",
+    "workMode": "Hybrid",
+    "type": "Govt/Research",
+    "category": "Govt/Research",
+    "duration": "6-12 Weeks",
+    "stipend": "Certificate of Excellence & Experience",
+    "deadline": "2026-12-10",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Join the Data Governance & Analytics wing of NITI Aayog to transform public data into strategic governance insights. Work on national priority programs including the Aspirational Districts Programme and public health monitoring dashboards.",
+    "tags": [
+      "Winter 2026",
+      "NITI Aayog",
+      "Data Science",
+      "National Governance",
+      "Public Systems"
+    ],
+    "applyUrl": "https://internshipshub.in/internships/niti-aayog-internship-scheme",
+    "hubSlug": "niti-aayog-internship-scheme",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Join the Data Governance & Analytics wing of NITI Aayog to transform public data into strategic governance insights. Work on national priority programs including the Aspirational Districts Programme and public health monitoring dashboards."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students pursuing B.Tech, BS, M.Sc, or Integrated Masters in Data Science, CS, or Statistics",
+          "High academic merit (top percentile) and strong quantitative problem-solving skills",
+          "Proficiency in Python/R, SQL, and data visualization tools (Tableau, PowerBI)",
+          "Passion for leveraging technology for social impact and citizen welfare"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Build analytics models evaluating district-level KPIs across education, agriculture, and health",
+          "Cleanse and process heterogeneous datasets from state and central government portals",
+          "Create interactive dashboards for executive monitoring by policy leadership",
+          "Author comprehensive research papers and state-ranking comparative indexes"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for NITI Aayog \u2013 Data Science & National Governance Internship 2026 at NITI Aayog will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of Certificate of Excellence & Experience, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "sebi-it-and-cyber-security-internship-2026",
+    "title": "SEBI \u2013 IT & Cyber Security Internship 2026",
+    "organization": "SEBI",
+    "location": "Mumbai, India",
+    "workMode": "Onsite",
+    "type": "Govt/Research",
+    "category": "Govt/Research",
+    "duration": "3-6 Months",
+    "stipend": "\u20b930,000 - \u20b945,000/month",
+    "deadline": "2026-12-05",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The Securities and Exchange Board of India (SEBI) oversees India's multi-trillion dollar capital markets. Interns in SEBI's IT Department work on enterprise cybersecurity, regulatory tech architecture, and secure cloud ecosystems.",
+    "tags": [
+      "Winter 2026",
+      "SEBI",
+      "Cyber Security",
+      "Information Technology",
+      "Financial Regulators",
+      "Mumbai"
+    ],
+    "applyUrl": "https://internshipshub.in/jobs/sebi-internship",
+    "hubSlug": "sebi-internship",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The Securities and Exchange Board of India (SEBI) oversees India's multi-trillion dollar capital markets. Interns in SEBI's IT Department work on enterprise cybersecurity, regulatory tech architecture, and secure cloud ecosystems."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Pursuing B.Tech/B.E. in Computer Science, Information Technology, or Cybersecurity",
+          "Minimum 60% marks or equivalent CGPA in undergraduate studies",
+          "Knowledge of network security protocols, vulnerability assessment, and security auditing",
+          "Understanding of secure coding practices and database security"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Assist the security operations team in threat intelligence and incident response analysis",
+          "Evaluate cybersecurity posture and compliance guidelines across market infrastructure institutions",
+          "Review IT disaster recovery frameworks and cloud migration blueprints",
+          "Contribute to internal cybersecurity awareness and automated vulnerability scanning"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for SEBI \u2013 IT & Cyber Security Internship 2026 at SEBI will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b930,000 - \u20b945,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "sebi-financial-market-algorithmic-surveillance-internship-2026",
+    "title": "SEBI \u2013 Financial Market Algorithmic Surveillance Internship 2026",
+    "organization": "SEBI",
+    "location": "Mumbai, India",
+    "workMode": "Onsite",
+    "type": "Govt/Research",
+    "category": "Govt/Research",
+    "duration": "3-6 Months",
+    "stipend": "\u20b930,000 - \u20b945,000/month",
+    "deadline": "2026-12-08",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "SEBI's Market Surveillance Department employs cutting-edge data science and pattern detection algorithms to uncover insider trading, market manipulation, and algorithmic anomalies across Indian stock exchanges (NSE/BSE).",
+    "tags": [
+      "Winter 2026",
+      "SEBI",
+      "Market Surveillance",
+      "Fintech Algorithms",
+      "Securities",
+      "Data Analytics"
+    ],
+    "applyUrl": "https://internshipshub.in/jobs/sebi-internship",
+    "hubSlug": "sebi-internship",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "SEBI's Market Surveillance Department employs cutting-edge data science and pattern detection algorithms to uncover insider trading, market manipulation, and algorithmic anomalies across Indian stock exchanges (NSE/BSE)."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students in Engineering, Data Science, Quantitative Finance, or Applied Statistics",
+          "Strong skills in Python, SQL, large-scale data wrangling, and statistical anomaly detection",
+          "Basic understanding of equity, derivative markets, and order book dynamics",
+          "High integrity, analytical diligence, and rigorous documentation habits"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Develop pattern recognition scripts detecting circular trading and order spoofing",
+          "Analyze trade logs, order timestamps, and social media sentiment signals for regulatory compliance",
+          "Enhance automated surveillance alerts using machine learning classification models",
+          "Prepare analytical dossiers for regulatory inspection and legal enforcement teams"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for SEBI \u2013 Financial Market Algorithmic Surveillance Internship 2026 at SEBI will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b930,000 - \u20b945,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "meity-digital-india-emerging-technologies-internship-2026",
+    "title": "MeitY \u2013 Digital India Emerging Technologies Internship 2026",
+    "organization": "MeitY",
+    "location": "New Delhi, India",
+    "workMode": "Onsite",
+    "type": "Govt/Research",
+    "category": "Govt/Research",
+    "duration": "2-3 Months",
+    "stipend": "\u20b920,000/month",
+    "deadline": "2026-11-30",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The Ministry of Electronics and Information Technology (MeitY) conducts the Digital India Internship Scheme to mentor young talent in national tech ecosystems including India Stack, AI mission, semiconductor initiatives, and cyber security.",
+    "tags": [
+      "Winter 2026",
+      "MeitY",
+      "Digital India",
+      "Emerging Tech",
+      "Blockchain",
+      "AI Policy"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The Ministry of Electronics and Information Technology (MeitY) conducts the Digital India Internship Scheme to mentor young talent in national tech ecosystems including India Stack, AI mission, semiconductor initiatives, and cyber security."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Indian citizens pursuing B.Tech/B.E., MCA, or M.Tech in CS/IT/Electronics",
+          "Minimum 60% aggregate marks in 10th, 12th, and all completed university semesters",
+          "Keen interest in digital governance, open-source technology, and tech policy",
+          "Strong analytical and collaborative project execution skills"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Participate in live government IT projects and digital service deployment reviews",
+          "Research standards for national AI infrastructure, digital identity, and blockchain use cases",
+          "Collaborate with senior technical directors across national digital portals",
+          "Submit a formal capstone project report evaluated by MeitY technical committees"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for MeitY \u2013 Digital India Emerging Technologies Internship 2026 at MeitY will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b920,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "ministry-of-external-affairs-mea-cyber-diplomacy-and-international-tech-policy-internship-2026",
+    "title": "Ministry of External Affairs (MEA) \u2013 Cyber Diplomacy & International Tech Policy Internship 2026",
+    "organization": "Ministry of External Affairs (MEA)",
+    "location": "New Delhi, India",
+    "workMode": "Onsite",
+    "type": "Govt/Research",
+    "category": "Govt/Research",
+    "duration": "1-3 Months",
+    "stipend": "\u20b910,000/month + Airfare",
+    "deadline": "2026-12-01",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The Ministry of External Affairs Internship Programme offers students firsthand exposure to India's foreign policy and international diplomacy. Tech policy interns analyze critical emerging technologies, cross-border data flows, and international cyber warfare treaties.",
+    "tags": [
+      "Winter 2026",
+      "MEA",
+      "Cyber Diplomacy",
+      "International Relations",
+      "Tech Policy",
+      "Government"
+    ],
+    "applyUrl": "https://internshipshub.in/internships/mea-ministry-of-external-affairs-internship",
+    "hubSlug": "mea-ministry-of-external-affairs-internship",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The Ministry of External Affairs Internship Programme offers students firsthand exposure to India's foreign policy and international diplomacy. Tech policy interns analyze critical emerging technologies, cross-border data flows, and international cyber warfare treaties."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Graduate or undergraduate students enrolled in recognized institutions across India",
+          "Background in Engineering, Cyber Law, International Relations, or Economics",
+          "Fluency in English with strong analytical writing and diplomatic briefing skills",
+          "Must be an Indian citizen with good character credentials"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Monitor multilateral forums (UN, G20, BRICS) on global technology governance and AI standards",
+          "Prepare diplomatic background briefs on cross-border semiconductor supply chains",
+          "Assist territorial divisions with research on international cyber treaties and bilateral tech pacts",
+          "Participate in high-level foreign policy seminars and diplomatic debriefs"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Ministry of External Affairs (MEA) \u2013 Cyber Diplomacy & International Tech Policy Internship 2026 at Ministry of External Affairs (MEA) will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b910,000/month + Airfare, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "tifr-mumbai-visiting-students-research-programme-vsrp-computer-science-2026",
+    "title": "TIFR Mumbai \u2013 Visiting Students' Research Programme (VSRP) Computer Science 2026",
+    "organization": "TIFR Mumbai",
+    "location": "Mumbai, India",
+    "workMode": "Onsite",
+    "type": "Research",
+    "category": "Research",
+    "duration": "6-8 Weeks",
+    "stipend": "\u20b97,000/month + Free Accommodation",
+    "deadline": "2027-01-15",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The Tata Institute of Fundamental Research (TIFR) School of Technology and Computer Science conducts the prestigious Visiting Students' Research Programme (VSRP). Selected students work under world-renowned scientists in theoretical computer science, quantum information, and algorithms.",
+    "tags": [
+      "Winter 2026",
+      "TIFR Mumbai",
+      "VSRP",
+      "Theoretical CS",
+      "Algorithms",
+      "Research Fellowship"
+    ],
+    "applyUrl": "https://internshipshub.in/research/tifr-vsrp-research-internship",
+    "hubSlug": "tifr-vsrp-research-internship",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The Tata Institute of Fundamental Research (TIFR) School of Technology and Computer Science conducts the prestigious Visiting Students' Research Programme (VSRP). Selected students work under world-renowned scientists in theoretical computer science, quantum information, and algorithms."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students in 3rd or 4th year of B.Tech/B.E. or 1st year of M.Sc/M.Tech with exceptional academic record",
+          "Deep passion for theoretical computer science, complexity theory, cryptography, or verification",
+          "Mathematical maturity and curiosity for fundamental, open scientific problems",
+          "Recommendations from academic professors"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Conduct theoretical research in algorithms, cryptography, or quantum computing",
+          "Attend advanced seminars and colloquia hosted by international scientific researchers",
+          "Work closely with a dedicated faculty mentor on an open problem",
+          "Present findings at the institute-wide research symposium and author preprints"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for TIFR Mumbai \u2013 Visiting Students' Research Programme (VSRP) Computer Science 2026 at TIFR Mumbai will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b97,000/month + Free Accommodation, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "tifr-mumbai-vsrp-theoretical-physics-and-mathematics-research-internship-2026",
+    "title": "TIFR Mumbai \u2013 VSRP Theoretical Physics & Mathematics Research Internship 2026",
+    "organization": "TIFR Mumbai",
+    "location": "Mumbai, India",
+    "workMode": "Onsite",
+    "type": "Research",
+    "category": "Research",
+    "duration": "6-8 Weeks",
+    "stipend": "\u20b97,000/month + Free Accommodation",
+    "deadline": "2027-01-15",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "TIFR's School of Mathematics and School of Natural Sciences invite top undergraduate scholars for the VSRP fellowship in pure mathematics and theoretical physics. Fellows experience rigorous research in geometry, algebra, string theory, and condensed matter.",
+    "tags": [
+      "Winter 2026",
+      "TIFR Mumbai",
+      "Theoretical Physics",
+      "Mathematics",
+      "Quantum Science",
+      "Research"
+    ],
+    "applyUrl": "https://internshipshub.in/research/tifr-vsrp-research-internship",
+    "hubSlug": "tifr-vsrp-research-internship",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "TIFR's School of Mathematics and School of Natural Sciences invite top undergraduate scholars for the VSRP fellowship in pure mathematics and theoretical physics. Fellows experience rigorous research in geometry, algebra, string theory, and condensed matter."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Pre-final year undergraduate or 1st year master's students in Physics, Mathematics, or allied disciplines",
+          "Ranked among the top percentiles of their university or national competitive exams",
+          "Proven proficiency in abstract algebra, real analysis, or quantum mechanics",
+          "Letter of recommendation from university faculty"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Engage in foundational mathematical modeling and theoretical physics derivations",
+          "Perform analytical calculations under the direct supervision of leading physicists/mathematicians",
+          "Collaborate with fellow scholars in study groups and problem-solving seminars",
+          "Submit a comprehensive formal thesis detailing the summer/winter project results"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for TIFR Mumbai \u2013 VSRP Theoretical Physics & Mathematics Research Internship 2026 at TIFR Mumbai will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b97,000/month + Free Accommodation, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "csir-summer-research-training-program-srtp-2026",
+    "title": "CSIR \u2013 Summer Research Training Program (SRTP) 2026",
+    "organization": "CSIR",
+    "location": "Multiple National Labs, India",
+    "workMode": "Hybrid",
+    "type": "Govt/Research",
+    "category": "Govt/Research",
+    "duration": "6-8 Weeks",
+    "stipend": "Academic Grant & Certificate",
+    "deadline": "2026-12-25",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The Council of Scientific and Industrial Research (CSIR) organizes the SRTP across its 38 premier national laboratories across India (including CCMB, NCL, CEERI, and CSIO). Interns work on state-of-the-art computational and experimental scientific breakthroughs.",
+    "tags": [
+      "Winter 2026",
+      "CSIR",
+      "SRTP",
+      "Scientific Research",
+      "National Labs",
+      "Govt/Research"
+    ],
+    "applyUrl": "https://internshipshub.in/research/csir-srtp-research-internship",
+    "hubSlug": "csir-srtp-research-internship",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The Council of Scientific and Industrial Research (CSIR) organizes the SRTP across its 38 premier national laboratories across India (including CCMB, NCL, CEERI, and CSIO). Interns work on state-of-the-art computational and experimental scientific breakthroughs."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students pursuing B.Tech, M.Tech, B.Sc, M.Sc, or integrated dual degrees",
+          "Consistent academic record with minimum 65% aggregate or equivalent CGPA",
+          "Strong interest in scientific innovation, embedded systems, AI for science, or material science",
+          "Recommendation letter from college Principal or Head of Department"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Collaborate on ongoing CSIR scientific missions and industrial innovation projects",
+          "Execute computational simulations, data analysis, or laboratory experiments",
+          "Participate in national scientific lectures delivered by top CSIR directors",
+          "Publish findings in the official CSIR project proceedings and receive an accredited certificate"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for CSIR \u2013 Summer Research Training Program (SRTP) 2026 at CSIR will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of Academic Grant & Certificate, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "linux-foundation-lfx-linux-kernel-and-low-level-systems-mentorship-2026",
+    "title": "Linux Foundation (LFX) \u2013 Linux Kernel & Low-Level Systems Mentorship 2026",
+    "organization": "Linux Foundation (LFX)",
+    "location": "Remote",
+    "workMode": "Remote",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "12 Weeks",
+    "stipend": "$3,000 - $6,600 USD",
+    "deadline": "2026-12-05",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The Linux Foundation (LFX) Mentorship program trains the next generation of open-source kernel and systems engineers. Work remotely under the direct mentorship of official Linux kernel maintainers while earning a competitive USD stipend.",
+    "tags": [
+      "Winter 2026",
+      "Linux Foundation",
+      "LFX Mentorship",
+      "Linux Kernel",
+      "C",
+      "Open Source",
+      "Remote"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The Linux Foundation (LFX) Mentorship program trains the next generation of open-source kernel and systems engineers. Work remotely under the direct mentorship of official Linux kernel maintainers while earning a competitive USD stipend."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Open to college students and developers worldwide",
+          "Strong proficiency in C, data structures, and computer operating systems",
+          "Familiarity with Git, Linux CLI, patch workflows, and mailing lists",
+          "Demonstrated passion for open-source contributions with a public GitHub/GitLab portfolio"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Submit code patches, bug fixes, and documentation improvements to the Linux kernel codebase",
+          "Write device drivers, subsystem tests, or performance benchmarks",
+          "Participate in weekly 1:1 video meetings with upstream kernel maintainers",
+          "Engage in public open-source code reviews on Linux kernel mailing lists"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Linux Foundation (LFX) \u2013 Linux Kernel & Low-Level Systems Mentorship 2026 at Linux Foundation (LFX) will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of $3,000 - $6,600 USD, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "linux-foundation-lfx-kubernetes-and-cloud-native-mentorship-2026",
+    "title": "Linux Foundation (LFX) \u2013 Kubernetes & Cloud Native Mentorship 2026",
+    "organization": "Linux Foundation (LFX)",
+    "location": "Remote",
+    "workMode": "Remote",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "12 Weeks",
+    "stipend": "$3,000 - $6,600 USD",
+    "deadline": "2026-12-05",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Learn cloud-native distributed architecture from the creators of Kubernetes, Prometheus, and Envoy. LFX Kubernetes Mentees contribute directly to CNCF projects that power global cloud infrastructure.",
+    "tags": [
+      "Winter 2026",
+      "Linux Foundation",
+      "Kubernetes",
+      "Cloud Native",
+      "Go",
+      "CNCF",
+      "Remote"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Learn cloud-native distributed architecture from the creators of Kubernetes, Prometheus, and Envoy. LFX Kubernetes Mentees contribute directly to CNCF projects that power global cloud infrastructure."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Good knowledge of Golang, containerization (Docker), and distributed systems basics",
+          "Familiarity with Kubernetes architecture (kube-apiserver, etcd, controllers)",
+          "Active interest in open-source cloud computing and DevOps automation",
+          "Ability to work independently in an asynchronous, remote open-source community"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Develop custom Kubernetes controllers, operators, or API extensions",
+          "Contribute to CNCF projects such as Kubernetes, containerd, Argo, or OpenTelemetry",
+          "Author end-to-end integration tests and documentation for new features",
+          "Collaborate with international maintainers via GitHub PRs and community Slack channels"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Linux Foundation (LFX) \u2013 Kubernetes & Cloud Native Mentorship 2026 at Linux Foundation (LFX) will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of $3,000 - $6,600 USD, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "outreachy-remote-open-source-software-engineering-internship-2026",
+    "title": "Outreachy \u2013 Remote Open Source Software Engineering Internship 2026",
+    "organization": "Outreachy",
+    "location": "Remote",
+    "workMode": "Remote",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "13 Weeks",
+    "stipend": "$7,000 USD",
+    "deadline": "2026-11-28",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Outreachy provides paid, 100% remote internships to people subject to systemic bias and underrepresented groups in the technology industry. Interns receive a $7,000 USD stipend while working full-time with mentors on prominent open-source platforms (Mozilla, Wikimedia, Fedora, GNOME).",
+    "tags": [
+      "Winter 2026",
+      "Outreachy",
+      "Open Source",
+      "Remote",
+      "Diversity",
+      "Full Stack",
+      "USD Stipend"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Outreachy provides paid, 100% remote internships to people subject to systemic bias and underrepresented groups in the technology industry. Interns receive a $7,000 USD stipend while working full-time with mentors on prominent open-source platforms (Mozilla, Wikimedia, Fedora, GNOME)."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Must meet Outreachy eligibility criteria for underrepresented backgrounds in tech",
+          "Available to work 30 hours per week during the 13-week cohort period",
+          "Demonstrated commitment during the mandatory initial contribution phase on GitHub/GitLab",
+          "No prior full-time corporate software engineering job experience"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Build impactful features for global open-source communities like Mozilla, Wikimedia, or Debian",
+          "Collaborate closely with assigned mentors through video check-ins and public chat",
+          "Write bi-weekly technical blog posts documenting your open-source learning journey",
+          "Refactor code, write comprehensive test suites, and resolve community-reported bugs"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Outreachy \u2013 Remote Open Source Software Engineering Internship 2026 at Outreachy will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of $7,000 USD, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "mlh-fellowship-open-source-software-engineering-track-2026",
+    "title": "MLH Fellowship \u2013 Open Source Software Engineering Track 2026",
+    "organization": "MLH Fellowship",
+    "location": "Remote",
+    "workMode": "Remote",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "12 Weeks",
+    "stipend": "Educational Grant / Stipend",
+    "deadline": "2026-12-15",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The MLH Fellowship is an intensive 12-week remote software engineering internship program powered by GitHub and Major League Hacking. Fellows are placed in small pods paired with professional mentors to build real-world software on major corporate open-source projects.",
+    "tags": [
+      "Winter 2026",
+      "MLH Fellowship",
+      "Open Source",
+      "Software Engineering",
+      "Remote",
+      "Major League Hacking"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The MLH Fellowship is an intensive 12-week remote software engineering internship program powered by GitHub and Major League Hacking. Fellows are placed in small pods paired with professional mentors to build real-world software on major corporate open-source projects."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Current university student or early-career technologist based in India or globally",
+          "Proficiency in at least one modern language (Python, JavaScript/TypeScript, Go, or Java)",
+          "Demonstrated coding portfolio and successful completion of MLH technical interviews",
+          "Available for full-time (40 hrs/wk) or part-time (20 hrs/wk) cohort participation"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Collaborate in a pod of 8-10 fellows guided by a professional software engineering mentor",
+          "Contribute production-grade PRs to tier-1 open-source repositories used by millions",
+          "Participate in daily standups, code reviews, and technical hackathon sprints",
+          "Deliver an end-of-fellowship demo day presentation showcasing shipped features"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for MLH Fellowship \u2013 Open Source Software Engineering Track 2026 at MLH Fellowship will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of Educational Grant / Stipend, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "mlh-fellowship-web3-and-distributed-systems-track-2026",
+    "title": "MLH Fellowship \u2013 Web3 & Distributed Systems Track 2026",
+    "organization": "MLH Fellowship",
+    "location": "Remote",
+    "workMode": "Remote",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "12 Weeks",
+    "stipend": "Educational Grant / Stipend",
+    "deadline": "2026-12-15",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The MLH Web3 Track partners with premier blockchain foundations (Ethereum, Solana, Polygon, Filecoin) to mentor aspiring Web3 developers. Fellows build smart contracts, decentralized applications (dApps), and distributed ledger tooling.",
+    "tags": [
+      "Winter 2026",
+      "MLH Fellowship",
+      "Web3",
+      "Distributed Systems",
+      "Solidity",
+      "Remote"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The MLH Web3 Track partners with premier blockchain foundations (Ethereum, Solana, Polygon, Filecoin) to mentor aspiring Web3 developers. Fellows build smart contracts, decentralized applications (dApps), and distributed ledger tooling."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Strong fundamentals in computer networks, cryptography, and modern programming",
+          "Experience with Solidity, Rust, TypeScript, or smart contract frameworks (Hardhat, Foundry)",
+          "Keen interest in zero-knowledge proofs, DeFi protocols, and decentralized infrastructure",
+          "Portfolio of completed personal projects or web3 hackathon submissions"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Build and test smart contracts adhering to rigorous security and gas-efficiency standards",
+          "Develop SDKs and developer tooling empowering builders across decentralized protocols",
+          "Conduct peer security audits and integrate oracle networks for real-world data feeds",
+          "Present decentralized applications at the global MLH Fellowship graduation showcase"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for MLH Fellowship \u2013 Web3 & Distributed Systems Track 2026 at MLH Fellowship will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of Educational Grant / Stipend, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "summer-of-bitcoin-bitcoin-core-protocol-and-cryptography-internship-2026",
+    "title": "Summer of Bitcoin \u2013 Bitcoin Core Protocol & Cryptography Internship 2026",
+    "organization": "Summer of Bitcoin",
+    "location": "Remote",
+    "workMode": "Remote",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "12 Weeks",
+    "stipend": "$2,500 - $4,000 USD",
+    "deadline": "2027-01-20",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Summer of Bitcoin is a global summer/winter fellowship introducing top university students to Bitcoin open-source development. Interns receive direct mentorship from seasoned Bitcoin Core contributors and earn a competitive USD grant.",
+    "tags": [
+      "Winter 2026",
+      "Summer of Bitcoin",
+      "Bitcoin Core",
+      "Cryptography",
+      "C++",
+      "Rust",
+      "Remote"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Summer of Bitcoin is a global summer/winter fellowship introducing top university students to Bitcoin open-source development. Interns receive direct mentorship from seasoned Bitcoin Core contributors and earn a competitive USD grant."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Enrolled in an undergraduate or postgraduate university program worldwide",
+          "Good command of C++ or Rust, data structures, and computer networking",
+          "Interest in cryptographic protocols, peer-to-peer networks, and consensus mechanisms",
+          "Successful completion of the Summer of Bitcoin screening challenge"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Contribute directly to Bitcoin Core repository, BDK (Bitcoin Dev Kit), or Stratum V2 mining protocol",
+          "Enhance peer-to-peer transaction propagation, Mempool management, and consensus validation",
+          "Write automated fuzz tests and functional regression test suites",
+          "Participate in weekly cryptographic masterclasses and technical review discussions"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Summer of Bitcoin \u2013 Bitcoin Core Protocol & Cryptography Internship 2026 at Summer of Bitcoin will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of $2,500 - $4,000 USD, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "summer-of-bitcoin-lightning-network-software-engineering-internship-2026",
+    "title": "Summer of Bitcoin \u2013 Lightning Network Software Engineering Internship 2026",
+    "organization": "Summer of Bitcoin",
+    "location": "Remote",
+    "workMode": "Remote",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "12 Weeks",
+    "stipend": "$2,500 - $4,000 USD",
+    "deadline": "2027-01-20",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "The Lightning Network is Bitcoin's layer-2 scaling protocol enabling instant, low-cost micropayments worldwide. Interns work on open-source implementations (LND, Core Lightning, LDK) with leading layer-2 cryptographers and developers.",
+    "tags": [
+      "Winter 2026",
+      "Summer of Bitcoin",
+      "Lightning Network",
+      "Distributed Systems",
+      "Go",
+      "Rust",
+      "Remote"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "The Lightning Network is Bitcoin's layer-2 scaling protocol enabling instant, low-cost micropayments worldwide. Interns work on open-source implementations (LND, Core Lightning, LDK) with leading layer-2 cryptographers and developers."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Proficiency in Go, Rust, or Python with an interest in distributed state machines",
+          "Understanding of layer-2 payment channels, HTLCs, and onion routing protocols",
+          "Passion for building decentralized financial infrastructure",
+          "Eagerness to contribute high-impact open-source pull requests"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Improve payment channel routing algorithms, multi-path payments, and channel liquidity",
+          "Develop lightweight node tooling for mobile and embedded devices",
+          "Fix issues and implement BOLT specification updates across Lightning implementations",
+          "Collaborate with international lightning engineers on discord and GitHub"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Summer of Bitcoin \u2013 Lightning Network Software Engineering Internship 2026 at Summer of Bitcoin will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of $2,500 - $4,000 USD, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "pixxel-space-satellite-flight-software-engineering-intern-2026",
+    "title": "Pixxel Space \u2013 Satellite Flight Software Engineering Intern 2026",
+    "organization": "Pixxel Space",
+    "location": "Bengaluru, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Engineering",
+    "duration": "3-6 Months",
+    "stipend": "\u20b925,000 - \u20b945,000/month",
+    "deadline": "2026-12-20",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Pixxel is building a constellation of the world's highest-resolution hyperspectral earth imaging satellites. As a Flight Software Intern, you will develop on-board satellite flight firmware and orbital telecommand systems deployed in low Earth orbit.",
+    "tags": [
+      "Winter 2026",
+      "Pixxel Space",
+      "SpaceTech",
+      "Satellite",
+      "Flight Software",
+      "Bengaluru"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Pixxel is building a constellation of the world's highest-resolution hyperspectral earth imaging satellites. As a Flight Software Intern, you will develop on-board satellite flight firmware and orbital telecommand systems deployed in low Earth orbit."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students pursuing B.Tech in Aerospace, Computer Science, Electronics, or Instrumentation",
+          "Strong grasp of Embedded C/C++, Real-Time Operating Systems (RTOS - FreeRTOS/Zephyr)",
+          "Understanding of microcontrollers (ARM Cortex, STM32) and communication buses (SPI, I2C, CAN, UART)",
+          "Passion for space exploration, satellite telemetry, and fault-tolerant computing"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Develop flight software modules managing satellite attitude control and sensor payload operations",
+          "Implement automated hardware-in-the-loop (HIL) testing suites simulating orbital environments",
+          "Optimize telemetry packet encoding and ground station downlink protocols",
+          "Collaborate with aerospace and systems engineers on satellite integration and testing"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Pixxel Space \u2013 Satellite Flight Software Engineering Intern 2026 at Pixxel Space will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b925,000 - \u20b945,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "pixxel-space-hyperspectral-earth-observation-computer-vision-intern-2026",
+    "title": "Pixxel Space \u2013 Hyperspectral Earth Observation Computer Vision Intern 2026",
+    "organization": "Pixxel Space",
+    "location": "Bengaluru, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Data",
+    "duration": "3-6 Months",
+    "stipend": "\u20b925,000 - \u20b945,000/month",
+    "deadline": "2026-12-20",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Pixxel's data engine processes hundreds of spectral bands per pixel to monitor climate change, crop health, gas leaks, and forest fires. Interns work with deep learning models extracting valuable insights from raw hyperspectral satellite imagery.",
+    "tags": [
+      "Winter 2026",
+      "Pixxel Space",
+      "Computer Vision",
+      "Earth Observation",
+      "Deep Learning",
+      "Python"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Pixxel's data engine processes hundreds of spectral bands per pixel to monitor climate change, crop health, gas leaks, and forest fires. Interns work with deep learning models extracting valuable insights from raw hyperspectral satellite imagery."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Degree in Computer Science, Data Science, Remote Sensing, or allied engineering disciplines",
+          "Strong skills in Python, PyTorch/TensorFlow, OpenCV, and GIS libraries (Rasterio, GDAL)",
+          "Experience with convolutional neural networks, vision transformers, and multi-spectral imagery",
+          "Solid mathematical understanding of image segmentation, registration, and spectral indices"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Develop deep learning models for automated atmospheric correction and cloud detection",
+          "Build automated feature extraction pipelines identifying methane emissions and crop stress",
+          "Train spatial-spectral segmentation networks on massive petabyte satellite archives",
+          "Benchmark model inference performance for deployment on cloud analytics platforms"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Pixxel Space \u2013 Hyperspectral Earth Observation Computer Vision Intern 2026 at Pixxel Space will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b925,000 - \u20b945,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "agnikul-cosmos-rocket-avionics-and-flight-control-firmware-intern-2026",
+    "title": "Agnikul Cosmos \u2013 Rocket Avionics & Flight Control Firmware Intern 2026",
+    "organization": "Agnikul Cosmos",
+    "location": "Chennai, India (IIT Madras Research Park)",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Hardware",
+    "duration": "3-6 Months",
+    "stipend": "\u20b920,000 - \u20b935,000/month",
+    "deadline": "2026-12-18",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Agnikul Cosmos designs and launches customized orbital rockets (Agnibaan) powered by patent-pending 3D-printed rocket engines. Based at the IIT Madras Research Park, Agnikul's avionics team builds real-time rocket guidance, navigation, and control hardware.",
+    "tags": [
+      "Winter 2026",
+      "Agnikul Cosmos",
+      "SpaceTech",
+      "Avionics",
+      "Firmware",
+      "Embedded C",
+      "IIT Madras"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Agnikul Cosmos designs and launches customized orbital rockets (Agnibaan) powered by patent-pending 3D-printed rocket engines. Based at the IIT Madras Research Park, Agnikul's avionics team builds real-time rocket guidance, navigation, and control hardware."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "B.Tech/M.Tech in Electrical, Electronics, Aerospace, or Instrumentation Engineering",
+          "Proficiency in Embedded C, Bare-metal programming, and RTOS fundamentals",
+          "Familiarity with sensor integration (IMUs, GPS, Pressure sensors) and PCB design",
+          "Thirst for solving hard engineering challenges in rocket science and space launch vehicles"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Write real-time firmware for onboard flight computers and engine valve controllers",
+          "Design test jigs and run hardware-in-the-loop simulations validating flight trajectories",
+          "Perform sensor calibration and data filtering for telemetry acquisition",
+          "Participate in physical engine hot-fire test campaigns and launch vehicle telemetry monitoring"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Agnikul Cosmos \u2013 Rocket Avionics & Flight Control Firmware Intern 2026 at Agnikul Cosmos will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b920,000 - \u20b935,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "agnikul-cosmos-propulsion-systems-and-aerospace-engineering-intern-2026",
+    "title": "Agnikul Cosmos \u2013 Propulsion Systems & Aerospace Engineering Intern 2026",
+    "organization": "Agnikul Cosmos",
+    "location": "Chennai, India (IIT Madras Research Park)",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Engineering",
+    "duration": "3-6 Months",
+    "stipend": "\u20b920,000 - \u20b935,000/month",
+    "deadline": "2026-12-18",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Agnikul pioneered the world's first single-piece 3D printed rocket engine (Agnilet). Propulsion interns work on cryogenic/semi-cryogenic propellant feed systems, combustion chamber thermal modeling, and stage separation mechanics.",
+    "tags": [
+      "Winter 2026",
+      "Agnikul Cosmos",
+      "Rocket Propulsion",
+      "3D Printing",
+      "Aerospace",
+      "Thermodynamics"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Agnikul pioneered the world's first single-piece 3D printed rocket engine (Agnilet). Propulsion interns work on cryogenic/semi-cryogenic propellant feed systems, combustion chamber thermal modeling, and stage separation mechanics."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students pursuing Aerospace, Mechanical, or Chemical Engineering",
+          "Strong fundamentals in fluid mechanics, thermodynamics, and compressible flow",
+          "Familiarity with CAD tools (SolidWorks, CATIA) and CFD software (ANSYS Fluent, OpenFOAM)",
+          "Hands-on mechanical prototyping and hardware testing interest"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Assist in the thermal and structural simulation of rocket combustion chambers and nozzles",
+          "Analyze pressure drops and fluid dynamics in propellant feed pipelines and turbo-pumps",
+          "Support fabrication, assembly, and quality assurance of 3D-printed rocket components",
+          "Document test observations during engine static test firings at launch facilities"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Agnikul Cosmos \u2013 Propulsion Systems & Aerospace Engineering Intern 2026 at Agnikul Cosmos will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b920,000 - \u20b935,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "ideaforge-uav-autonomous-flight-systems-intern-2026",
+    "title": "ideaForge \u2013 UAV Autonomous Flight Systems Intern 2026",
+    "organization": "ideaForge",
+    "location": "Navi Mumbai, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Engineering",
+    "duration": "3-6 Months",
+    "stipend": "\u20b925,000 - \u20b940,000/month",
+    "deadline": "2026-12-22",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "ideaForge is India's market leader in unmanned aerial vehicle (UAV) drone manufacturing for defense, homeland security, and industrial surveillance. As an Autonomous Flight Systems Intern, you will develop autopilot algorithms and autonomous mission navigation software.",
+    "tags": [
+      "Winter 2026",
+      "ideaForge",
+      "Drones",
+      "UAV",
+      "Autopilot",
+      "Flight Control",
+      "Navi Mumbai"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "ideaForge is India's market leader in unmanned aerial vehicle (UAV) drone manufacturing for defense, homeland security, and industrial surveillance. As an Autonomous Flight Systems Intern, you will develop autopilot algorithms and autonomous mission navigation software."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students in Robotics, Aerospace, Mechatronics, or Computer Science",
+          "Working knowledge of ArduPilot, PX4, MAVLink protocol, and drone flight mechanics",
+          "Proficiency in C++ and Python for embedded robotics systems",
+          "Experience with sensor fusion (Extended Kalman Filters, GPS-denied navigation)"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Develop autonomous waypoint navigation and fail-safe return-to-home algorithms",
+          "Tune PID flight control loops for multi-rotor and fixed-wing UAV platforms",
+          "Conduct drone flight simulations in Gazebo/AirSim and participate in field test flights",
+          "Optimize telemetry link stability and ground control station (GCS) software integration"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for ideaForge \u2013 UAV Autonomous Flight Systems Intern 2026 at ideaForge will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b925,000 - \u20b940,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "ideaforge-edge-ai-and-computer-vision-drone-intern-2026",
+    "title": "ideaForge \u2013 Edge AI & Computer Vision Drone Intern 2026",
+    "organization": "ideaForge",
+    "location": "Navi Mumbai, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Data",
+    "duration": "3-6 Months",
+    "stipend": "\u20b925,000 - \u20b940,000/month",
+    "deadline": "2026-12-22",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Deploy AI directly onto drone payloads for real-time target tracking, thermal inspection, and aerial surveillance. Interns optimize computer vision models to execute on edge compute hardware (NVIDIA Jetson, embedded NPUs) with minimal power consumption.",
+    "tags": [
+      "Winter 2026",
+      "ideaForge",
+      "Edge AI",
+      "Computer Vision",
+      "TensorRT",
+      "Embedded Vision"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Deploy AI directly onto drone payloads for real-time target tracking, thermal inspection, and aerial surveillance. Interns optimize computer vision models to execute on edge compute hardware (NVIDIA Jetson, embedded NPUs) with minimal power consumption."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Pursuing degree in Computer Science, AI/ML, or Electronics with focus on vision systems",
+          "Strong proficiency in Python, C++, OpenCV, PyTorch, and TensorRT/ONNX",
+          "Experience with object detection (YOLOv8/v10), multi-object tracking, and optical flow",
+          "Familiarity with embedded Linux environments and edge hardware optimization"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Quantize and optimize deep learning models for real-time inference on NVIDIA Jetson boards",
+          "Develop aerial object tracking and geolocalization algorithms from live gimbal camera feeds",
+          "Build automated data annotation pipelines for aerial surveillance datasets",
+          "Conduct end-to-end latency and thermal profiling during airborne flight tests"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for ideaForge \u2013 Edge AI & Computer Vision Drone Intern 2026 at ideaForge will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b925,000 - \u20b940,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "exponent-energy-battery-management-system-bms-firmware-intern-2026",
+    "title": "Exponent Energy \u2013 Battery Management System (BMS) Firmware Intern 2026",
+    "organization": "Exponent Energy",
+    "location": "Bengaluru, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Hardware",
+    "duration": "3-6 Months",
+    "stipend": "\u20b930,000 - \u20b950,000/month",
+    "deadline": "2026-12-14",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Exponent Energy has revolutionized electric mobility with 15-minute rapid charging for lithium-ion batteries. BMS Firmware Interns write safety-critical firmware monitoring individual cell voltages, temperatures, and state-of-charge under extreme fast-charging currents.",
+    "tags": [
+      "Winter 2026",
+      "Exponent Energy",
+      "BMS",
+      "Firmware",
+      "CleanTech",
+      "EV Charging",
+      "Bengaluru"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Exponent Energy has revolutionized electric mobility with 15-minute rapid charging for lithium-ion batteries. BMS Firmware Interns write safety-critical firmware monitoring individual cell voltages, temperatures, and state-of-charge under extreme fast-charging currents."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "B.Tech/M.Tech in Electrical, Electronics, or Embedded Systems Engineering",
+          "Proficient in C, state machine design, and bare-metal microcontroller programming",
+          "Hands-on experience with communication protocols (CAN bus, CANopen, UART, SPI)",
+          "Understanding of lithium-ion battery chemistry, thermal safety, and cell balancing"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Write real-time firmware for state-of-charge (SOC) and state-of-health (SOH) estimation",
+          "Implement high-speed CAN communication stacks connecting battery packs to fast chargers",
+          "Execute automated hardware-in-the-loop (HIL) battery cycling and thermal runaway stress tests",
+          "Collaborate with power electronics engineers to refine rapid charge safety cut-offs"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Exponent Energy \u2013 Battery Management System (BMS) Firmware Intern 2026 at Exponent Energy will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b930,000 - \u20b950,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "exponent-energy-power-electronics-and-ev-rapid-charging-intern-2026",
+    "title": "Exponent Energy \u2013 Power Electronics & EV Rapid Charging Intern 2026",
+    "organization": "Exponent Energy",
+    "location": "Bengaluru, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Engineering",
+    "duration": "3-6 Months",
+    "stipend": "\u20b930,000 - \u20b950,000/month",
+    "deadline": "2026-12-14",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Work on the cutting edge of power conversion systems delivering 3000A currents safely. Interns design, test, and troubleshoot DC-DC converters, liquid-cooled charging cables, and high-voltage distribution units.",
+    "tags": [
+      "Winter 2026",
+      "Exponent Energy",
+      "Power Electronics",
+      "Rapid Charging",
+      "Hardware",
+      "Electrical Engineering"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Work on the cutting edge of power conversion systems delivering 3000A currents safely. Interns design, test, and troubleshoot DC-DC converters, liquid-cooled charging cables, and high-voltage distribution units."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students pursuing Electrical & Electronics Engineering with power electronics coursework",
+          "Knowledge of converter topologies (Buck-Boost, LLC resonant converters, Inverters)",
+          "Proficiency in circuit simulation tools (MATLAB/Simulink, LTspice, PLECS)",
+          "Familiarity with lab test equipment (oscilloscopes, power analyzers, high-voltage electronic loads)"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Design and simulate high-efficiency power converter circuits and magnetic components",
+          "Conduct thermal testing and efficiency measurements on rapid charging hardware prototypes",
+          "Analyze electromagnetic interference (EMI/EMC) compliance across charging stations",
+          "Collaborate with mechanical engineers on liquid cooling loop thermal dissipation"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Exponent Energy \u2013 Power Electronics & EV Rapid Charging Intern 2026 at Exponent Energy will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b930,000 - \u20b950,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "ati-motors-autonomous-mobile-robotics-amr-and-ros2-intern-2026",
+    "title": "Ati Motors \u2013 Autonomous Mobile Robotics (AMR) & ROS2 Intern 2026",
+    "organization": "Ati Motors",
+    "location": "Bengaluru, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Engineering",
+    "duration": "3-6 Months",
+    "stipend": "\u20b930,000 - \u20b950,000/month",
+    "deadline": "2026-12-28",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Ati Motors manufactures Sherpa\u2014an AI-powered, autonomous electric vehicle that navigates unstructured industrial environments. As an AMR Robotics Intern, you will work on motion planning, vehicle control kinematics, and ROS2 architecture.",
+    "tags": [
+      "Winter 2026",
+      "Ati Motors",
+      "Robotics",
+      "ROS2",
+      "Autonomous Vehicles",
+      "Bengaluru"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Ati Motors manufactures Sherpa\u2014an AI-powered, autonomous electric vehicle that navigates unstructured industrial environments. As an AMR Robotics Intern, you will work on motion planning, vehicle control kinematics, and ROS2 architecture."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students in Robotics, Mechatronics, Computer Science, or Electrical Engineering",
+          "Solid experience with ROS/ROS2, Python, C++, and Linux environments",
+          "Strong understanding of differential drive kinematics, MPC controllers, and path tracking",
+          "Familiarity with industrial sensors (2D/3D LiDAR, wheel odometry, IMU)"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Develop and validate path-following and dynamic obstacle avoidance algorithms in ROS2",
+          "Optimize trajectory generation for tugging heavy payloads across factory floors",
+          "Perform simulation testing in Gazebo and real-world robot deployment validation",
+          "Debug low-level motor drive interfaces and CAN bus communication nodes"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Ati Motors \u2013 Autonomous Mobile Robotics (AMR) & ROS2 Intern 2026 at Ati Motors will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b930,000 - \u20b950,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "ati-motors-lidar-slam-and-path-planning-intern-2026",
+    "title": "Ati Motors \u2013 LiDAR SLAM & Path Planning Intern 2026",
+    "organization": "Ati Motors",
+    "location": "Bengaluru, India",
+    "workMode": "Onsite",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "3-6 Months",
+    "stipend": "\u20b930,000 - \u20b950,000/month",
+    "deadline": "2026-12-28",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Ati's autonomous vehicles operate reliably in complex, dynamic industrial sites without relying on magnetic tape or GPS. This internship focuses on 3D LiDAR SLAM, point cloud registration, and global mapping.",
+    "tags": [
+      "Winter 2026",
+      "Ati Motors",
+      "SLAM",
+      "LiDAR",
+      "Path Planning",
+      "C++",
+      "Robotics"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Ati's autonomous vehicles operate reliably in complex, dynamic industrial sites without relying on magnetic tape or GPS. This internship focuses on 3D LiDAR SLAM, point cloud registration, and global mapping."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Master's or bachelor's students with focus on SLAM, computer vision, or robotics",
+          "Strong proficiency in modern C++, Eigen, PCL (Point Cloud Library), and ROS2",
+          "Theoretical grasp of graph-based SLAM, ICP, NDT, and nonlinear optimization (g2o, Ceres)",
+          "Track record of robotics projects or academic publications in localization"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Implement and evaluate state-of-the-art 3D LiDAR SLAM algorithms in outdoor/indoor factory environments",
+          "Process point cloud maps with feature extraction, filtering, and loop closure detection",
+          "Benchmark localization accuracy against RTK-GPS ground truth systems",
+          "Collaborate with fleet management software engineers on multi-robot map sharing"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Ati Motors \u2013 LiDAR SLAM & Path Planning Intern 2026 at Ati Motors will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b930,000 - \u20b950,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "signoz-distributed-systems-and-observability-intern-go-clickhouse-2026",
+    "title": "SigNoz \u2013 Distributed Systems & Observability Intern (Go / ClickHouse) 2026",
+    "organization": "SigNoz",
+    "location": "Bengaluru / Remote",
+    "workMode": "Hybrid",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "3-6 Months",
+    "stipend": "\u20b935,000 - \u20b960,000/month",
+    "deadline": "2026-12-20",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "SigNoz is the leading open-source APM and observability platform built on OpenTelemetry and ClickHouse. As a Distributed Systems Intern, you will work on high-throughput telemetry ingestion pipelines processing millions of traces and logs per second.",
+    "tags": [
+      "Winter 2026",
+      "SigNoz",
+      "Open Source",
+      "Go",
+      "ClickHouse",
+      "Observability",
+      "APM"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "SigNoz is the leading open-source APM and observability platform built on OpenTelemetry and ClickHouse. As a Distributed Systems Intern, you will work on high-throughput telemetry ingestion pipelines processing millions of traces and logs per second."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Strong proficiency in Golang, concurrency patterns (goroutines, channels), and data structures",
+          "Familiarity with column-oriented databases (ClickHouse), Kafka, or message queues",
+          "Understanding of distributed tracing, metrics aggregation, and OpenTelemetry standards",
+          "Active public contributions to open-source software on GitHub"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Optimize OpenTelemetry collector pipelines ingesting high-volume distributed traces and metrics",
+          "Engineer analytical SQL queries and schema optimizations in ClickHouse for real-time aggregations",
+          "Build automated load-testing frameworks simulating petabyte-scale observability workloads",
+          "Engage directly with global developer users in the SigNoz open-source community Slack"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for SigNoz \u2013 Distributed Systems & Observability Intern (Go / ClickHouse) 2026 at SigNoz will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b935,000 - \u20b960,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "signoz-frontend-engineering-intern-react-opentelemetry-2026",
+    "title": "SigNoz \u2013 Frontend Engineering Intern (React / OpenTelemetry) 2026",
+    "organization": "SigNoz",
+    "location": "Bengaluru / Remote",
+    "workMode": "Hybrid",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "3-6 Months",
+    "stipend": "\u20b935,000 - \u20b960,000/month",
+    "deadline": "2026-12-20",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Visualizing complex microservice dependency graphs, distributed trace flamegraphs, and dynamic time-series charts requires world-class frontend engineering. Interns build high-performance user interfaces used by thousands of engineering teams.",
+    "tags": [
+      "Winter 2026",
+      "SigNoz",
+      "Frontend",
+      "React",
+      "TypeScript",
+      "Data Visualization"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Visualizing complex microservice dependency graphs, distributed trace flamegraphs, and dynamic time-series charts requires world-class frontend engineering. Interns build high-performance user interfaces used by thousands of engineering teams."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Strong skills in TypeScript, React.js, TailwindCSS, and state management",
+          "Experience rendering dense data visualizations using canvas or SVG (D3.js, ECharts, uPlot)",
+          "Deep understanding of browser rendering performance, memoization, and web workers",
+          "Eye for sleek, intuitive UI/UX design tailored for software engineers"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Build responsive trace flamegraphs, service maps, and customizable APM dashboards",
+          "Optimize charting render times handling 100,000+ data points without dropped frames",
+          "Develop reusable UI components for the SigNoz open-source design system",
+          "Resolve community-reported UI issues and review pull requests from external contributors"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for SigNoz \u2013 Frontend Engineering Intern (React / OpenTelemetry) 2026 at SigNoz will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b935,000 - \u20b960,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "browserstack-cloud-infrastructure-and-systems-engineering-intern-2026",
+    "title": "BrowserStack \u2013 Cloud Infrastructure & Systems Engineering Intern 2026",
+    "organization": "BrowserStack",
+    "location": "Mumbai / Remote",
+    "workMode": "Hybrid",
+    "type": "Corporate",
+    "category": "Engineering",
+    "duration": "3-6 Months",
+    "stipend": "\u20b960,000 - \u20b980,000/month",
+    "deadline": "2026-12-24",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "BrowserStack operates a massive cloud infrastructure of real mobile devices and desktop browsers powering over 2 million tests daily. Infrastructure interns tackle real-world virtualization, Linux containerization, and distributed orchestration challenges.",
+    "tags": [
+      "Winter 2026",
+      "BrowserStack",
+      "Cloud Infrastructure",
+      "Distributed Systems",
+      "Linux",
+      "Mumbai"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "BrowserStack operates a massive cloud infrastructure of real mobile devices and desktop browsers powering over 2 million tests daily. Infrastructure interns tackle real-world virtualization, Linux containerization, and distributed orchestration challenges."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "B.Tech/Dual Degree students in Computer Science or allied technical disciplines",
+          "Strong understanding of Linux operating systems, networking (TCP/IP, HTTP/WebSocket), and concurrency",
+          "Proficiency in Ruby, Python, Go, or Node.js with strong algorithmic fundamentals",
+          "Familiarity with Docker, Kubernetes, and cloud virtualization technologies"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Design scalable device automation services connecting thousands of physical Android/iOS devices",
+          "Optimize network tunnels and WebRTC streaming latency for interactive browser sessions",
+          "Implement self-healing infrastructure monitors that automatically reboot unresponsive hardware",
+          "Benchmark hypervisor virtualization overhead and container start-up times"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for BrowserStack \u2013 Cloud Infrastructure & Systems Engineering Intern 2026 at BrowserStack will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b960,000 - \u20b980,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "browserstack-automated-testing-platform-software-intern-2026",
+    "title": "BrowserStack \u2013 Automated Testing Platform Software Intern 2026",
+    "organization": "BrowserStack",
+    "location": "Mumbai / Remote",
+    "workMode": "Hybrid",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "3-6 Months",
+    "stipend": "\u20b960,000 - \u20b980,000/month",
+    "deadline": "2026-12-24",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Work on the core platforms behind BrowserStack Automate and App Automate, integrating with Selenium, Cypress, Playwright, and Appium to empower millions of developers to ship bug-free software effortlessly.",
+    "tags": [
+      "Winter 2026",
+      "BrowserStack",
+      "Testing Platform",
+      "DevTools",
+      "JavaScript",
+      "Python"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Work on the core platforms behind BrowserStack Automate and App Automate, integrating with Selenium, Cypress, Playwright, and Appium to empower millions of developers to ship bug-free software effortlessly."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Enrolled in university computer science or engineering degree program",
+          "Strong grasp of JavaScript, Python, or Java with clean coding principles",
+          "Understanding of web testing frameworks (Selenium, Cypress, Puppeteer, Playwright)",
+          "Analytical mind with passion for developer ergonomics and developer productivity tools"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Engineer SDKs and CLI tools integrating popular test frameworks with BrowserStack's cloud grid",
+          "Develop automated test intelligence features detecting flaky tests and visual regressions",
+          "Write high-coverage unit and integration test harnesses for continuous deployment pipelines",
+          "Collaborate with product managers and customer engineering teams on technical user feedback"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for BrowserStack \u2013 Automated Testing Platform Software Intern 2026 at BrowserStack will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b960,000 - \u20b980,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "hasura-compiler-and-distributed-query-engine-intern-haskell-go-2026",
+    "title": "Hasura \u2013 Compiler & Distributed Query Engine Intern (Haskell / Go) 2026",
+    "organization": "Hasura",
+    "location": "Bengaluru / Remote",
+    "workMode": "Remote",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "3-6 Months",
+    "stipend": "\u20b940,000 - \u20b970,000/month",
+    "deadline": "2026-12-30",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Hasura makes data access blazingly fast by instantly generating high-performance GraphQL and REST APIs over databases. Compiler interns work on query compilation, abstract syntax tree (AST) transformations, and distributed SQL generation.",
+    "tags": [
+      "Winter 2026",
+      "Hasura",
+      "GraphQL",
+      "Compilers",
+      "Haskell",
+      "Go",
+      "Distributed Query Engine"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Hasura makes data access blazingly fast by instantly generating high-performance GraphQL and REST APIs over databases. Compiler interns work on query compilation, abstract syntax tree (AST) transformations, and distributed SQL generation."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Passionate about functional programming (Haskell, Rust, OCaml) or systems development in Go",
+          "Sound understanding of compilers, parser combinators, and database query planners",
+          "Familiarity with SQL, relational database management systems (PostgreSQL, MySQL), and GraphQL",
+          "Strong analytical problem-solving and systems design fundamentals"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Contribute to Hasura's query engine compiling GraphQL queries into single, hyper-optimized SQL statements",
+          "Build and maintain native database connectors for PostgreSQL, Snowflake, ClickHouse, and BigQuery",
+          "Optimize memory usage and execution latency across distributed connector architectures",
+          "Participate in design RFCs and write open-source specifications for data federation"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Hasura \u2013 Compiler & Distributed Query Engine Intern (Haskell / Go) 2026 at Hasura will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b940,000 - \u20b970,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "samagra-governance-govtech-full-stack-engineering-intern-2026",
+    "title": "Samagra Governance \u2013 GovTech Full Stack Engineering Intern 2026",
+    "organization": "Samagra Governance",
+    "location": "New Delhi, India",
+    "workMode": "Hybrid",
+    "type": "Corporate",
+    "category": "Software",
+    "duration": "3-6 Months",
+    "stipend": "\u20b940,000 - \u20b960,000/month",
+    "deadline": "2026-12-25",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Samagra Governance is a mission-driven governance consulting firm transforming governance through technology. As an engineering intern, you will build open-source, population-scale digital public infrastructure used by millions of citizens across Indian states.",
+    "tags": [
+      "Winter 2026",
+      "Samagra Governance",
+      "GovTech",
+      "Full Stack",
+      "Public Systems",
+      "Civic Tech"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Samagra Governance is a mission-driven governance consulting firm transforming governance through technology. As an engineering intern, you will build open-source, population-scale digital public infrastructure used by millions of citizens across Indian states."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Students pursuing B.Tech/B.E. or MCA in Computer Science or related fields",
+          "Proficient in modern full-stack web stacks (Node.js/NestJS, React/Next.js, PostgreSQL)",
+          "Understanding of microservices, REST/GraphQL APIs, and Docker deployments",
+          "Passion for building technology that directly impacts governance and ordinary citizens"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Build scalable backend services powering state-wide educational and public health platforms",
+          "Create intuitive mobile-first web portals for field officers and government administrators",
+          "Integrate automated messaging gateways (WhatsApp bots, SMS) for citizen grievance redressal",
+          "Follow agile software development workflows with rigorous peer reviews and test coverage"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Samagra Governance \u2013 GovTech Full Stack Engineering Intern 2026 at Samagra Governance will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b940,000 - \u20b960,000/month, and a formal credential upon successful completion."
+      }
+    ]
+  },
+  {
+    "id": "samagra-governance-public-systems-data-engineering-intern-2026",
+    "title": "Samagra Governance \u2013 Public Systems Data Engineering Intern 2026",
+    "organization": "Samagra Governance",
+    "location": "New Delhi, India",
+    "workMode": "Hybrid",
+    "type": "Corporate",
+    "category": "Data",
+    "duration": "3-6 Months",
+    "stipend": "\u20b940,000 - \u20b960,000/month",
+    "deadline": "2026-12-25",
+    "datePosted": "2026-10-13",
+    "updatedAt": "2026-10-13",
+    "description": "Harness massive datasets from state school education, healthcare, and agricultural subsidies to drive data-backed governance decisions. Data interns construct scalable ETL pipelines and executive analytics dashboards for top state leadership.",
+    "tags": [
+      "Winter 2026",
+      "Samagra Governance",
+      "Data Engineering",
+      "Public Systems",
+      "Data Analytics",
+      "Civic Tech"
+    ],
+    "applyUrl": "https://internshipshub.in/internships",
+    "hubSlug": "internships",
+    "contentBlocks": [
+      {
+        "title": "Role Overview",
+        "content": "Harness massive datasets from state school education, healthcare, and agricultural subsidies to drive data-backed governance decisions. Data interns construct scalable ETL pipelines and executive analytics dashboards for top state leadership."
+      },
+      {
+        "title": "Eligibility & Qualifications",
+        "list": [
+          "Engineering or data science students with strong analytical and problem-solving mindset",
+          "Proficient in Python, SQL, data modeling, and workflow orchestration tools (Airflow/Prefect)",
+          "Experience building interactive visual dashboards (Metabase, Superset, PowerBI)",
+          "Commitment to high data hygiene, accuracy, and public welfare problem solving"
+        ]
+      },
+      {
+        "title": "Key Responsibilities",
+        "list": [
+          "Engineer resilient data pipelines processing millions of daily records from grassroots surveys",
+          "Design centralized data warehouses and star-schema models in PostgreSQL and ClickHouse",
+          "Develop automated anomaly detection scripts identifying administrative leakage and delays",
+          "Create real-time KPI dashboards presented directly to Chief Ministers and Department Secretaries"
+        ]
+      },
+      {
+        "title": "What We Offer & Learning Experience",
+        "content": "Selected candidates for Samagra Governance \u2013 Public Systems Data Engineering Intern 2026 at Samagra Governance will receive mentorship from domain leaders, hands-on exposure to high-impact projects, stipend of \u20b940,000 - \u20b960,000/month, and a formal credential upon successful completion."
+      }
+    ]
   }
 ]

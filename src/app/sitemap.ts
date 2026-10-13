@@ -26,10 +26,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === "" ? 1 : 0.8,
   }));
 
-  // Dynamic internship routes
-  const internshipRoutes = (internshipsData as Internship[]).map((internship) => ({
+  // Dynamic internship routes (deduplicated by ID)
+  const uniqueInternships = Array.from(
+    new Map((internshipsData as Internship[]).map((item) => [item.id, item])).values()
+  );
+
+  const internshipRoutes = uniqueInternships.map((internship) => ({
     url: `${baseUrl}/internships/${internship.id}`,
-    lastModified: new Date(),
+    lastModified: internship.updatedAt ? new Date(internship.updatedAt) : new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.6,
   }));
