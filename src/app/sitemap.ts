@@ -22,8 +22,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: route === "" ? 1 : 0.8,
+    changeFrequency: route === "" ? ("daily" as const) : ("weekly" as const),
+    priority: route === "" ? 1.0 : 0.8,
   }));
 
   // Dynamic internship routes (deduplicated by ID)
@@ -34,8 +34,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const internshipRoutes = uniqueInternships.map((internship) => ({
     url: `${baseUrl}/internships/${internship.id}`,
     lastModified: internship.updatedAt ? new Date(internship.updatedAt) : new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
   }));
 
   return [...staticRoutes, ...internshipRoutes];

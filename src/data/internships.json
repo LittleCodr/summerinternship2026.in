@@ -1645,57 +1645,7 @@
     "updatedAt": "2026-10-03"
   },
   {
-    "id": "tcs-internship-2026",
-    "title": "TCS Global Internship 2026",
-    "organization": "TCS",
-    "category": "Corporate",
-    "location": "Various Locations",
-    "duration": "3-6 months",
-    "stipend": "Competitive Stipend",
-    "deadline": "Rolling Basis",
-    "workMode": "Hybrid",
-    "hubSlug": "tcs-tech-internship-2026",
-    "tags": [
-      "Corporate",
-      "IT",
-      "Tech"
-    ],
-    "contentBlocks": [
-      {
-        "title": "The Global Impact of TCS Internships",
-        "content": "Tata Consultancy Services (TCS) offers its flagship 'Global Internship Program' for the 2026 academic cycle. As one of the world's largest IT conglomerates, TCS provides interns with exposure to massive-scale infrastructure and global delivery models. This program is highly sought after by students aiming for roles in software development, cybersecurity, and cloud computing."
-      },
-      {
-        "title": "Learning & Tech Stack",
-        "content": "Interns get access to the TCS iON learning platform and work on live projects using technologies like:\n- Microservices architecture with Node.js and Spring Boot.\n- Cloud data lakes on Azure and AWS.\n- Real-world AI applications using Tata's proprietary algorithms.",
-        "list": [
-          "Full Stack Development",
-          "Big Data Analytics",
-          "Cybersecurity and GRC",
-          "Digital Transformation Consulting"
-        ]
-      },
-      {
-        "title": "Selection Journey (TCS NQT)",
-        "content": "The path to a TCS internship usually begins with the TCS NQT (National Qualifier Test). High scorers are invited for a Technical Interview followed by a Managerial/HR round. The 2026 cycle expects stronger focus on algorithmic problem solving and system design basics."
-      },
-      {
-        "title": "The 2026 Prep Guide",
-        "content": "1. **NQT Foundations**: Practice quantitative aptitude and logical reasoning. TCS values speed and accuracy.\n2. **Hands-on Projects**: Ensure you have at least 2 full-stack projects in your portfolio.\n3. **Agile Methodology**: Learn the basics of Scrum and Agile, as TCS follows these rigorously.",
-        "list": [
-          "Competitive Pay",
-          "Potential for PPO",
-          "Global Career Mobility",
-          "Employee Wellness Programs"
-        ]
-      }
-    ],
-    "applyUrl": "https://internshipshub.in/guides/tcs-research-internship",
-    "datePosted": "2026-09-01",
-    "updatedAt": "2026-09-15"
-  },
-  {
-    "id": "accenture-internship-2026",
+    "id": "accenture-summer-internship-2026",
     "title": "Strategy & Consulting Internship",
     "organization": "Accenture",
     "category": "Corporate",
@@ -1823,46 +1773,6 @@
     "applyUrl": "https://internshipshub.in/internships/nit-puducherry-internship",
     "datePosted": "2026-02-12",
     "updatedAt": "2026-10-01"
-  },
-  {
-    "id": "saraswati-teacher-vacancy-2026",
-    "title": "Graduate Teacher Internship",
-    "organization": "Saraswati Vidya Mandir",
-    "category": "Govt",
-    "location": "Various",
-    "duration": "6 months",
-    "stipend": "Honorarium",
-    "deadline": "2026-11-08",
-    "workMode": "Onsite",
-    "hubSlug": "",
-    "tags": [
-      "Education",
-      "Teaching",
-      "Internship"
-    ],
-    "contentBlocks": [
-      {
-        "title": "The Impact of Value-Based Education",
-        "content": "Saraswati Vidya Mandir (SVM) schools provide a unique Graduate Teacher Internship for 2026. This program is designed for graduates who are passionate about reforming the Indian education system through value-based and holistic learning (Shiksha). It offers a rare look into the operational and pedagogical scale of one of India's largest private educational networks."
-      },
-      {
-        "title": "Internship Roles & Development",
-        "content": "Interns are not just classroom teachers; they are 'Educational Innovators'. Responsibilities include:\n- Developing creative learning modules for Vedic Mathematics and Sanskrit.\n- Organizing community service and personality development camps.\n- Assisting in the digital transformation of rural SVM branches.",
-        "list": [
-          "Pedagogical Innovation",
-          "Community Engagement",
-          "Public Speaking Training",
-          "Educational Leadership"
-        ]
-      },
-      {
-        "title": "Selection & Eligibility",
-        "content": "Candidates in their final year of graduation or recent graduates with a strong academic record and a commitment to social service are eligible. The selection process involves a written test on general awareness and a teaching demonstration."
-      }
-    ],
-    "applyUrl": "https://internshipshub.in/guides/saraswati-vidya-mandir-teacher-recruitment",
-    "datePosted": "2026-09-01",
-    "updatedAt": "2026-10-04"
   },
   {
     "id": "nit-srinagar-summer-2026",
@@ -2254,7 +2164,7 @@
     "updatedAt": "2026-10-01"
   },
   {
-    "id": "jp-morgan-internship-2026",
+    "id": "jp-morgan-summer-internship-2026",
     "title": "Software Engineer Internship",
     "organization": "JP Morgan",
     "category": "Corporate",
@@ -2280,7 +2190,7 @@
     "updatedAt": "2026-10-02"
   },
   {
-    "id": "rbi-internship-2026",
+    "id": "rbi-summer-placement-internship-2026",
     "title": "RBI Summer Internship",
     "organization": "RBI",
     "category": "Govt",
@@ -2306,7 +2216,7 @@
     "updatedAt": "2026-10-04"
   },
   {
-    "id": "mckinsey-internship-2026",
+    "id": "mckinsey-summer-internship-2026",
     "title": "Business Analyst Intern",
     "organization": "McKinsey",
     "category": "Corporate",
@@ -2356,32 +2266,6 @@
     "applyUrl": "https://internshipshub.in/internships/iit-bhilai-internship",
     "datePosted": "2026-01-28",
     "updatedAt": "2026-10-02"
-  },
-  {
-    "id": "samsung-internship-2026",
-    "title": "Samsung Prism Research",
-    "organization": "Samsung",
-    "category": "Corporate",
-    "location": "Virtual / Bangalore",
-    "duration": "4-6 months",
-    "stipend": "Rewards / Stipend",
-    "deadline": "Rolling Basis",
-    "workMode": "Remote",
-    "hubSlug": "samsung-prism-program-research-internship-2026",
-    "tags": [
-      "Corporate",
-      "R&D",
-      "Remote"
-    ],
-    "contentBlocks": [
-      {
-        "title": "Collaborative Innovation: Samsung PRISM",
-        "content": "Samsung PRISM is a unique industry-academia program for 2026. It allows students to work on real-world problems alongside Samsung R&D engineers. This is an elite opportunity for students to get their names on patents and top-tier industrial projects."
-      }
-    ],
-    "applyUrl": "https://internshipshub.in/internships",
-    "datePosted": "2026-09-01",
-    "updatedAt": "2026-09-15"
   },
   {
     "id": "iiitdm-kurnool-summer-2026",
