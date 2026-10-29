@@ -2,28 +2,33 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, MapPin, ArrowRight, Building2, Sparkles, Zap } from "lucide-react";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useMemo } from "react";
 import internshipsData from "@/data/internships.json";
 import { type Internship } from "@/hooks/useSearchAndFilter";
 import Link from "next/link";
+import { trackSearch } from "@/lib/firebase";
 
 export default function Hero() {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<Internship[]>([]);
   const [isFocused, setIsFocused] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
 
+  const results = useMemo(() => {
+    if (query.trim().length <= 1) return [];
+    return (internshipsData as Internship[]).filter(i => 
+      i.title.toLowerCase().includes(query.toLowerCase()) ||
+      i.organization.toLowerCase().includes(query.toLowerCase())
+    ).slice(0, 5);
+  }, [query]);
+
   useEffect(() => {
     if (query.trim().length > 1) {
-      const filtered = (internshipsData as Internship[]).filter(i => 
-        i.title.toLowerCase().includes(query.toLowerCase()) ||
-        i.organization.toLowerCase().includes(query.toLowerCase())
-      ).slice(0, 5);
-      setResults(filtered);
-    } else {
-      setResults([]);
+      const timer = setTimeout(() => {
+        trackSearch(query.trim(), results.length);
+      }, 500);
+      return () => clearTimeout(timer);
     }
-  }, [query]);
+  }, [query, results.length]);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {

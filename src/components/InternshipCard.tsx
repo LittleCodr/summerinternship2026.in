@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MapPin, Clock, ExternalLink, Calendar, Building2, Star } from "lucide-react";
+import { Clock, ExternalLink, Building2, Star } from "lucide-react";
 import Link from "next/link";
+import { logFirebaseEvent } from "@/lib/firebase";
 
 interface InternshipCardProps {
   internship: {
@@ -20,6 +21,16 @@ interface InternshipCardProps {
 }
 
 export default function InternshipCard({ internship }: InternshipCardProps) {
+  const handleCardClick = () => {
+    logFirebaseEvent("select_internship_card", {
+      item_id: internship.id,
+      item_name: internship.title,
+      organization: internship.organization,
+      category: internship.category,
+      stipend: internship.stipend,
+    });
+  };
+
   return (
     <motion.div
       layout
@@ -45,13 +56,14 @@ export default function InternshipCard({ internship }: InternshipCardProps) {
         </div>
         <Link 
           href={`/internships/${internship.id}`}
+          onClick={handleCardClick}
           className="w-12 h-12 rounded-2xl bg-primary/5 flex items-center justify-center group-hover:bg-primary group-hover:text-milk transition-all rotate-3 group-hover:rotate-0 shadow-lg shadow-black/5"
         >
           <ExternalLink className="w-5 h-5 transition-transform group-hover:scale-110" />
         </Link>
       </div>
 
-      <Link href={`/internships/${internship.id}`} className="flex-1 space-y-4">
+      <Link href={`/internships/${internship.id}`} onClick={handleCardClick} className="flex-1 space-y-4">
         <div className="flex items-center gap-3 text-primary/30 font-black text-[10px] uppercase tracking-[0.2em]">
           <Building2 className="w-4 h-4" />
           {internship.organization}
@@ -79,6 +91,7 @@ export default function InternshipCard({ internship }: InternshipCardProps) {
         </div>
         <Link 
           href={`/internships/${internship.id}`}
+          onClick={handleCardClick}
           title={`View full details and application steps for ${internship.title} at ${internship.organization}`}
           className="px-8 py-3.5 rounded-2xl bg-primary/5 text-primary font-black text-[10px] uppercase tracking-[0.2em] hover:bg-primary hover:text-milk transition-all shadow-xl shadow-black/5"
         >

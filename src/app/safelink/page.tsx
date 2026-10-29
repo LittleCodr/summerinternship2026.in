@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import {
   Download,
   CheckCircle2,
@@ -21,6 +22,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
+import { logFirebaseEvent } from '@/lib/firebase';
 
 const STAGE_DURATION = 20; // 20s simple timer per phase = 60s total dwell time
 const DEFAULT_TARGET = 'https://videynow.com/s/1Oc6UAVZA0S8EVTciI_-WMQ';
@@ -58,22 +60,36 @@ function SafelinkContent() {
   // If ID provided, try fetching from Firestore REST API
   useEffect(() => {
     if (id) {
-      fetch(`https://firestore.googleapis.com/v1/projects/internship-in/databases/(default)/documents/safelinks/${id}`)
+      logFirebaseEvent('safelink_view', { safelink_id: id });
+      fetch(`https://firestore.googleapis.com/v1/projects/internshipshub-in/databases/(default)/documents/safelinks/${id}`)
         .then((res) => res.json())
         .then((data) => {
           if (data?.fields?.targetUrl?.stringValue) {
             setDestinationUrl(data.fields.targetUrl.stringValue);
+          } else {
+            throw new Error('Not found in internshipshub-in');
           }
         })
         .catch(() => {
-          fetch(`https://firestore.googleapis.com/v1/projects/fellowship-in/databases/(default)/documents/safelinks/${id}`)
+          fetch(`https://firestore.googleapis.com/v1/projects/internship-in/databases/(default)/documents/safelinks/${id}`)
             .then((res) => res.json())
             .then((data) => {
               if (data?.fields?.targetUrl?.stringValue) {
                 setDestinationUrl(data.fields.targetUrl.stringValue);
+              } else {
+                throw new Error('Not found in internship-in');
               }
             })
-            .catch(() => {});
+            .catch(() => {
+              fetch(`https://firestore.googleapis.com/v1/projects/fellowship-in/databases/(default)/documents/safelinks/${id}`)
+                .then((res) => res.json())
+                .then((data) => {
+                  if (data?.fields?.targetUrl?.stringValue) {
+                    setDestinationUrl(data.fields.targetUrl.stringValue);
+                  }
+                })
+                .catch(() => {});
+            });
         });
     }
   }, [id]);
@@ -109,6 +125,7 @@ function SafelinkContent() {
           if (prev <= 1) {
             clearInterval(interval);
             setPhaseStatus('DONE');
+            logFirebaseEvent('safelink_phase_completed', { phase: currentPhase, safelink_id: id });
             if (currentPhase === 3) {
               try {
                 confetti({ particleCount: 90, spread: 80, origin: { y: 0.6 } });
@@ -123,16 +140,18 @@ function SafelinkContent() {
       }, 1000);
       return () => clearInterval(interval);
     }
-  }, [phaseStatus, isTabHidden, currentPhase]);
+  }, [phaseStatus, isTabHidden, currentPhase, id]);
 
   // Start current phase timer
   const handleStartTimer = () => {
+    logFirebaseEvent('safelink_timer_start', { phase: currentPhase, safelink_id: id });
     setSecondsLeft(STAGE_DURATION);
     setPhaseStatus('RUNNING');
   };
 
   // Move from Phase 1 -> Phase 2
   const handleProceedToPhase2 = () => {
+    logFirebaseEvent('safelink_proceed_phase_2', { safelink_id: id });
     setCurrentPhase(2);
     setSecondsLeft(STAGE_DURATION);
     setPhaseStatus('RUNNING');
@@ -140,6 +159,7 @@ function SafelinkContent() {
 
   // Move from Phase 2 -> Phase 3
   const handleProceedToPhase3 = () => {
+    logFirebaseEvent('safelink_proceed_phase_3', { safelink_id: id });
     setCurrentPhase(3);
     setSecondsLeft(STAGE_DURATION);
     setPhaseStatus('RUNNING');
@@ -147,6 +167,7 @@ function SafelinkContent() {
 
   // Final Action: Unlock and Download App!
   const handleOpenDestination = () => {
+    logFirebaseEvent('safelink_unlock_download', { safelink_id: id, target_url: destinationUrl });
     try {
       confetti({ particleCount: 100, spread: 90, origin: { y: 0.6 } });
     } catch {
@@ -218,7 +239,7 @@ function SafelinkContent() {
       {/* BREADCRUMB */}
       <div className="bg-slate-100 border-b border-slate-200 py-2 px-4">
         <div className="max-w-4xl mx-auto text-xs font-medium text-slate-500 flex items-center gap-2">
-          <a href="/" className="hover:text-emerald-600 transition-colors">Home</a>
+          <Link href="/" className="hover:text-emerald-600 transition-colors">Home</Link>
           <span className="text-slate-400">/</span>
           <span className="text-slate-600">Free Student Apps</span>
           <span className="text-slate-400">/</span>

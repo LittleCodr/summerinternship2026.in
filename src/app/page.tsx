@@ -8,18 +8,19 @@ import { useSearchAndFilter } from "@/hooks/useSearchAndFilter";
 import internshipsData from "@/data/internships.json";
 import { type Internship } from "@/hooks/useSearchAndFilter";
 import { motion, AnimatePresence } from "framer-motion";
+import { trackFilterChange } from "@/lib/firebase";
 
 export default function Home() {
   const { 
     activeFilter, 
     setActiveFilter, 
     filteredData,
-    searchQuery,
     setSearchQuery 
   } = useSearchAndFilter(internshipsData as Internship[]);
 
   const handleCategorySelect = (category: string) => {
     setActiveFilter(category);
+    trackFilterChange(category);
     const explorer = document.getElementById("explorer");
     if (explorer) {
       explorer.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -41,7 +42,10 @@ export default function Home() {
           
           <FilterBar 
             activeFilter={activeFilter} 
-            onFilterChange={setActiveFilter} 
+            onFilterChange={(filter) => {
+              setActiveFilter(filter);
+              trackFilterChange(filter);
+            }} 
           />
         </div>
 

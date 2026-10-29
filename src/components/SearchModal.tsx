@@ -2,36 +2,44 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, Command, X, Building2, ArrowRight } from "lucide-react";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import internshipsData from "@/data/internships.json";
 import { Internship } from "@/hooks/useSearchAndFilter";
 import Link from "next/link";
+import { trackSearch } from "@/lib/firebase";
 
 export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<Internship[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (isOpen) {
       setTimeout(() => inputRef.current?.focus(), 100);
-      setQuery("");
-      setResults([]);
     }
   }, [isOpen]);
 
+  const results = useMemo(() => {
+    if (query.trim().length <= 1) return [];
+    return (internshipsData as Internship[]).filter(i => 
+      (i.title || "").toLowerCase().includes(query.toLowerCase()) ||
+      (i.organization || "").toLowerCase().includes(query.toLowerCase()) ||
+      (i.tags || []).some(t => t.toLowerCase().includes(query.toLowerCase()))
+    ).slice(0, 8);
+  }, [query]);
+
   useEffect(() => {
     if (query.trim().length > 1) {
-      const filtered = (internshipsData as Internship[]).filter(i => 
-        (i.title || "").toLowerCase().includes(query.toLowerCase()) ||
-        (i.organization || "").toLowerCase().includes(query.toLowerCase()) ||
-        (i.tags || []).some(t => t.toLowerCase().includes(query.toLowerCase()))
-      ).slice(0, 8);
-      setResults(filtered);
-    } else {
-      setResults([]);
+      const timer = setTimeout(() => {
+        trackSearch(query.trim(), results.length);
+      }, 500);
+      return () => clearTimeout(timer);
     }
-  }, [query]);
+  }, [query, results.length]);
+
+  const handleClose = () => {
+    setQuery("");
+    onClose();
+  };
 
   // Handle Cmd+K
   useEffect(() => {
@@ -53,7 +61,7 @@ export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onCl
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            onClick={onClose}
+            onClick={handleClose}
             className="absolute inset-0 bg-primary/40 backdrop-blur-xl"
           />
           
@@ -89,7 +97,7 @@ export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onCl
                     <Link
                       key={result.id}
                       href={`/internships/${result.id}`}
-                      onClick={onClose}
+                      onClick={handleClose}
                       className="flex items-center gap-4 p-4 hover:bg-primary/5 rounded-3xl transition-all group"
                     >
                       <div className="w-12 h-12 rounded-2xl bg-primary/5 flex items-center justify-center group-hover:bg-primary group-hover:text-milk transition-all">
@@ -107,7 +115,7 @@ export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onCl
                 <div className="py-20 text-center">
                   <div className="text-4xl mb-4">🔍</div>
                   <div className="text-xl font-bold text-primary mb-2">No signals found</div>
-                  <div className="text-sm text-primary/40">Try searching for "IIT", "Marketing" or "Remote"</div>
+                  <div className="text-sm text-primary/40">Try searching for &quot;IIT&quot;, &quot;Marketing&quot; or &quot;Remote&quot;</div>
                 </div>
               ) : (
                 <div className="p-4 space-y-4">

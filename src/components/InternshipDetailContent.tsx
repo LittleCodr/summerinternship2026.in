@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { MapPin, Clock, ArrowLeft, Calendar, Building2, CheckCircle2, Share2, Bookmark, Download } from "lucide-react";
 import { useEffect, useState } from "react";
 import confetti from "canvas-confetti";
+import { trackApplyClick } from "@/lib/firebase";
 
 interface InternshipDetailContentProps {
   internship: Internship;
@@ -26,6 +27,12 @@ export default function InternshipDetailContent({ internship }: InternshipDetail
   }, []);
 
   const handleApply = () => {
+    trackApplyClick({
+      id: internship.id,
+      title: internship.title,
+      organization: internship.organization,
+      applyUrl: internship.applyUrl,
+    });
     confetti({
       particleCount: 150,
       spread: 70,
